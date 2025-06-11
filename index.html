@@ -136,46 +136,22 @@
             border-color: var(--primary-color);
         }
 
-        .nav {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
-            margin-bottom: 24px;
-        }
-
-        .nav-btn {
-            background: var(--card-bg);
-            border: 2px solid var(--border-color);
-            border-radius: 12px;
-            padding: 16px 20px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-align: center;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-        }
-
-        .nav-btn:hover {
-            border-color: var(--primary-color);
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-sm);
-        }
-
-        .nav-btn.active {
-            background: var(--primary-color);
-            color: white;
-            border-color: var(--primary-color);
-        }
-
         .main-content {
             background: var(--card-bg);
             border-radius: 16px;
             padding: 32px;
             box-shadow: var(--shadow);
             min-height: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 400px;
         }
 
         .flashcard {
@@ -186,7 +162,8 @@
             color: white;
             cursor: pointer;
             transition: all 0.4s ease;
-            min-height: 300px;
+            min-height: 350px;
+            flex: 1;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -232,8 +209,12 @@
             display: flex;
             gap: 12px;
             justify-content: center;
-            margin-top: 24px;
+            margin-top: 20px;
             flex-wrap: wrap;
+            position: relative;
+            min-height: 48px;
+            align-items: center;
+            flex-shrink: 0;
         }
 
         .btn {
@@ -350,18 +331,386 @@
             
             .header {
                 padding: 16px;
+                flex-wrap: wrap;
+            }
+            
+            .user-stats {
+                gap: 12px;
+                order: 3;
+                width: 100%;
+                justify-content: space-around;
+                margin-top: 12px;
             }
             
             .main-content {
                 padding: 20px;
             }
             
+            .card-container {
+                min-height: 350px;
+            }
+            
+            .flashcard {
+                min-height: 280px;
+                padding: 30px 20px;
+            }
+            
             .english-word {
                 font-size: 28px;
             }
             
-            .user-stats {
-                gap: 12px;
+            .card-controls {
+                margin-top: 16px;
+                gap: 8px;
+            }
+            
+            /* 侧边栏移动端优化 */
+            .sidebar {
+                width: 85vw;
+                max-width: 320px;
+            }
+            
+            .sidebar-menu-item {
+                padding: 18px 20px;
+                font-size: 17px;
+            }
+            
+            .menu-icon {
+                font-size: 22px;
+                width: 26px;
+            }
+            
+            /* 汉堡菜单在移动端更明显 */
+            .hamburger-btn {
+                width: 36px;
+                height: 36px;
+                padding: 10px;
+            }
+            
+            .hamburger-btn span {
+                width: 22px;
+                height: 3px;
+            }
+            
+            /* 头部右侧按钮在移动端调整 */
+            .theme-toggle {
+                font-size: 14px;
+                padding: 6px 12px;
+            }
+        }
+
+        /* 汉堡菜单按钮样式 */
+        .hamburger-btn {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            transition: all 0.3s ease;
+            width: 32px;
+            height: 32px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hamburger-btn:hover {
+            background: var(--border-color);
+        }
+
+        .hamburger-btn span {
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: var(--text-primary);
+            border-radius: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .hamburger-btn.active span:nth-child(1) {
+            transform: translateY(6px) rotate(45deg);
+        }
+
+        .hamburger-btn.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger-btn.active span:nth-child(3) {
+            transform: translateY(-6px) rotate(-45deg);
+        }
+
+        /* 侧边栏样式 */
+        .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 998;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 280px;
+            max-width: 80vw;
+            background: var(--card-bg);
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar.active {
+            transform: translateX(0);
+        }
+
+        .sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .sidebar-header h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .close-btn {
+            background: transparent;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 4px;
+            color: var(--text-secondary);
+            transition: all 0.3s ease;
+        }
+
+        .close-btn:hover {
+            background: var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .sidebar-content {
+            flex: 1;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .sidebar-menu-item {
+            background: transparent;
+            border: none;
+            padding: 16px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--text-primary);
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 0;
+            text-align: left;
+            width: 100%;
+        }
+
+        .sidebar-menu-item:hover {
+            background: var(--bg-color);
+        }
+
+        .sidebar-menu-item.active {
+            background: var(--primary-color);
+            color: white;
+            position: relative;
+        }
+
+        .sidebar-menu-item.active::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--secondary-color);
+        }
+
+        .menu-icon {
+            font-size: 20px;
+            width: 24px;
+            text-align: center;
+        }
+
+        .menu-text {
+            flex: 1;
+        }
+
+        /* 快速跳转对话框样式 */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .jump-modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.8);
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            z-index: 1001;
+            min-width: 400px;
+            max-width: 90vw;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .jump-modal.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .modal-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .modal-content {
+            padding: 24px;
+        }
+
+        .current-info {
+            background: var(--bg-color);
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .current-info p {
+            margin: 4px 0;
+        }
+
+        .jump-input-group {
+            margin-bottom: 24px;
+        }
+
+        .jump-input-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .jump-input-group input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 16px;
+            background: var(--card-bg);
+            color: var(--text-primary);
+            transition: border-color 0.3s ease;
+        }
+
+        .jump-input-group input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .quick-jump-buttons {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+
+        .quick-jump-buttons button {
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--card-bg);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.3s ease;
+            flex: 1;
+        }
+
+        .quick-jump-buttons button:hover {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 12px;
+            justify-content: flex-end;
+        }
+
+
+
+        @media (max-width: 480px) {
+            .jump-modal {
+                min-width: 90vw;
+                max-height: 90vh;
+                overflow-y: auto;
+            }
+            
+            .quick-jump-buttons {
+                flex-direction: column;
+            }
+            
+            .quick-jump-buttons button {
+                flex: none;
             }
         }
     </style>
@@ -369,7 +718,14 @@
 <body>
     <div class="container">
         <header class="header">
-            <div class="logo">🧠 智能英语学习助手</div>
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <button class="hamburger-btn" onclick="toggleSidebar()" id="hamburgerBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="logo">🧠 智能英语学习助手</div>
+            </div>
             <div class="user-stats">
                 <div class="stat">
                     <div class="stat-value" id="totalWords">0</div>
@@ -387,11 +743,81 @@
                     <div class="stat-value" id="totalPoints">0</div>
                     <div class="stat-label">积分</div>
                 </div>
+                <!-- 当前单词位置显示 -->
+                <div class="stat" id="wordPositionInfo" style="display: none;">
+                    <div class="stat-value"><span id="currentPosition">1</span> / <span id="totalCount">0</span></div>
+                    <div class="stat-label">进度</div>
+                </div>
             </div>
-            <button class="theme-toggle" onclick="toggleMode()" id="modeToggle">📖 自动显示模式</button>
+            <div style="display: flex; gap: 12px; align-items: center;">
+                <button class="theme-toggle" onclick="toggleInstructions()" id="instructionsToggle">📖 使用说明</button>
+                <button class="theme-toggle" onclick="toggleMode()" id="modeToggle">📖 自动显示</button>
+            </div>
         </header>
 
-        <nav class="nav">
+        <!-- 快速跳转对话框 -->
+        <div class="modal-overlay" id="jumpModalOverlay" onclick="closeJumpModal()"></div>
+        <div class="jump-modal" id="jumpModal">
+            <div class="modal-header">
+                <h3>快速跳转</h3>
+                <button class="close-btn" onclick="closeJumpModal()">✕</button>
+            </div>
+            <div class="modal-content">
+                <div class="current-info">
+                    <p>当前单词：<span id="currentWordInfo">-</span></p>
+                    <p>总数：<span id="totalWordsInfo">-</span></p>
+                </div>
+                <div class="jump-input-group">
+                    <label for="jumpInput">跳转到第几个单词：</label>
+                    <input type="number" id="jumpInput" min="1" max="1" placeholder="输入单词编号">
+                    <div class="quick-jump-buttons">
+                        <button onclick="quickJumpTo(1)">第1个</button>
+                        <button onclick="quickJumpTo('quarter')">1/4处</button>
+                        <button onclick="quickJumpTo('half')">中间</button>
+                        <button onclick="quickJumpTo('three-quarter')">3/4处</button>
+                        <button onclick="quickJumpTo('last')">最后</button>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn btn-secondary" onclick="closeJumpModal()">取消</button>
+                    <button class="btn btn-primary" onclick="executeJump()">跳转</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 侧边栏菜单 -->
+        <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3>功能菜单</h3>
+                <button class="close-btn" onclick="closeSidebar()">✕</button>
+            </div>
+            <div class="sidebar-content">
+                <button class="sidebar-menu-item active" onclick="selectMenuItem(this, 'flashcard')">
+                    <span class="menu-icon">📚</span>
+                    <span class="menu-text">卡片学习</span>
+                </button>
+                <button class="sidebar-menu-item" onclick="selectMenuItem(this, 'jump')">
+                    <span class="menu-icon">🎯</span>
+                    <span class="menu-text">快速跳转</span>
+                </button>
+                <button class="sidebar-menu-item" onclick="selectMenuItem(this, 'quiz')">
+                    <span class="menu-icon">🧠</span>
+                    <span class="menu-text">智能测试</span>
+                </button>
+                <button class="sidebar-menu-item" onclick="selectMenuItem(this, 'stats')">
+                    <span class="menu-icon">📊</span>
+                    <span class="menu-text">学习统计</span>
+                </button>
+                <button class="sidebar-menu-item" onclick="selectMenuItem(this, 'achievements')">
+                    <span class="menu-icon">🏆</span>
+                    <span class="menu-text">成就系统</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 原来的nav导航栏隐藏 -->
+        <nav class="nav" style="display: none;">
             <button class="nav-btn active">
                 📚 卡片学习
             </button>
@@ -411,25 +837,18 @@
                 <div class="progress-fill" id="progressFill" style="width: 0%"></div>
             </div>
             
-            <div class="flashcard" id="flashcard" onclick="flipCard()">
-                <div class="loading">
-                    <div class="spinner"></div>
+            <div class="card-container">
+                <div class="flashcard" id="flashcard" onclick="flipCard()">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card-controls">
-                <button class="btn btn-secondary" onclick="previousCard()">⬅️ 上一个</button>
-                <button class="btn btn-primary" onclick="flipCard()">🔄 翻转</button>
-                <button class="btn btn-secondary" onclick="nextCard()">➡️ 下一个</button>
-            </div>
-
-
-            
-            <!-- 使用说明切换按钮 -->
-            <div style="margin-top: 32px; text-align: center;">
-                <button class="btn btn-secondary" onclick="toggleInstructions()" id="instructionsToggle">
-                    📖 显示使用说明
-                </button>
+                <div class="card-controls">
+                    <button class="btn btn-secondary" onclick="previousCard()">⬅️ 上一个</button>
+                    <button class="btn btn-primary" onclick="flipCard()">🔄 翻转</button>
+                    <button class="btn btn-secondary" onclick="nextCard()">➡️ 下一个</button>
+                </div>
             </div>
 
             <!-- 使用说明 -->
@@ -438,8 +857,8 @@
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;">
                     <div>
                         <strong>学习模式：</strong><br>
-                        • 自动显示模式：同时显示中英文<br>
-                        • 翻转卡片模式：需要翻转查看中文<br>
+                        • 自动显示：同时显示中英文<br>
+                        • 翻转卡片：需要翻转查看中文<br>
                         • 点击右上角按钮切换模式
                     </div>
                     <div>
@@ -449,10 +868,10 @@
                         • 所有操作都会自动播放发音
                     </div>
                     <div>
-                        <strong>自动加载：</strong><br>
-                        • 应用启动时自动加载词汇数据<br>
-                        • 包含所有src文件夹中的词汇文件<br>
-                        • 无需手动导入，开箱即用
+                        <strong>智能发现：</strong><br>
+                        • 自动扫描src文件夹中的所有JSON文件<br>
+                        • 基于日期模式智能发现新文件<br>
+                        • 无需手动维护文件列表，自动适应新增内容
                     </div>
                 </div>
             </div>
@@ -464,7 +883,7 @@
         let wordsData = [];
         let currentWordIndex = 0;
         let isCardFlipped = false;
-        let currentMode = 1; // 1: 自动显示模式, 2: 翻转卡片模式
+        let currentMode = 1; // 1: 自动显示, 2: 翻转卡片
         let userStats = {
             totalWords: 0,
             studiedToday: 0,
@@ -520,9 +939,9 @@
             // 更新按钮文本
             const modeToggle = document.getElementById('modeToggle');
             if (currentMode === 1) {
-                modeToggle.textContent = '📖 自动显示模式';
+                modeToggle.textContent = '📖 自动显示';
             } else {
-                modeToggle.textContent = '🔄 翻转卡片模式';
+                modeToggle.textContent = '🔄 翻转卡片';
             }
             
             // 保存模式设置
@@ -612,65 +1031,107 @@
             }
         }
 
+        // 生成可能的文件路径列表（基于日期模式自动发现）
+        function generatePossibleFiles() {
+            const files = [];
+            const currentDate = new Date();
+            const currentYear = currentDate.getFullYear();
+            const currentMonth = currentDate.getMonth() + 1; // 0-11 转换为 1-12
+            
+            // 从2025年2月开始扫描到当前日期
+            for (let year = 2025; year <= currentYear; year++) {
+                // 确定月份范围
+                const startMonth = (year === 2025) ? 2 : 1; // 2025年从2月开始
+                const endMonth = (year === currentYear) ? currentMonth : 12;
+                
+                for (let month = startMonth; month <= endMonth; month++) {
+                    const monthStr = month.toString().padStart(2, '0');
+                    
+                    // 获取该月的天数
+                    const daysInMonth = new Date(year, month, 0).getDate();
+                    
+                    // 确定日期范围
+                    const endDay = (year === currentYear && month === currentMonth) 
+                        ? currentDate.getDate() 
+                        : daysInMonth;
+                    
+                    for (let day = 1; day <= endDay; day++) {
+                        const dayStr = day.toString().padStart(2, '0');
+                        const dateStr = `${year}-${monthStr}-${dayStr}`;
+                        
+                        // 添加月份文件夹中的文件
+                        files.push(`src/${year}-${monthStr}/${dateStr}.json`);
+                        
+                        // 如果是4月份，也添加根目录的文件（基于现有模式）
+                        if (month >= 4) {
+                            files.push(`src/${dateStr}.json`);
+                        }
+                    }
+                }
+            }
+            
+            return files;
+        }
+
         // 自动加载服务器上的JSON文件
         async function autoLoadServerData() {
-            showAutoLoadingStatus('正在连接服务器...', '初始化中');
+            showAutoLoadingStatus('正在自动发现文件...', '扫描src文件夹');
             
-            // 定义需要加载的文件列表
-            const jsonFiles = [
-                'src/2025-04-01.json',
-                'src/2025-02/2025-02-06.json',
-                'src/2025-02/2025-02-07.json',
-                'src/2025-02/2025-02-08.json',
-                'src/2025-02/2025-02-09.json',
-                'src/2025-02/2025-02-10.json',
-                'src/2025-02/2025-02-11.json',
-                'src/2025-02/2025-02-12.json',
-                'src/2025-02/2025-02-13.json',
-                'src/2025-02/2025-02-14.json',
-                'src/2025-02/2025-02-18.json',
-                'src/2025-02/2025-02-21.json',
-                'src/2025-02/2025-02-22.json',
-                'src/2025-02/2025-02-24.json',
-                'src/2025-02/2025-02-25.json',
-                'src/2025-02/2025-02-26.json',
-                'src/2025-02/2025-02-27.json',
-                'src/2025-02/2025-02-28.json'
-            ];
+            // 自动生成可能的文件列表
+            const jsonFiles = generatePossibleFiles();
 
             const allWordsData = [];
-            let loadedCount = 0;
-            let totalWords = 0;
 
-            for (const filePath of jsonFiles) {
+            showAutoLoadingStatus('正在加载词汇数据...', 
+                `发现 ${jsonFiles.length} 个可能的文件，开始并行加载...`);
+
+            // 使用并行加载提高性能
+            const loadPromises = jsonFiles.map(async (filePath) => {
                 try {
-                    showAutoLoadingStatus('正在加载词汇数据...', 
-                        `正在处理: ${filePath.split('/').pop()} (${loadedCount + 1}/${jsonFiles.length})`);
-                    
                     const response = await fetch(filePath);
                     if (!response.ok) {
-                        console.warn(`无法加载文件: ${filePath} (${response.status})`);
-                        continue;
+                        // 静默处理404错误，这是正常现象（很多日期可能没有对应文件）
+                        return null;
                     }
                     
                     const jsonData = await response.json();
                     
                     if (Array.isArray(jsonData) && jsonData.length > 0) {
-                        // 重新分配ID以避免冲突
-                        const adjustedData = jsonData.map((word, index) => ({
-                            ...word,
-                            id: totalWords + index + 1,
-                            sourceFile: filePath
-                        }));
-                        
-                        allWordsData.push(...adjustedData);
-                        totalWords += adjustedData.length;
-                        loadedCount++;
-                        
-                        console.log(`已加载: ${filePath} (${adjustedData.length} 个词汇)`);
+                        return {
+                            data: jsonData,
+                            filePath: filePath
+                        };
                     }
+                    return null;
                 } catch (error) {
-                    console.error(`加载文件失败: ${filePath}`, error);
+                    // 静默处理加载错误
+                    return null;
+                }
+            });
+
+            // 等待所有加载完成
+            const results = await Promise.all(loadPromises);
+            
+            // 处理成功加载的文件
+            let loadedCount = 0;
+            let totalWords = 0;
+            
+            for (const result of results) {
+                if (result) {
+                    const { data, filePath } = result;
+                    
+                    // 重新分配ID以避免冲突
+                    const adjustedData = data.map((word, index) => ({
+                        ...word,
+                        id: totalWords + index + 1,
+                        sourceFile: filePath
+                    }));
+                    
+                    allWordsData.push(...adjustedData);
+                    totalWords += adjustedData.length;
+                    loadedCount++;
+                    
+                    console.log(`已加载: ${filePath} (${adjustedData.length} 个词汇)`);
                 }
             }
 
@@ -689,10 +1150,11 @@
                     showCurrentCard();
                 }, 1000);
                 
-                console.log('自动加载统计:', {
-                    文件数量: loadedCount,
+                console.log('自动发现加载统计:', {
+                    扫描文件数: jsonFiles.length,
+                    成功加载: loadedCount,
                     总词汇数: totalWords,
-                    成功率: `${Math.round(loadedCount / jsonFiles.length * 100)}%`
+                    发现率: `${Math.round(loadedCount / jsonFiles.length * 100)}%`
                 });
             } else {
                 throw new Error('没有成功加载任何词汇数据');
@@ -716,10 +1178,28 @@
             status.style.display = 'none';
         }
 
+        // 更新单词位置信息
+        function updateWordPosition() {
+            if (wordsData.length === 0) {
+                document.getElementById('wordPositionInfo').style.display = 'none';
+                return;
+            }
+
+            const wordPositionInfo = document.getElementById('wordPositionInfo');
+            const currentPosition = document.getElementById('currentPosition');
+            const totalCount = document.getElementById('totalCount');
+            
+            currentPosition.textContent = currentWordIndex + 1;
+            totalCount.textContent = wordsData.length;
+
+            wordPositionInfo.style.display = 'block';
+        }
+
         // 显示当前卡片
         function showCurrentCard() {
             if (wordsData.length === 0) {
                 document.getElementById('flashcard').innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+                document.getElementById('wordPositionInfo').style.display = 'none';
                 return;
             }
 
@@ -748,6 +1228,9 @@
                     <div style="font-size: 14px; opacity: 0.8; margin-top: 20px;">点击卡片翻转查看中文</div>
                 `;
             }
+
+            // 更新单词位置信息
+            updateWordPosition();
 
             // 更新进度条
             const progress = ((currentWordIndex + 1) / wordsData.length) * 100;
@@ -808,7 +1291,7 @@
             currentWordIndex = (currentWordIndex + 1) % wordsData.length;
             showCurrentCard();
             // 模式一时立即播放发音，模式二时延迟播放
-            const delay = currentMode === 1 ? 200 : 500;
+            const delay = currentMode === 1 ? 200 : 600;
             setTimeout(() => speakWord(), delay);
         }
 
@@ -817,11 +1300,9 @@
             currentWordIndex = (currentWordIndex - 1 + wordsData.length) % wordsData.length;
             showCurrentCard();
             // 模式一时立即播放发音，模式二时延迟播放
-            const delay = currentMode === 1 ? 200 : 500;
+            const delay = currentMode === 1 ? 200 : 600;
             setTimeout(() => speakWord(), delay);
         }
-
-
 
         // 显示反馈
         function showFeedback(message, type) {
@@ -861,12 +1342,11 @@
             document.getElementById('currentLevel').textContent = userStats.currentLevel;
             document.getElementById('totalPoints').textContent = userStats.totalPoints;
             
+            // 更新单词位置信息
+            updateWordPosition();
+            
             saveUserStats();
         }
-
-
-
-
 
         // 数据存储
         function saveUserStats() {
@@ -885,9 +1365,9 @@
                 currentMode = parseInt(savedMode);
                 const modeToggle = document.getElementById('modeToggle');
                 if (currentMode === 1) {
-                    modeToggle.textContent = '📖 自动显示模式';
+                    modeToggle.textContent = '📖 自动显示';
                 } else {
-                    modeToggle.textContent = '🔄 翻转卡片模式';
+                    modeToggle.textContent = '🔄 翻转卡片';
                 }
             }
         }
@@ -896,6 +1376,12 @@
         document.addEventListener('keydown', function(e) {
             // 如果正在输入或选择文件，不处理快捷键
             if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+                return;
+            }
+            
+            // ESC键关闭侧边栏
+            if (e.code === 'Escape') {
+                closeSidebar();
                 return;
             }
             
@@ -926,11 +1412,11 @@
             
             if (panel.style.display === 'none') {
                 panel.style.display = 'block';
-                toggle.innerHTML = '📖 隐藏使用说明';
+                toggle.innerHTML = '📖 隐藏说明';
                 localStorage.setItem('showInstructions', 'true');
             } else {
                 panel.style.display = 'none';
-                toggle.innerHTML = '📖 显示使用说明';
+                toggle.innerHTML = '📖 使用说明';
                 localStorage.setItem('showInstructions', 'false');
             }
         }
@@ -943,10 +1429,10 @@
             
             if (showInstructions === 'true') {
                 panel.style.display = 'block';
-                toggle.innerHTML = '📖 隐藏使用说明';
+                toggle.innerHTML = '📖 隐藏说明';
             } else {
                 panel.style.display = 'none';
-                toggle.innerHTML = '📖 显示使用说明';
+                toggle.innerHTML = '📖 使用说明';
             }
         }
 
@@ -983,6 +1469,264 @@
                     console.error('高级功能初始化失败:', error);
                 }
             }, 500);
+        });
+
+        // 侧边栏控制功能
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            const hamburger = document.getElementById('hamburgerBtn');
+            
+            const isActive = sidebar.classList.contains('active');
+            
+            if (isActive) {
+                closeSidebar();
+            } else {
+                openSidebar();
+            }
+        }
+
+        function openSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            const hamburger = document.getElementById('hamburgerBtn');
+            
+            sidebar.classList.add('active');
+            overlay.classList.add('active');
+            hamburger.classList.add('active');
+            
+            // 防止背景滚动
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            const hamburger = document.getElementById('hamburgerBtn');
+            
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+            hamburger.classList.remove('active');
+            
+            // 恢复背景滚动
+            document.body.style.overflow = '';
+        }
+
+        // 菜单项选择功能
+        function selectMenuItem(element, feature) {
+            // 移除所有活动状态
+            document.querySelectorAll('.sidebar-menu-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // 设置当前项为活动状态
+            element.classList.add('active');
+            
+            // 关闭侧边栏
+            closeSidebar();
+            
+            // 根据功能类型执行相应操作
+            switch(feature) {
+                case 'flashcard':
+                    showFlashcardMode();
+                    break;
+                case 'jump':
+                    showJumpModal();
+                    break;
+                case 'quiz':
+                    if (typeof showQuizMode === 'function') {
+                        showQuizMode();
+                    } else {
+                        alert('智能测试功能即将推出！');
+                    }
+                    break;
+                case 'stats':
+                    if (typeof showStatsMode === 'function') {
+                        showStatsMode();
+                    } else {
+                        alert('学习统计功能即将推出！');
+                    }
+                    break;
+                case 'achievements':
+                    if (typeof showAchievements === 'function') {
+                        showAchievements();
+                    } else {
+                        alert('成就系统功能即将推出！');
+                    }
+                    break;
+            }
+        }
+
+        // 显示卡片学习模式
+        function showFlashcardMode() {
+            // 确保主内容区域显示卡片学习界面
+            const mainContent = document.querySelector('.main-content');
+            if (mainContent && wordsData.length > 0) {
+                // 重新显示卡片学习界面
+                showCurrentCard();
+            }
+        }
+
+        // 触摸事件支持（移动端滑动手势）
+        let touchStartX = 0;
+        let touchStartY = 0;
+        let isTouching = false;
+
+        document.addEventListener('touchstart', function(e) {
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+            isTouching = true;
+        }, { passive: true });
+
+        document.addEventListener('touchmove', function(e) {
+            if (!isTouching) return;
+            
+            const touchX = e.touches[0].clientX;
+            const touchY = e.touches[0].clientY;
+            const deltaX = touchX - touchStartX;
+            const deltaY = touchY - touchStartY;
+            
+            // 防止垂直滑动时触发侧边栏
+            if (Math.abs(deltaY) > Math.abs(deltaX)) {
+                return;
+            }
+            
+            const sidebar = document.getElementById('sidebar');
+            const isOpen = sidebar.classList.contains('active');
+            
+            // 从左边缘向右滑动打开侧边栏
+            if (touchStartX < 20 && deltaX > 50 && !isOpen) {
+                openSidebar();
+                isTouching = false;
+            }
+            
+            // 侧边栏打开时向左滑动关闭
+            if (isOpen && deltaX < -50) {
+                closeSidebar();
+                isTouching = false;
+            }
+        }, { passive: true });
+
+        document.addEventListener('touchend', function(e) {
+            isTouching = false;
+        }, { passive: true });
+
+        // 防止侧边栏内容区域的触摸事件冒泡
+        document.getElementById('sidebar').addEventListener('touchmove', function(e) {
+            e.stopPropagation();
+        }, { passive: true });
+
+        // 快速跳转功能
+        function showJumpModal() {
+            if (wordsData.length === 0) {
+                alert('还没有加载单词数据，请先加载单词！');
+                return;
+            }
+
+            // 更新当前信息
+            const currentWordInfo = document.getElementById('currentWordInfo');
+            const totalWordsInfo = document.getElementById('totalWordsInfo');
+            const jumpInput = document.getElementById('jumpInput');
+
+            const currentWord = wordsData[currentWordIndex];
+            currentWordInfo.textContent = `第 ${currentWordIndex + 1} 个 - ${currentWord.english} (${currentWord.chinese})`;
+            totalWordsInfo.textContent = `${wordsData.length} 个单词`;
+
+            // 设置输入框范围
+            jumpInput.max = wordsData.length;
+            jumpInput.value = currentWordIndex + 1;
+
+            // 显示对话框
+            const modal = document.getElementById('jumpModal');
+            const overlay = document.getElementById('jumpModalOverlay');
+            modal.classList.add('active');
+            overlay.classList.add('active');
+
+            // 聚焦输入框
+            setTimeout(() => {
+                jumpInput.focus();
+                jumpInput.select();
+            }, 300);
+
+            // 防止背景滚动
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeJumpModal() {
+            const modal = document.getElementById('jumpModal');
+            const overlay = document.getElementById('jumpModalOverlay');
+            modal.classList.remove('active');
+            overlay.classList.remove('active');
+
+            // 恢复背景滚动
+            document.body.style.overflow = '';
+        }
+
+        function quickJumpTo(position) {
+            const jumpInput = document.getElementById('jumpInput');
+            const totalWords = wordsData.length;
+
+            let targetIndex;
+            switch(position) {
+                case 1:
+                    targetIndex = 1;
+                    break;
+                case 'quarter':
+                    targetIndex = Math.round(totalWords * 0.25);
+                    break;
+                case 'half':
+                    targetIndex = Math.round(totalWords * 0.5);
+                    break;
+                case 'three-quarter':
+                    targetIndex = Math.round(totalWords * 0.75);
+                    break;
+                case 'last':
+                    targetIndex = totalWords;
+                    break;
+                default:
+                    targetIndex = position;
+            }
+
+            jumpInput.value = targetIndex;
+        }
+
+        function executeJump() {
+            const jumpInput = document.getElementById('jumpInput');
+            const targetIndex = parseInt(jumpInput.value);
+
+            if (isNaN(targetIndex) || targetIndex < 1 || targetIndex > wordsData.length) {
+                alert(`请输入有效的单词编号 (1-${wordsData.length})`);
+                jumpInput.focus();
+                return;
+            }
+
+            // 执行跳转
+            currentWordIndex = targetIndex - 1;
+            showCurrentCard();
+
+            // 显示跳转成功提示
+            const currentWord = wordsData[currentWordIndex];
+            showFeedback(`已跳转到第 ${targetIndex} 个单词: ${currentWord.english}`, 'easy');
+
+            // 关闭对话框
+            closeJumpModal();
+
+            // 播放发音
+            setTimeout(() => speakWord(), 500);
+        }
+
+        // 为跳转输入框添加回车键支持
+        document.addEventListener('keydown', function(e) {
+            const jumpModal = document.getElementById('jumpModal');
+            if (jumpModal.classList.contains('active')) {
+                if (e.code === 'Enter') {
+                    e.preventDefault();
+                    executeJump();
+                } else if (e.code === 'Escape') {
+                    e.preventDefault();
+                    closeJumpModal();
+                }
+            }
         });
     </script>
     
