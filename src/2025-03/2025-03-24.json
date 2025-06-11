@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "english": "limitation",
+    "chinese": "限制",
+    "phonetic": "/ˌlɪmɪˈteɪʃn/",
+    "forms": {
+      "plural": "limitations (复数)"
+    },
+    "example": {
+      "en": "The first step is to see whether we can implement the limitation.",
+      "cn": "第一步是看我们是否能实施这个限制。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "trigger",
+    "chinese": "触发",
+    "phonetic": "/ˈtrɪɡə(r)/",
+    "forms": {
+      "verb": [
+        "triggers (第三人称单数)",
+        "triggering (现在分词)",
+        "triggered (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "That is what I want to trigger here.",
+      "cn": "这就是我想在这里触发的。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "obviously",
+    "chinese": "显然",
+    "phonetic": "/ˈɒbviəsli/",
+    "forms": {},
+    "example": {
+      "en": "Obviously, if the resistor reduces the light intensity, we can't use it.",
+      "cn": "显然，如果电阻降低了光强度，我们就不能使用它。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "purpose",
+    "chinese": "目的",
+    "phonetic": "/ˈpɜːpəs/",
+    "forms": {
+      "plural": "purposes (复数)"
+    },
+    "example": {
+      "en": "That is the purpose of this request.",
+      "cn": "这就是这个请求的目的。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "request",
+    "chinese": "请求",
+    "phonetic": "/rɪˈkwest/",
+    "forms": {
+      "plural": "requests (复数)"
+    },
+    "example": {
+      "en": "I have a request for you.",
+      "cn": "我有一个请求给你。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "instruct",
+    "chinese": "指示",
+    "phonetic": "/ɪnˈstrʌkt/",
+    "forms": {
+      "verb": [
+        "instructs (第三人称单数)",
+        "instructing (现在分词)",
+        "instructed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please instruct them on the implementation.",
+      "cn": "请就实施事宜向他们发出指示。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "partially",
+    "chinese": "部分地",
+    "phonetic": "/ˈpɑːʃəli/",
+    "forms": {},
+    "example": {
+      "en": "The chucks were partially tested.",
+      "cn": "卡盘经过了部分测试。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "coaxial",
+    "chinese": "同轴的",
+    "phonetic": "/ˌkəʊˈæksiəl/",
+    "forms": {},
+    "example": {
+      "en": "Use the present red coaxial light.",
+      "cn": "使用目前的红色同轴灯。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "optimum",
+    "chinese": "最佳的",
+    "phonetic": "/ˈɒptɪməm/",
+    "forms": {},
+    "example": {
+      "en": "Find the optimum contrast.",
+      "cn": "找到最佳对比度。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "locate",
+    "chinese": "定位",
+    "phonetic": "/ləʊˈkeɪt/",
+    "forms": {
+      "verb": [
+        "locates (第三人称单数)",
+        "locating (现在分词)",
+        "located (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "This is to locate the lead frame pad.",
+      "cn": "这是为了定位引线框架焊盘。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "presence",
+    "chinese": "存在",
+    "phonetic": "/ˈprezns/",
+    "forms": {},
+    "example": {
+      "en": "Confirm the presence of solder.",
+      "cn": "确认焊料的存在。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "perimeter",
+    "chinese": "周长；周边",
+    "phonetic": "/pəˈrɪmɪtə(r)/",
+    "forms": {
+      "plural": "perimeters (复数)"
+    },
+    "example": {
+      "en": "There is a black ring at the perimeter of the die.",
+      "cn": "在芯片的周边有一个黑色的环。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "arrives",
+    "chinese": "到达",
+    "phonetic": "/əˈraɪvz/",
+    "forms": {
+      "verb": [
+        "arrives (第三人称单数)",
+        "arriving (现在分词)",
+        "arrived (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "If the ring light arrives, perform two tests.",
+      "cn": "如果环形灯到了，就进行两次测试。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "strong",
+    "chinese": "强的",
+    "phonetic": "/strɒŋ/",
+    "forms": {},
+    "example": {
+      "en": "We need a strong contrast.",
+      "cn": "我们需要强烈的对比度。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "sensitivity",
+    "chinese": "灵敏度",
+    "phonetic": "/ˌsensəˈtɪvəti/",
+    "forms": {},
+    "example": {
+      "en": "The sensor has a high sensitivity.",
+      "cn": "该传感器灵敏度高。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "leaks",
+    "chinese": "泄漏",
+    "phonetic": "/liːks/",
+    "forms": {
+      "singular": "leak (单数)"
+    },
+    "example": {
+      "en": "The leaks are between the vacuum generator and the sensor.",
+      "cn": "泄漏点在真空发生器和传感器之间。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "generator",
+    "chinese": "发生器",
+    "phonetic": "/ˈdʒenəreɪtə(r)/",
+    "forms": {
+      "plural": "generators (复数)"
+    },
+    "example": {
+      "en": "The vacuum generator is not working.",
+      "cn": "真空发生器不工作了。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "calibrate",
+    "chinese": "校准",
+    "phonetic": "/ˈkælɪbreɪt/",
+    "forms": {
+      "verb": [
+        "calibrates (第三人称单数)",
+        "calibrating (现在分词)",
+        "calibrated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to calibrate the sensors.",
+      "cn": "我们需要校准传感器。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "known",
+    "chinese": "已知的",
+    "phonetic": "/nəʊn/",
+    "forms": {},
+    "example": {
+      "en": "This is a known issue.",
+      "cn": "这是一个已知的问题。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "target",
+    "chinese": "目标",
+    "phonetic": "/ˈtɑːɡɪt/",
+    "forms": {
+      "plural": "targets (复数)"
+    },
+    "example": {
+      "en": "Test in the target configuration.",
+      "cn": "在目标配置中进行测试。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "typical",
+    "chinese": "典型的",
+    "phonetic": "/ˈtɪpɪkl/",
+    "forms": {},
+    "example": {
+      "en": "We want to see a typical curve.",
+      "cn": "我们想看一个典型的曲线。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "reference",
+    "chinese": "参考",
+    "phonetic": "/ˈrefrəns/",
+    "forms": {
+      "plural": "references (复数)"
+    },
+    "example": {
+      "en": "We will take this as a reference.",
+      "cn": "我们将以此为参考。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "calibration",
+    "chinese": "校准",
+    "phonetic": "/ˌkælɪˈbreɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "CP can help with the sensor calibration.",
+      "cn": "CP可以帮助进行传感器校准。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "quotes",
+    "chinese": "报价",
+    "phonetic": "/kwəʊts/",
+    "forms": {
+      "singular": "quote (单数)"
+    },
+    "example": {
+      "en": "Please make sure you have quotes and lead times.",
+      "cn": "请确保您有报价和交货时间。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "messages",
+    "chinese": "消息",
+    "phonetic": "/ˈmesɪdʒɪz/",
+    "forms": {
+      "singular": "message (单数)"
+    },
+    "example": {
+      "en": "Send me Teams messages if you have questions.",
+      "cn": "如果你有问题，请给我发Teams消息。"
+    }
+  }
+]

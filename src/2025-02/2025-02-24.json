@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "english": "operates",
+    "chinese": "运行",
+    "phonetic": "/ˈɑːpəreɪts/",
+    "forms": {
+      "infinitive": "operate (原形)"
+    },
+    "example": {
+      "en": "This LED operates at higher forward voltage.",
+      "cn": "这种LED在较高的正向电压下工作。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "forward",
+    "chinese": "向前的",
+    "phonetic": "/ˈfɔːrwərd/",
+    "forms": {},
+    "example": {
+      "en": "The forward voltage is a key parameter.",
+      "cn": "正向电压是一个关键参数。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "voltage",
+    "chinese": "电压",
+    "phonetic": "/ˈvoʊltɪdʒ/",
+    "forms": {
+      "plural": "voltages (复数)"
+    },
+    "example": {
+      "en": "The device requires a stable voltage.",
+      "cn": "该设备需要稳定的电压。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "luminous",
+    "chinese": "发光的",
+    "phonetic": "/ˈluːmɪnəs/",
+    "forms": {},
+    "example": {
+      "en": "It creates the same luminous intensity.",
+      "cn": "它产生相同的发光强度。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "current",
+    "chinese": "电流",
+    "phonetic": "/ˈkɜːrənt/",
+    "forms": {
+      "plural": "currents (复数)"
+    },
+    "example": {
+      "en": "It operates at a lower forward current.",
+      "cn": "它在较低的正向电流下工作。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "versus",
+    "chinese": "与...相比",
+    "phonetic": "/ˈvɜːrsəs/",
+    "forms": {},
+    "example": {
+      "en": "150mA versus the present at 350mA.",
+      "cn": "150毫安，而目前是350毫安。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "protect",
+    "chinese": "保护",
+    "phonetic": "/prəˈtekt/",
+    "forms": {
+      "verb": [
+        "protects (第三人称单数)",
+        "protecting (现在分词)",
+        "protected (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "How will it help to protect in the present design?",
+      "cn": "在目前的设计中，它将如何帮助保护？"
+    }
+  },
+  {
+    "id": 9,
+    "english": "chain",
+    "chinese": "链",
+    "phonetic": "/tʃeɪn/",
+    "forms": {
+      "plural": "chains (复数)"
+    },
+    "example": {
+      "en": "This is a 2-chain design.",
+      "cn": "这是一个双链设计。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "balance",
+    "chinese": "平衡",
+    "phonetic": "/ˈbæləns/",
+    "forms": {},
+    "example": {
+      "en": "We need to maintain the balance of the system.",
+      "cn": "我们需要保持系统的平衡。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "forced",
+    "chinese": "被迫的",
+    "phonetic": "/fɔːrst/",
+    "forms": {
+      "infinitive": "force (原形)"
+    },
+    "example": {
+      "en": "We have been forced to move on.",
+      "cn": "我们被迫继续前进。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "installation",
+    "chinese": "安装",
+    "phonetic": "/ˌɪnstəˈleɪʃn/",
+    "forms": {
+      "plural": "installations (复数)"
+    },
+    "example": {
+      "en": "We need a better installation.",
+      "cn": "我们需要一个更好的安装。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "off-the-shelf",
+    "chinese": "现成的",
+    "phonetic": "/ˌɔːf ðə ˈʃelf/",
+    "forms": {},
+    "example": {
+      "en": "Can you find some off-the-shelf alternatives?",
+      "cn": "你能找到一些现成的替代品吗？"
+    }
+  },
+  {
+    "id": 15,
+    "english": "alternatives",
+    "chinese": "替代品",
+    "phonetic": "/ɔːlˈtɜːrnətɪvz/",
+    "forms": {
+      "singular": "alternative (单数)"
+    },
+    "example": {
+      "en": "We need to explore other alternatives.",
+      "cn": "我们需要探索其他替代方案。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "advise",
+    "chinese": "建议",
+    "phonetic": "/ədˈvaɪz/",
+    "forms": {
+      "verb": [
+        "advises (第三人称单数)",
+        "advising (现在分词)",
+        "advised (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please advise!",
+      "cn": "请提供建议！"
+    }
+  }
+]

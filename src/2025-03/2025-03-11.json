@@ -1,0 +1,361 @@
+[
+  {
+    "id": 1,
+    "english": "somehow",
+    "chinese": "不知何故",
+    "phonetic": "/ˈsʌmhaʊ/",
+    "forms": {},
+    "example": {
+      "en": "We'll get there somehow.",
+      "cn": "我们总会有办法到那里的。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "clear",
+    "chinese": "清楚的",
+    "phonetic": "/klɪə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The instructions are clear.",
+      "cn": "指令很清楚。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "understand",
+    "chinese": "理解",
+    "phonetic": "/ˌʌndəˈstænd/",
+    "forms": {
+      "verb": [
+        "understands (第三人称单数)",
+        "understanding (现在分词)",
+        "understood (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I don't understand the question.",
+      "cn": "我不明白这个问题。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "analyzer",
+    "chinese": "分析器",
+    "phonetic": "/ˈænəlaɪzə(r)/",
+    "forms": {
+      "plural": "analyzers (复数)"
+    },
+    "example": {
+      "en": "The spectrum analyzer is a useful tool.",
+      "cn": "频谱分析仪是一个有用的工具。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "convert",
+    "chinese": "转换",
+    "phonetic": "/kənˈvɜːt/",
+    "forms": {
+      "verb": [
+        "converts (第三人称单数)",
+        "converting (现在分词)",
+        "converted (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "You need to convert the file to a different format.",
+      "cn": "你需要将文件转换为不同的格式。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "adjust",
+    "chinese": "调整",
+    "phonetic": "/əˈdʒʌst/",
+    "forms": {
+      "verb": [
+        "adjusts (第三人称单数)",
+        "adjusting (现在分词)",
+        "adjusted (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please adjust the brightness of the screen.",
+      "cn": "请调整屏幕的亮度。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "rectangle",
+    "chinese": "矩形",
+    "phonetic": "/ˈrektæŋɡl/",
+    "forms": {
+      "plural": "rectangles (复数)"
+    },
+    "example": {
+      "en": "Draw a rectangle on the screen.",
+      "cn": "在屏幕上画一个矩形。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "disappears",
+    "chinese": "消失",
+    "phonetic": "/ˌdɪsəˈpɪəz/",
+    "forms": {
+      "verb": [
+        "disappears (第三人称单数)",
+        "disappear (原形)",
+        "disappearing (现在分词)",
+        "disappeared (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The image disappears when you click the button.",
+      "cn": "当你点击按钮时，图像消失了。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "filling",
+    "chinese": "填充",
+    "phonetic": "/ˈfɪlɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "The filling of the area is not working.",
+      "cn": "区域的填充不起作用。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "outlining",
+    "chinese": "勾勒轮廓",
+    "phonetic": "/ˈaʊtlaɪnɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "The software is outlining the detected objects.",
+      "cn": "该软件正在勾勒出检测到的物体的轮廓。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "brighter",
+    "chinese": "更亮的",
+    "phonetic": "/ˈbraɪtə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The brighter areas indicate a defect.",
+      "cn": "较亮的区域表示有缺陷。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "visible",
+    "chinese": "可见的",
+    "phonetic": "/ˈvɪzəbl/",
+    "forms": {},
+    "example": {
+      "en": "The changes are not visible.",
+      "cn": "更改不可见。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "attached",
+    "chinese": "附加的",
+    "phonetic": "/əˈtætʃt/",
+    "forms": {},
+    "example": {
+      "en": "Please find the attached file.",
+      "cn": "请查收附件。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "latest",
+    "chinese": "最新的",
+    "phonetic": "/ˈleɪtɪst/",
+    "forms": {},
+    "example": {
+      "en": "I will try it tomorrow morning my time at the latest.",
+      "cn": "我最迟明天早上我的时间会试试。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "regards",
+    "chinese": "问候",
+    "phonetic": "/rɪˈɡɑːdz/",
+    "forms": {},
+    "example": {
+      "en": "Best regards, Christoph.",
+      "cn": "顺致问候，克里斯托夫。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "action",
+    "chinese": "行动",
+    "phonetic": "/ˈækʃn/",
+    "forms": {
+      "plural": "actions (复数)"
+    },
+    "example": {
+      "en": "These are the action items for our team.",
+      "cn": "这些是我们团队的行动项目。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "items",
+    "chinese": "项目",
+    "phonetic": "/ˈaɪtəmz/",
+    "forms": {
+      "singular": "item (单数)"
+    },
+    "example": {
+      "en": "We need to discuss all the items on the list.",
+      "cn": "我们需要讨论清单上的所有项目。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "board",
+    "chinese": "板",
+    "phonetic": "/bɔːd/",
+    "forms": {
+      "plural": "boards (复数)"
+    },
+    "example": {
+      "en": "The solution for the IO board is pending.",
+      "cn": "IO板的解决方案待定。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "sensors",
+    "chinese": "传感器",
+    "phonetic": "/ˈsensəz/",
+    "forms": {
+      "singular": "sensor (单数)"
+    },
+    "example": {
+      "en": "We will use pressure sensors for the process chucks.",
+      "cn": "我们将为工艺卡盘使用压力传感器。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "chucks",
+    "chinese": "卡盘",
+    "phonetic": "/tʃʌks/",
+    "forms": {
+      "singular": "chuck (单数)"
+    },
+    "example": {
+      "en": "The process chucks require monitoring.",
+      "cn": "工艺卡盘需要监控。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "level",
+    "chinese": "水平；等级",
+    "phonetic": "/ˈlevl/",
+    "forms": {
+      "plural": "levels (复数)"
+    },
+    "example": {
+      "en": "Check the status of the 2-level light source.",
+      "cn": "检查双层光源的状态。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "status",
+    "chinese": "状态",
+    "phonetic": "/ˈsteɪtəs/",
+    "forms": {},
+    "example": {
+      "en": "What is the status of the project?",
+      "cn": "项目状态如何？"
+    }
+  },
+  {
+    "id": 23,
+    "english": "source",
+    "chinese": "来源；源",
+    "phonetic": "/sɔːs/",
+    "forms": {
+      "plural": "sources (复数)"
+    },
+    "example": {
+      "en": "We need to find an improved light source.",
+      "cn": "我们需要找到一个改进的光源。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "improved",
+    "chinese": "改进的",
+    "phonetic": "/ɪmˈpruːvd/",
+    "forms": {},
+    "example": {
+      "en": "The improved version works better.",
+      "cn": "改进后的版本效果更好。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "invited",
+    "chinese": "受邀请的",
+    "phonetic": "/ɪnˈvaɪtɪd/",
+    "forms": {},
+    "example": {
+      "en": "Not all who are invited will be involved.",
+      "cn": "并非所有被邀请的人都会参与。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "involved",
+    "chinese": "参与的",
+    "phonetic": "/ɪnˈvɒlvd/",
+    "forms": {},
+    "example": {
+      "en": "He is involved in many projects.",
+      "cn": "他参与了许多项目。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "goal",
+    "chinese": "目标",
+    "phonetic": "/ɡəʊl/",
+    "forms": {
+      "plural": "goals (复数)"
+    },
+    "example": {
+      "en": "The goal is to align on the items.",
+      "cn": "目标是在这些项目上达成一致。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "align",
+    "chinese": "对齐；使一致",
+    "phonetic": "/əˈlaɪn/",
+    "forms": {
+      "verb": [
+        "aligns (第三人称单数)",
+        "aligning (现在分词)",
+        "aligned (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to align our strategies.",
+      "cn": "我们需要统一我们的战略。"
+    }
+  }
+]

@@ -1,0 +1,267 @@
+[
+  {
+    "id": 1,
+    "english": "original",
+    "chinese": "原始的",
+    "phonetic": "/əˈrɪdʒənl/",
+    "forms": {},
+    "example": {
+      "en": "Let me reply to the original email.",
+      "cn": "让我回复原始邮件。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "circuit",
+    "chinese": "电路",
+    "phonetic": "/ˈsɜːkɪt/",
+    "forms": {
+      "plural": "circuits (复数)"
+    },
+    "example": {
+      "en": "The LED circuit has a series resistor.",
+      "cn": "LED电路有一个串联电阻。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "continuously",
+    "chinese": "持续地",
+    "phonetic": "/kənˈtɪnjuəsli/",
+    "forms": {},
+    "example": {
+      "en": "We continuously see that a side light has benefits.",
+      "cn": "我们不断地看到侧灯的好处。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "benefits",
+    "chinese": "好处",
+    "phonetic": "/ˈbenɪfɪts/",
+    "forms": {
+      "singular": "benefit (单数)"
+    },
+    "example": {
+      "en": "The new design has many benefits.",
+      "cn": "新设计有很多好处。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "aspect",
+    "chinese": "方面",
+    "phonetic": "/ˈæspekt/",
+    "forms": {
+      "plural": "aspects (复数)"
+    },
+    "example": {
+      "en": "We can look at it from a potential improvement aspect.",
+      "cn": "我们可以从潜在改进的方面来看待它。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "list",
+    "chinese": "列出",
+    "phonetic": "/lɪst/",
+    "forms": {
+      "verb": [
+        "lists (第三人称单数)",
+        "listing (现在分词)",
+        "listed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "You don't list the intensity of the side light.",
+      "cn": "你没有列出侧灯的强度。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "effort",
+    "chinese": "努力",
+    "phonetic": "/ˈefət/",
+    "forms": {
+      "plural": "efforts (复数)"
+    },
+    "example": {
+      "en": "We need to step up the effort on finding a side light.",
+      "cn": "我们需要加大力度寻找侧灯。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "common",
+    "chinese": "常见的",
+    "phonetic": "/ˈkɒmən/",
+    "forms": {},
+    "example": {
+      "en": "Using a side light seems to be common practice.",
+      "cn": "使用侧灯似乎是普遍的做法。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "practice",
+    "chinese": "实践；做法",
+    "phonetic": "/ˈpræktɪs/",
+    "forms": {},
+    "example": {
+      "en": "This is a common practice in the industry.",
+      "cn": "这是行业内的普遍做法。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "catalog",
+    "chinese": "目录",
+    "phonetic": "/ˈkætəlɒɡ/",
+    "forms": {
+      "plural": "catalogs (复数)"
+    },
+    "example": {
+      "en": "Luke sent a 68 page catalog.",
+      "cn": "卢克发来了一份68页的目录。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "extracted",
+    "chinese": "提取的",
+    "phonetic": "/ɪkˈstræktɪd/",
+    "forms": {},
+    "example": {
+      "en": "This is what I extracted from Luke's measurements.",
+      "cn": "这是我从卢克的测量数据中提取的。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "measurements",
+    "chinese": "测量",
+    "phonetic": "/ˈmeʒəmənts/",
+    "forms": {
+      "singular": "measurement (单数)"
+    },
+    "example": {
+      "en": "The measurements are accurate.",
+      "cn": "测量是准确的。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "arrangements",
+    "chinese": "布置；安排",
+    "phonetic": "/əˈreɪndʒmənts/",
+    "forms": {
+      "singular": "arrangement (单数)"
+    },
+    "example": {
+      "en": "There are two arrangements of the sensor.",
+      "cn": "有两种传感器的布置方式。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "actual",
+    "chinese": "实际的",
+    "phonetic": "/ˈæktʃuəl/",
+    "forms": {},
+    "example": {
+      "en": "This shows the actual condition in the chuck.",
+      "cn": "这显示了卡盘内的实际情况。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "condition",
+    "chinese": "状况",
+    "phonetic": "/kənˈdɪʃn/",
+    "forms": {
+      "plural": "conditions (复数)"
+    },
+    "example": {
+      "en": "The machine is in good condition.",
+      "cn": "机器状况良好。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "false",
+    "chinese": "错误的",
+    "phonetic": "/fɔːls/",
+    "forms": {},
+    "example": {
+      "en": "This gives a false impression of good clamping.",
+      "cn": "这给人一种夹紧良好的错觉。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "impression",
+    "chinese": "印象",
+    "phonetic": "/ɪmˈpreʃn/",
+    "forms": {
+      "plural": "impressions (复数)"
+    },
+    "example": {
+      "en": "The first impression is important.",
+      "cn": "第一印象很重要。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "consequence",
+    "chinese": "结果；后果",
+    "phonetic": "/ˈkɒnsɪkwəns/",
+    "forms": {
+      "plural": "consequences (复数)"
+    },
+    "example": {
+      "en": "As a consequence, we need to rework the chucks.",
+      "cn": "因此，我们需要返工这些卡盘。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "rework",
+    "chinese": "返工",
+    "phonetic": "/ˌriːˈwɜːk/",
+    "forms": {
+      "verb": [
+        "reworks (第三人称单数)",
+        "reworking (现在分词)",
+        "reworked (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The parts need to be reworked.",
+      "cn": "这些零件需要返工。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "effective",
+    "chinese": "有效的",
+    "phonetic": "/ɪˈfektɪv/",
+    "forms": {},
+    "example": {
+      "en": "The pressure measurement is not effective.",
+      "cn": "压力测量是无效的。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "port",
+    "chinese": "端口",
+    "phonetic": "/pɔːt/",
+    "forms": {
+      "plural": "ports (复数)"
+    },
+    "example": {
+      "en": "The chuck needs a second port for the sensor.",
+      "cn": "卡盘需要第二个端口用于传感器。"
+    }
+  }
+]

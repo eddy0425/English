@@ -1,0 +1,455 @@
+[
+  {
+    "id": 1,
+    "english": "report",
+    "chinese": "报告",
+    "phonetic": "/rɪˈpɔːrt/",
+    "forms": {
+      "verb": ["reports (第三人称单数)", "reporting (现在分词)", "reported (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Please report progress with the volume correction feature.",
+      "cn": "请报告体积校正功能的进展。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "progress",
+    "chinese": "进展",
+    "phonetic": "/ˈprɑːɡres/",
+    "forms": {},
+    "example": {
+      "en": "We did not make the planned progress.",
+      "cn": "我们没有取得计划中的进展。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "volume",
+    "chinese": "体积；量",
+    "phonetic": "/ˈvɑːljuːm/",
+    "forms": {
+      "plural": "volumes (复数)"
+    },
+    "example": {
+      "en": "This feature is for dispense volume auto-compensation.",
+      "cn": "此功能用于点胶量自动补偿。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "correction",
+    "chinese": "校正",
+    "phonetic": "/kəˈrekʃn/",
+    "forms": {
+      "plural": "corrections (复数)"
+    },
+    "example": {
+      "en": "The auto-correction of solder dispense volume is a key feature.",
+      "cn": "焊料点胶量的自动校正是关键功能。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "feature",
+    "chinese": "功能",
+    "phonetic": "/ˈfiːtʃər/",
+    "forms": {
+      "plural": "features (复数)"
+    },
+    "example": {
+      "en": "This feature will also be needed for Rohm.",
+      "cn": "罗姆公司也将需要此功能。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "communicate",
+    "chinese": "沟通",
+    "phonetic": "/kəˈmjuːnɪkeɪt/",
+    "forms": {
+      "verb": ["communicates (第三人称单数)", "communicating (现在分词)", "communicated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Let's use this email trail to communicate.",
+      "cn": "让我们用这个邮件线索来沟通。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "update",
+    "chinese": "更新",
+    "phonetic": "/ʌpˈdeɪt/",
+    "forms": {
+      "verb": ["updates (第三人称单数)", "updating (现在分词)", "updated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Please reply back with updates and data.",
+      "cn": "请回复更新和数据。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "clarification",
+    "chinese": "澄清",
+    "phonetic": "/ˌklærəfɪˈkeɪʃn/",
+    "forms": {
+      "plural": "clarifications (复数)"
+    },
+    "example": {
+      "en": "If something is not clear, I will ask for clarification.",
+      "cn": "如果有什么不清楚的地方，我会要求澄清。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "priority",
+    "chinese": "优先",
+    "phonetic": "/praɪˈɔːrəti/",
+    "forms": {
+      "plural": "priorities (复数)"
+    },
+    "example": {
+      "en": "This is the highest priority item.",
+      "cn": "这是最高优先级的项目。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "unfortunately",
+    "chinese": "不幸地",
+    "phonetic": "/ʌnˈfɔːrtʃənətli/",
+    "forms": {},
+    "example": {
+      "en": "Unfortunately, last week we did not make the planned progress.",
+      "cn": "不幸的是，上周我们没有取得计划中的进展。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "auto-compensation",
+    "chinese": "自动补偿",
+    "phonetic": "/ˌɔːtoʊ ˌkɑːmpenˈseɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "The 'Dispense volume / area auto-compensation' is the highest priority item.",
+      "cn": "“点胶体积/面积自动补偿”是最高优先级的项目。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "patterns",
+    "chinese": "图案；模式",
+    "phonetic": "/ˈpætərnz/",
+    "forms": {
+      "singular": "pattern (单数)"
+    },
+    "example": {
+      "en": "It must be applied to single dot and multi-dot patterns.",
+      "cn": "它必须应用于单点和多点图案。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "pressure",
+    "chinese": "压力",
+    "phonetic": "/ˈpreʃər/",
+    "forms": {},
+    "example": {
+      "en": "We are under growing time pressure.",
+      "cn": "我们的时间压力越来越大。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "milestones",
+    "chinese": "里程碑",
+    "phonetic": "/ˈmaɪlstoʊnz/",
+    "forms": {
+      "singular": "milestone (单数)"
+    },
+    "example": {
+      "en": "They have very critical milestones before end of February.",
+      "cn": "他们在二月底之前有非常关键的里程碑。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "implementation",
+    "chinese": "实施",
+    "phonetic": "/ˌɪmplɪmenˈteɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "Your implementation doesn't reach the target value.",
+      "cn": "您的实施方案没有达到目标值。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "difficulties",
+    "chinese": "困难",
+    "phonetic": "/ˈdɪfɪkəltiz/",
+    "forms": {
+      "singular": "difficulty (单数)"
+    },
+    "example": {
+      "en": "We are wondering why you encounter such difficulties with this feature.",
+      "cn": "我们想知道为什么您在这个功能上遇到这么多困难。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "algorithm",
+    "chinese": "算法",
+    "phonetic": "/ˈælɡərɪðəm/",
+    "forms": {
+      "plural": "algorithms (复数)"
+    },
+    "example": {
+      "en": "I had seen that your 'algorithm logic' was wrong.",
+      "cn": "我曾发现你的“算法逻辑”是错误的。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "continuously",
+    "chinese": "持续地",
+    "phonetic": "/kənˈtɪnjuəsli/",
+    "forms": {},
+    "example": {
+      "en": "The time was continuously increased.",
+      "cn": "时间被持续地增加。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "negligible",
+    "chinese": "微不足道的",
+    "phonetic": "/ˈneɡlɪdʒəbl/",
+    "forms": {},
+    "example": {
+      "en": "The effect was negligible.",
+      "cn": "效果微不足道。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "monitor",
+    "chinese": "监控",
+    "phonetic": "/ˈmɑːnɪtər/",
+    "forms": {
+      "verb": ["monitors (第三人称单数)", "monitoring (现在分词)", "monitored (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "You can report and monitor to see whether the algorithm does what it should do.",
+      "cn": "您可以报告和监控，以查看算法是否按预期工作。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "capability",
+    "chinese": "能力",
+    "phonetic": "/ˌkeɪpəˈbɪləti/",
+    "forms": {
+      "plural": "capabilities (复数)"
+    },
+    "example": {
+      "en": "This problem limits capability against specs.",
+      "cn": "这个问题限制了我们达到规格要求的能力。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "reliability",
+    "chinese": "可靠性",
+    "phonetic": "/rɪˌlaɪəˈbɪləti/",
+    "forms": {},
+    "example": {
+      "en": "This is a reliability risk.",
+      "cn": "这是一个可靠性风险。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "improvement",
+    "chinese": "改进",
+    "phonetic": "/ɪmˈpruːvmənt/",
+    "forms": {
+      "plural": "improvements (复数)"
+    },
+    "example": {
+      "en": "We have a growing list of items on Avaline which need engineering work.",
+      "cn": "我们在Avaline上有一份越来越长的清单，需要工程方面的工作。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "requirements",
+    "chinese": "要求",
+    "phonetic": "/rɪˈkwaɪərmənts/",
+    "forms": {
+      "singular": "requirement (单数)"
+    },
+    "example": {
+      "en": "These are on the customer's requirements list.",
+      "cn": "这些在客户的需求清单上。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "applications",
+    "chinese": "应用",
+    "phonetic": "/ˌæplɪˈkeɪʃnz/",
+    "forms": {
+      "singular": "application (单数)"
+    },
+    "example": {
+      "en": "We need to get their applications to work.",
+      "cn": "我们需要让他们的应用程序工作起来。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "evaluate",
+    "chinese": "评估",
+    "phonetic": "/ɪˈvæljueɪt/",
+    "forms": {
+      "verb": ["evaluates (第三人称单数)", "evaluating (现在分词)", "evaluated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Customers evaluate us against their present supplier.",
+      "cn": "客户将我们与他们现有的供应商进行评估。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "qualified",
+    "chinese": "合格的",
+    "phonetic": "/ˈkwɑːlɪfaɪd/",
+    "forms": {},
+    "example": {
+      "en": "We need to get qualified at Yangjie.",
+      "cn": "我们需要在扬杰获得资格。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "roadmap",
+    "chinese": "路线图",
+    "phonetic": "/ˈroʊdmæp/",
+    "forms": {
+      "plural": "roadmaps (复数)"
+    },
+    "example": {
+      "en": "These are the roadmap items for the future.",
+      "cn": "这些是未来的路线图项目。"
+    }
+  },
+  {
+    "id": 29,
+    "english": "inefficient",
+    "chinese": "效率低的",
+    "phonetic": "/ˌɪnɪˈfɪʃnt/",
+    "forms": {},
+    "example": {
+      "en": "The current process is becoming more and more inefficient.",
+      "cn": "目前的流程变得越来越低效。"
+    }
+  },
+  {
+    "id": 30,
+    "english": "coordinate",
+    "chinese": "协调",
+    "phonetic": "/koʊˈɔːrdɪneɪt/",
+    "forms": {
+      "verb": ["coordinates (第三人称单数)", "coordinating (现在分词)", "coordinated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "I will coordinate and communicate technical concepts.",
+      "cn": "我将协调和沟通技术概念。"
+    }
+  },
+  {
+    "id": 31,
+    "english": "integration",
+    "chinese": "集成",
+    "phonetic": "/ˌɪntɪˈɡreɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "We need electrical and software integration.",
+      "cn": "我们需要电气和软件集成。"
+    }
+  },
+  {
+    "id": 32,
+    "english": "guidance",
+    "chinese": "指导",
+    "phonetic": "/ˈɡaɪdns/",
+    "forms": {},
+    "example": {
+      "en": "He can work on one under his guidance.",
+      "cn": "他可以在他的指导下处理其中一个。"
+    }
+  },
+  {
+    "id": 33,
+    "english": "resources",
+    "chinese": "资源",
+    "phonetic": "/ˈriːsɔːrsɪz/",
+    "forms": {
+      "singular": "resource (单数)"
+    },
+    "example": {
+      "en": "We need to make the best with the available resources.",
+      "cn": "我们需要充分利用现有资源。"
+    }
+  },
+  {
+    "id": 34,
+    "english": "efficiency",
+    "chinese": "效率",
+    "phonetic": "/ɪˈfɪʃnsi/",
+    "forms": {},
+    "example": {
+      "en": "We can improve efficiency in many situations.",
+      "cn": "我们可以在许多情况下提高效率。"
+    }
+  },
+  {
+    "id": 35,
+    "english": "concerns",
+    "chinese": "担忧；关注",
+    "phonetic": "/kənˈsɜːrnz/",
+    "forms": {
+      "singular": "concern (单数)"
+    },
+    "example": {
+      "en": "Please let me know your comments or concerns.",
+      "cn": "请告诉我您的意见或担忧。"
+    }
+  },
+  {
+    "id": 36,
+    "english": "approach",
+    "chinese": "方法",
+    "phonetic": "/əˈproʊtʃ/",
+    "forms": {
+      "plural": "approaches (复数)"
+    },
+    "example": {
+      "en": "I plan to change the approach.",
+      "cn": "我计划改变方法。"
+    }
+  },
+  {
+    "id": 37,
+    "english": "engineering",
+    "chinese": "工程",
+    "phonetic": "/ˌendʒɪˈnɪrɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "We have a growing list of items on Avaline which need engineering work.",
+      "cn": "我们在Avaline上有一份越来越长的清单，需要工程方面的工作。"
+    }
+  }
+]

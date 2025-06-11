@@ -1,0 +1,371 @@
+[
+  {
+    "id": 1,
+    "english": "verification",
+    "chinese": "验证",
+    "phonetic": "/ˌverɪfɪˈkeɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "They should do verification of changes.",
+      "cn": "他们应该对变更进行验证。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "stand-by",
+    "chinese": "待命",
+    "phonetic": "/ˈstænd baɪ/",
+    "forms": {},
+    "example": {
+      "en": "Please be on stand-by to review images.",
+      "cn": "请随时待命以审查图像。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "fine-tune",
+    "chinese": "微调",
+    "phonetic": "/ˌfaɪn ˈtjuːn/",
+    "forms": {
+      "verb": [
+        "fine-tunes (第三人称单数)",
+        "fine-tuning (现在分词)",
+        "fine-tuned (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Help fine-tune the light and camera settings.",
+      "cn": "帮助微调灯光和相机设置。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "correctness",
+    "chinese": "正确性",
+    "phonetic": "/kəˈrektnəs/",
+    "forms": {},
+    "example": {
+      "en": "We need to verify the correctness of parts.",
+      "cn": "我们需要验证零件的正确性。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "realize",
+    "chinese": "意识到",
+    "phonetic": "/ˈriːəlaɪz/",
+    "forms": {
+      "verb": [
+        "realizes (第三人称单数)",
+        "realizing (现在分词)",
+        "realized (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to realize that we need to go back.",
+      "cn": "我们需要意识到我们需要回去。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "approach",
+    "chinese": "方法",
+    "phonetic": "/əˈprəʊtʃ/",
+    "forms": {
+      "plural": "approaches (复数)"
+    },
+    "example": {
+      "en": "This may be a slower approach.",
+      "cn": "这可能是一种较慢的方法。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "rotated",
+    "chinese": "旋转的",
+    "phonetic": "/rəʊˈteɪtɪd/",
+    "forms": {},
+    "example": {
+      "en": "Test the rotated position sensor.",
+      "cn": "测试旋转后的位置传感器。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "specifically",
+    "chinese": "具体地",
+    "phonetic": "/spəˈsɪfɪkli/",
+    "forms": {},
+    "example": {
+      "en": "He will test the sensor specifically.",
+      "cn": "他将专门测试该传感器。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "pins",
+    "chinese": "销钉",
+    "phonetic": "/pɪnz/",
+    "forms": {
+      "singular": "pin (单数)"
+    },
+    "example": {
+      "en": "The pins on the indexer clamps are a risk.",
+      "cn": "分度器夹具上的销钉存在风险。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "reliability",
+    "chinese": "可靠性",
+    "phonetic": "/rɪˌlaɪəˈbɪləti/",
+    "forms": {},
+    "example": {
+      "en": "This is a reliability risk.",
+      "cn": "这是一个可靠性风险。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "touch",
+    "chinese": "触摸；涉及",
+    "phonetic": "/tʌtʃ/",
+    "forms": {
+      "verb": [
+        "touches (第三人称单数)",
+        "touching (现在分词)",
+        "touched (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Do not touch it.",
+      "cn": "不要碰它。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "enhancement",
+    "chinese": "增强",
+    "phonetic": "/ɪnˈhɑːnsmənt/",
+    "forms": {
+      "plural": "enhancements (复数)"
+    },
+    "example": {
+      "en": "This is a key enhancement.",
+      "cn": "这是一项关键的增强功能。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "flux",
+    "chinese": "助焊剂",
+    "phonetic": "/flʌks/",
+    "forms": {},
+    "example": {
+      "en": "The flux is flowing down the openings.",
+      "cn": "助焊剂正从开口处流下。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "flowing",
+    "chinese": "流动的",
+    "phonetic": "/ˈfləʊɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "The water is flowing.",
+      "cn": "水在流动。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "openings",
+    "chinese": "开口",
+    "phonetic": "/ˈəʊpnɪŋz/",
+    "forms": {
+      "singular": "opening (单数)"
+    },
+    "example": {
+      "en": "The flux is flowing down the openings in the vacuum chamber.",
+      "cn": "助焊剂正从真空室的开口处流下。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "chamber",
+    "chinese": "室",
+    "phonetic": "/ˈtʃeɪmbə(r)/",
+    "forms": {
+      "plural": "chambers (复数)"
+    },
+    "example": {
+      "en": "The vacuum chamber needs to be cleaned.",
+      "cn": "真空室需要清洁。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "crucial",
+    "chinese": "至关重要的",
+    "phonetic": "/ˈkruːʃl/",
+    "forms": {},
+    "example": {
+      "en": "These are crucial to extend the time between cleaning.",
+      "cn": "这些对于延长清洁间隔时间至关重要。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "extend",
+    "chinese": "延长",
+    "phonetic": "/ɪkˈstend/",
+    "forms": {
+      "verb": [
+        "extends (第三人称单数)",
+        "extending (现在分词)",
+        "extended (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to extend the maintenance interval.",
+      "cn": "我们需要延长维护间隔。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "cleaning",
+    "chinese": "清洁",
+    "phonetic": "/ˈkliːnɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "The time between cleaning is too short.",
+      "cn": "清洁间隔时间太短。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "add-on",
+    "chinese": "附加物",
+    "phonetic": "/ˈæd ɒn/",
+    "forms": {
+      "plural": "add-ons (复数)"
+    },
+    "example": {
+      "en": "This is a small add-on to the VRO.",
+      "cn": "这是对VRO的一个小补充。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "maintenance",
+    "chinese": "维护",
+    "phonetic": "/ˈmeɪntənəns/",
+    "forms": {},
+    "example": {
+      "en": "We need to do this every maintenance.",
+      "cn": "我们每次维护都需要这样做。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "exhaust",
+    "chinese": "排气",
+    "phonetic": "/ɪɡˈzɔːst/",
+    "forms": {},
+    "example": {
+      "en": "Check the flow meters in the exhaust path.",
+      "cn": "检查排气路径中的流量计。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "path",
+    "chinese": "路径",
+    "phonetic": "/pɑːθ/",
+    "forms": {
+      "plural": "paths"
+    },
+    "example": {
+      "en": "The exhaust path is blocked.",
+      "cn": "排气路径被堵塞了。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "establish",
+    "chinese": "建立",
+    "phonetic": "/ɪˈstæblɪʃ/",
+    "forms": {
+      "verb": [
+        "establishes (第三人称单数)",
+        "establishing (现在分词)",
+        "established (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to establish an understanding.",
+      "cn": "我们需要建立共识。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "mountings",
+    "chinese": "安装件",
+    "phonetic": "/ˈmaʊntɪŋz/",
+    "forms": {
+      "singular": "mounting (单数)"
+    },
+    "example": {
+      "en": "Check all sensor mountings.",
+      "cn": "检查所有传感器的安装件。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "screws",
+    "chinese": "螺丝",
+    "phonetic": "/skruːz/",
+    "forms": {
+      "singular": "screw (单数)"
+    },
+    "example": {
+      "en": "Make sure all screws are tight.",
+      "cn": "确保所有螺丝都已拧紧。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "tight",
+    "chinese": "紧的",
+    "phonetic": "/taɪt/",
+    "forms": {},
+    "example": {
+      "en": "The screws are not tight enough.",
+      "cn": "螺丝不够紧。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "wetness",
+    "chinese": "湿度",
+    "phonetic": "/ˈwetnəs/",
+    "forms": {},
+    "example": {
+      "en": "Document the wetness inside the filter tanks.",
+      "cn": "记录滤清器罐内的湿度。"
+    }
+  },
+  {
+    "id": 29,
+    "english": "electrodes",
+    "chinese": "电极",
+    "phonetic": "/ɪˈlektrəʊdz/",
+    "forms": {
+      "singular": "electrode (单数)"
+    },
+    "example": {
+      "en": "Is there flux on the inner MHG electrodes?",
+      "cn": "内部MHG电极上是否有助焊剂？"
+    }
+  }
+]

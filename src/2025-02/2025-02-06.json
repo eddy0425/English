@@ -1,0 +1,350 @@
+[
+  {
+    "id": 1,
+    "english": "missing",
+    "chinese": "丢失的",
+    "phonetic": "/ˈmɪsɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "We are looking for the missing parts.",
+      "cn": "我们正在寻找丢失的零件。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "parts",
+    "chinese": "零件",
+    "phonetic": "/pɑːrts/",
+    "forms": {
+      "singular": "part (单数)"
+    },
+    "example": {
+      "en": "The machine is made of many different parts.",
+      "cn": "这台机器由许多不同的零件组成。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "seems",
+    "chinese": "似乎",
+    "phonetic": "/siːmz/",
+    "forms": {
+      "infinitive": "seem (原形)"
+    },
+    "example": {
+      "en": "It seems that the chuck was found.",
+      "cn": "夹具似乎被找到了。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "chuck",
+    "chinese": "夹具",
+    "phonetic": "/tʃʌk/",
+    "forms": {
+      "plural": "chucks (复数)"
+    },
+    "example": {
+      "en": "The dispense chuck for the CB had to be remade.",
+      "cn": "用于CB的点胶夹具必须重做。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "found",
+    "chinese": "找到",
+    "phonetic": "/faʊnd/",
+    "forms": {
+      "infinitive": "find (原形)"
+    },
+    "example": {
+      "en": "The missing item was finally found.",
+      "cn": "丢失的物品终于被找到了。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "search",
+    "chinese": "搜索",
+    "phonetic": "/sɜːrtʃ/",
+    "forms": {
+      "verb": ["searches (第三人称单数)", "searching (现在分词)", "searched (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Thanks for helping to search for it.",
+      "cn": "感谢帮助寻找它。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "confirm",
+    "chinese": "确认",
+    "phonetic": "/kənˈfɜːrm/",
+    "forms": {
+      "verb": ["confirms (第三人称单数)", "confirming (现在分词)", "confirmed (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Please confirm your attendance.",
+      "cn": "请确认您是否出席。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "dispense",
+    "chinese": "点胶",
+    "phonetic": "/dɪˈspens/",
+    "forms": {
+      "verb": ["dispenses (第三人称单数)", "dispensing (现在分词)", "dispensed (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "This machine can dispense adhesive accurately.",
+      "cn": "这台机器可以精确地点胶。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "remade",
+    "chinese": "重做",
+    "phonetic": "/ˌriːˈmeɪd/",
+    "forms": {
+      "infinitive": "remake (原形)"
+    },
+    "example": {
+      "en": "The faulty part had to be remade.",
+      "cn": "有问题的零件必须重做。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "shipped",
+    "chinese": "运送",
+    "phonetic": "/ʃɪpt/",
+    "forms": {
+      "infinitive": "ship (原形)"
+    },
+    "example": {
+      "en": "The goods were shipped yesterday.",
+      "cn": "货物昨天已经运送出去了。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "correct",
+    "chinese": "正确的",
+    "phonetic": "/kəˈrekt/",
+    "forms": {},
+    "example": {
+      "en": "Is this information correct?",
+      "cn": "这个信息是正确的吗？"
+    }
+  },
+  {
+    "id": 12,
+    "english": "drawing",
+    "chinese": "图纸",
+    "phonetic": "/ˈdrɔːɪŋ/",
+    "forms": {
+      "plural": "drawings (复数)"
+    },
+    "example": {
+      "en": "Can you send me the drawing for the chuck?",
+      "cn": "你能把夹具的图纸发给我吗？"
+    }
+  },
+  {
+    "id": 13,
+    "english": "process",
+    "chinese": "工艺",
+    "phonetic": "/ˈprəʊses/",
+    "forms": {
+      "plural": "processes (复数)"
+    },
+    "example": {
+      "en": "We need to improve the pick and place process.",
+      "cn": "我们需要改进取放工艺。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "expedite",
+    "chinese": "加快",
+    "phonetic": "/ˈekspədaɪt/",
+    "forms": {
+      "verb": ["expedites (第三人称单数)", "expediting (现在分词)", "expedited (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We will expedite the order with the supplier.",
+      "cn": "我们将催促供应商加快订单处理。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "supplier",
+    "chinese": "供应商",
+    "phonetic": "/səˈplaɪər/",
+    "forms": {
+      "plural": "suppliers (复数)"
+    },
+    "example": {
+      "en": "We need to find a new supplier.",
+      "cn": "我们需要找一个新的供应商。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "original",
+    "chinese": "原始的",
+    "phonetic": "/əˈrɪdʒənl/",
+    "forms": {},
+    "example": {
+      "en": "We can't find the original one.",
+      "cn": "我们找不到原始的那个。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "parallel",
+    "chinese": "同时地",
+    "phonetic": "/ˈpærəlel/",
+    "forms": {},
+    "example": {
+      "en": "In parallel, I will try to find another solution.",
+      "cn": "与此同时，我会尝试寻找另一个解决方案。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "desperately",
+    "chinese": "拼命地",
+    "phonetic": "/ˈdespərətli/",
+    "forms": {},
+    "example": {
+      "en": "We are desperately looking for the chucks.",
+      "cn": "我们正在拼命地寻找那些夹具。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "bonder",
+    "chinese": "焊接机",
+    "phonetic": "/ˈbɒndər/",
+    "forms": {
+      "plural": "bonders (复数)"
+    },
+    "example": {
+      "en": "The clip bonder stayed in Singapore.",
+      "cn": "芯片焊接机留在了新加坡。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "perform",
+    "chinese": "执行",
+    "phonetic": "/pərˈfɔːrm/",
+    "forms": {
+      "verb": ["performs (第三人称单数)", "performing (现在分词)", "performed (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We are unable to perform critical tests.",
+      "cn": "我们无法执行关键测试。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "critical",
+    "chinese": "关键的",
+    "phonetic": "/ˈkrɪtɪkl/",
+    "forms": {},
+    "example": {
+      "en": "This is a critical test for the project.",
+      "cn": "这是项目的一个关键测试。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "setback",
+    "chinese": "挫折",
+    "phonetic": "/ˈsetbæk/",
+    "forms": {
+      "plural": "setbacks (复数)"
+    },
+    "example": {
+      "en": "This is a huge setback for the demo preparation.",
+      "cn": "这对演示准备工作来说是一个巨大的挫折。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "preparation",
+    "chinese": "准备",
+    "phonetic": "/ˌprepəˈreɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "The preparation for the event took weeks.",
+      "cn": "这次活动的准备工作花了好几个星期。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "unprepared",
+    "chinese": "未准备好的",
+    "phonetic": "/ˌʌnprɪˈpeərd/",
+    "forms": {},
+    "example": {
+      "en": "We will be more or less unprepared for the demo.",
+      "cn": "我们或多或少会对演示毫无准备。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "effort",
+    "chinese": "努力",
+    "phonetic": "/ˈefərt/",
+    "forms": {
+      "plural": "efforts (复数)"
+    },
+    "example": {
+      "en": "Please make a strong effort to look everywhere.",
+      "cn": "请努力搜查所有地方。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "weekend",
+    "chinese": "周末",
+    "phonetic": "/ˈwiːkend/",
+    "forms": {
+      "plural": "weekends (复数)"
+    },
+    "example": {
+      "en": "They can ship them to Singapore over the weekend.",
+      "cn": "他们可以在周末把它们运到新加坡。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "indexer",
+    "chinese": "分度器",
+    "phonetic": "/ˈɪndeksər/",
+    "forms": {
+      "plural": "indexers (复数)"
+    },
+    "example": {
+    "en": "Did anybody use these parts to work on the indexer?",
+      "cn": "有没有人用这些零件来维修分度器？"
+    }
+  },
+  {
+    "id": 28,
+    "english": "clip",
+    "chinese": "夹子",
+    "phonetic": "/klɪp/",
+    "forms": {
+      "plural": "clips (复数)"
+    },
+    "example": {
+      "en": "The clip bonder stayed in Singapore.",
+      "cn": "芯片焊接机留在了新加坡。"
+    }
+  }
+]

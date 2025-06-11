@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "english": "challenges",
+    "chinese": "挑战",
+    "phonetic": "/ˈtʃæləndʒɪz/",
+    "forms": {
+      "singular": "challenge (单数)"
+    },
+    "example": {
+      "en": "We are facing several vision challenges.",
+      "cn": "我们正面临几个视觉方面的挑战。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "experts",
+    "chinese": "专家",
+    "phonetic": "/ˈekspɜːrts/",
+    "forms": {
+      "singular": "expert (单数)"
+    },
+    "example": {
+      "en": "I reached out to the vision experts.",
+      "cn": "我联系了视觉专家。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "methods",
+    "chinese": "方法",
+    "phonetic": "/ˈmeθədz/",
+    "forms": {
+      "singular": "method (单数)"
+    },
+    "example": {
+      "en": "We need to develop new methods.",
+      "cn": "我们需要开发新的方法。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "communicated",
+    "chinese": "沟通",
+    "phonetic": "/kəˈmjuːnɪkeɪtɪd/",
+    "forms": {
+      "infinitive": "communicate (原形)"
+    },
+    "example": {
+      "en": "You had communicated with him a while back.",
+      "cn": "你不久前曾与他沟通过。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "feedback",
+    "chinese": "反馈",
+    "phonetic": "/ˈfiːdbæk/",
+    "forms": {},
+    "example": {
+      "en": "Based on Zhijie's feedback, it should be possible.",
+      "cn": "根据志杰的反馈，这应该是可能的。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "utilize",
+    "chinese": "利用",
+    "phonetic": "/ˈjuːtəlaɪz/",
+    "forms": {
+      "verb": [
+        "utilizes (第三人称单数)",
+        "utilizing (现在分词)",
+        "utilized (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to better utilize Halcon.",
+      "cn": "我们需要更好地利用Halcon。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "pose",
+    "chinese": "提出；造成",
+    "phonetic": "/poʊz/",
+    "forms": {
+      "verb": [
+        "poses (第三人称单数)",
+        "posing (现在分词)",
+        "posed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "This will pose lesser requirements to the image quality.",
+      "cn": "这将对图像质量提出较低的要求。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "lesser",
+    "chinese": "较小的；次要的",
+    "phonetic": "/ˈlesər/",
+    "forms": {},
+    "example": {
+      "en": "This is a lesser problem.",
+      "cn": "这是一个次要问题。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "quality",
+    "chinese": "质量",
+    "phonetic": "/ˈkwɑːləti/",
+    "forms": {
+      "plural": "qualities (复数)"
+    },
+    "example": {
+      "en": "The image quality is not good enough.",
+      "cn": "图像质量不够好。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "contrast",
+    "chinese": "对比度",
+    "phonetic": "/ˈkɑːntræst/",
+    "forms": {},
+    "example": {
+      "en": "The contrast of the image is too low.",
+      "cn": "图像的对比度太低了。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "detail",
+    "chinese": "细节",
+    "phonetic": "/ˈdiːteɪl/",
+    "forms": {
+      "plural": "details (复数)"
+    },
+    "example": {
+      "en": "Please provide more details.",
+      "cn": "请提供更多细节。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "guide",
+    "chinese": "指导",
+    "phonetic": "/ɡaɪd/",
+    "forms": {
+      "verb": [
+        "guides (第三人称单数)",
+        "guiding (现在分词)",
+        "guided (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Can he guide you on this?",
+      "cn": "他能在这方面指导你吗？"
+    }
+  }
+]

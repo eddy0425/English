@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "english": "analyze",
+    "chinese": "分析",
+    "phonetic": "/ˈænəlaɪz/",
+    "forms": {
+      "verb": [
+        "analyzes (第三人称单数)",
+        "analyzing (现在分词)",
+        "analyzed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to analyze the data carefully.",
+      "cn": "我们需要仔细分析数据。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "image",
+    "chinese": "图像",
+    "phonetic": "/ˈɪmɪdʒ/",
+    "forms": {
+      "plural": "images (复数)"
+    },
+    "example": {
+      "en": "The satellite sent back clear images of the planet.",
+      "cn": "卫星传回了这颗行星的清晰图像。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "equipment",
+    "chinese": "设备",
+    "phonetic": "/ɪˈkwɪpmənt/",
+    "forms": {},
+    "example": {
+      "en": "The laboratory has all the necessary equipment.",
+      "cn": "实验室拥有所有必要的设备。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "consuming",
+    "chinese": "消耗的",
+    "phonetic": "/kənˈsjuːmɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "This is a time-consuming task.",
+      "cn": "这是一项耗时的任务。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "require",
+    "chinese": "需要",
+    "phonetic": "/rɪˈkwaɪə(r)/",
+    "forms": {
+      "verb": [
+        "requires (第三人称单数)",
+        "requiring (现在分词)",
+        "required (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The project requires a lot of effort.",
+      "cn": "这个项目需要付出很多努力。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "determine",
+    "chinese": "决定；确定",
+    "phonetic": "/dɪˈtɜːmɪn/",
+    "forms": {
+      "verb": [
+        "determines (第三人称单数)",
+        "determining (现在分词)",
+        "determined (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to determine the cause of the problem.",
+      "cn": "我们需要确定问题的原因。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "void",
+    "chinese": "空的；无效的",
+    "phonetic": "/vɔɪd/",
+    "forms": {},
+    "example": {
+      "en": "The contract was declared void.",
+      "cn": "合同被宣布无效。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "area",
+    "chinese": "区域",
+    "phonetic": "/ˈeəriə/",
+    "forms": {
+      "plural": "areas (复数)"
+    },
+    "example": {
+      "en": "This is a residential area.",
+      "cn": "这是一个住宅区。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "access",
+    "chinese": "进入；使用权",
+    "phonetic": "/ˈækses/",
+    "forms": {},
+    "example": {
+      "en": "You need a password to access the system.",
+      "cn": "你需要密码才能进入系统。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "script",
+    "chinese": "脚本",
+    "phonetic": "/skrɪpt/",
+    "forms": {
+      "plural": "scripts (复数)"
+    },
+    "example": {
+      "en": "He wrote a script to automate the task.",
+      "cn": "他写了一个脚本来自动化这个任务。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "import",
+    "chinese": "导入",
+    "phonetic": "/ɪmˈpɔːt/",
+    "forms": {
+      "verb": [
+        "imports (第三人称单数)",
+        "importing (现在分词)",
+        "imported (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "You can import data from a CSV file.",
+      "cn": "您可以从CSV文件导入数据。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "threshold",
+    "chinese": "阈值",
+    "phonetic": "/ˈθreʃhəʊld/",
+    "forms": {
+      "plural": "thresholds (复数)"
+    },
+    "example": {
+      "en": "He has a high pain threshold.",
+      "cn": "他的痛阈很高。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "relative",
+    "chinese": "相对的",
+    "phonetic": "/ˈrelətɪv/",
+    "forms": {},
+    "example": {
+      "en": "The relative humidity is high today.",
+      "cn": "今天的相对湿度很高。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "feasible",
+    "chinese": "可行的",
+    "phonetic": "/ˈfiːzəbl/",
+    "forms": {},
+    "example": {
+      "en": "Is it feasible to finish the project by Friday?",
+      "cn": "周五前完成这个项目可行吗？"
+    }
+  }
+]

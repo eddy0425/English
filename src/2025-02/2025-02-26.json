@@ -1,0 +1,417 @@
+[
+  {
+    "id": 1,
+    "english": "weaker",
+    "chinese": "较弱的",
+    "phonetic": "/ˈwiːkər/",
+    "forms": {},
+    "example": {
+      "en": "Maybe the test shows that the weaker one is sufficient.",
+      "cn": "也许测试表明较弱的那个就足够了。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "sufficient",
+    "chinese": "足够的",
+    "phonetic": "/səˈfɪʃnt/",
+    "forms": {},
+    "example": {
+      "en": "The light is not sufficient.",
+      "cn": "光线不足。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "decision",
+    "chinese": "决定",
+    "phonetic": "/dɪˈsɪʒn/",
+    "forms": {
+      "plural": "decisions (复数)"
+    },
+    "example": {
+      "en": "We need to make a decision by tomorrow.",
+      "cn": "我们明天之前需要做出决定。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "ordered",
+    "chinese": "订购",
+    "phonetic": "/ˈɔːrdərd/",
+    "forms": {
+      "infinitive": "order (原形)"
+    },
+    "example": {
+      "en": "Have you ordered the side lights?",
+      "cn": "你订购侧灯了吗？"
+    }
+  },
+  {
+    "id": 7,
+    "english": "received",
+    "chinese": "收到",
+    "phonetic": "/rɪˈsiːvd/",
+    "forms": {
+      "infinitive": "receive (原形)"
+    },
+    "example": {
+      "en": "Will they be received tomorrow?",
+      "cn": "它们明天能收到吗？"
+    }
+  },
+  {
+    "id": 9,
+    "english": "necessary",
+    "chinese": "必要的",
+    "phonetic": "/ˈnesəseri/",
+    "forms": {},
+    "example": {
+      "en": "This is a necessary improvement.",
+      "cn": "这是一个必要的改进。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "bracket",
+    "chinese": "支架",
+    "phonetic": "/ˈbrækɪt/",
+    "forms": {
+      "plural": "brackets (复数)"
+    },
+    "example": {
+      "en": "Any bracket needs to be manufacturable.",
+      "cn": "任何支架都需要是可制造的。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "manufacturable",
+    "chinese": "可制造的",
+    "phonetic": "/ˌmænjuˈfæktʃərəbl/",
+    "forms": {},
+    "example": {
+      "en": "The design must be manufacturable.",
+      "cn": "设计必须是可制造的。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "immediately",
+    "chinese": "立即",
+    "phonetic": "/ɪˈmiːdiətli/",
+    "forms": {},
+    "example": {
+      "en": "Please order 5x of these side lights immediately.",
+      "cn": "请立即订购5个这种侧灯。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "optimal",
+    "chinese": "最佳的",
+    "phonetic": "/ˈɑːptɪməl/",
+    "forms": {},
+    "example": {
+      "en": "Device the optimal arrangement by tomorrow.",
+      "cn": "明天之前设计出最佳布局。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "arrangement",
+    "chinese": "布局",
+    "phonetic": "/əˈreɪndʒmənt/",
+    "forms": {
+      "plural": "arrangements (复数)"
+    },
+    "example": {
+      "en": "The arrangement of the components is critical.",
+      "cn": "组件的布局至关重要。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "EXTREMELY",
+    "chinese": "极其",
+    "phonetic": "/ɪkˈstriːmli/",
+    "forms": {},
+    "example": {
+      "en": "This is EXTREMELY URGENT!",
+      "cn": "这非常紧急！"
+    }
+  },
+  {
+    "id": 17,
+    "english": "serious",
+    "chinese": "严重的",
+    "phonetic": "/ˈsɪriəs/",
+    "forms": {},
+    "example": {
+      "en": "We have a serious problem at Yangjie.",
+      "cn": "我们在扬杰遇到了一个严重的问题。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "attached",
+    "chinese": "附上",
+    "phonetic": "/əˈtætʃt/",
+    "forms": {
+      "infinitive": "attach (原形)"
+    },
+    "example": {
+      "en": "Attached is the step file of the device.",
+      "cn": "附件是该设备的STP文件。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "mount",
+    "chinese": "安装",
+    "phonetic": "/maʊnt/",
+    "forms": {
+      "verb": [
+        "mounts (第三人称单数)",
+        "mounting (现在分词)",
+        "mounted (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Mount it with a bracket or alike.",
+      "cn": "用支架或类似的东西安装它。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "determine",
+    "chinese": "确定",
+    "phonetic": "/dɪˈtɜːrmɪn/",
+    "forms": {
+      "verb": [
+        "determines (第三人称单数)",
+        "determining (现在分词)",
+        "determined (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Determine the optimal location.",
+      "cn": "确定最佳位置。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "relative",
+    "chinese": "相对的",
+    "phonetic": "/ˈrelətɪv/",
+    "forms": {},
+    "example": {
+      "en": "The optimal location relative to the bond pads.",
+      "cn": "相对于焊接盘的最佳位置。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "appropriate",
+    "chinese": "合适的",
+    "phonetic": "/əˈproʊpriət/",
+    "forms": {},
+    "example": {
+      "en": "Look for appropriate off-the-shelf units.",
+      "cn": "寻找合适的现成单元。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "increase",
+    "chinese": "增加",
+    "phonetic": "/ɪnˈkriːs/",
+    "forms": {
+      "verb": [
+        "increases (第三人称单数)",
+        "increasing (现在分词)",
+        "increased (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "How can we increase the contrast?",
+      "cn": "我们如何增加对比度？"
+    }
+  },
+  {
+    "id": 26,
+    "english": "advice",
+    "chinese": "建议",
+    "phonetic": "/ədˈvaɪs/",
+    "forms": {},
+    "example": {
+      "en": "Giving us advice.",
+      "cn": "给我们建议。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "raw",
+    "chinese": "原始的",
+    "phonetic": "/rɔː/",
+    "forms": {},
+    "example": {
+      "en": "We need the raw images.",
+      "cn": "我们需要原始图像。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "stages",
+    "chinese": "阶段",
+    "phonetic": "/steɪdʒɪz/",
+    "forms": {
+      "singular": "stage (单数)"
+    },
+    "example": {
+      "en": "Collect raw images for the different process stages.",
+      "cn": "为不同的工艺阶段收集原始图像。"
+    }
+  },
+  {
+    "id": 29,
+    "english": "wafer",
+    "chinese": "晶圆",
+    "phonetic": "/ˈweɪfər/",
+    "forms": {
+      "plural": "wafers (复数)"
+    },
+    "example": {
+      "en": "The image on wafer.",
+      "cn": "晶圆上的图像。"
+    }
+  },
+  {
+    "id": 30,
+    "english": "lead frame",
+    "chinese": "引线框架",
+    "phonetic": "/liːd freɪm/",
+    "forms": {},
+    "example": {
+      "en": "The image on lead frame after die place.",
+      "cn": "芯片放置后在引线框架上的图像。"
+    }
+  },
+  {
+    "id": 31,
+    "english": "collect",
+    "chinese": "收集",
+    "phonetic": "/kəˈlekt/",
+    "forms": {
+      "verb": [
+        "collects (第三人称单数)",
+        "collecting (现在分词)",
+        "collected (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please collect a few images for each process station.",
+      "cn": "请为每个处理站收集几张图片。"
+    }
+  },
+  {
+    "id": 32,
+    "english": "separate",
+    "chinese": "分开的",
+    "phonetic": "/ˈsepərət/",
+    "forms": {},
+    "example": {
+      "en": "Put the images in separate folders.",
+      "cn": "将图像放在不同的文件夹中。"
+    }
+  },
+  {
+    "id": 33,
+    "english": "provide",
+    "chinese": "提供",
+    "phonetic": "/prəˈvaɪd/",
+    "forms": {
+      "verb": [
+        "provides (第三人称单数)",
+        "providing (现在分词)",
+        "provided (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please provide the image data.",
+      "cn": "请提供图像数据。"
+    }
+  },
+  {
+    "id": 35,
+    "english": "collaborate",
+    "chinese": "合作",
+    "phonetic": "/kəˈlæbəreɪt/",
+    "forms": {
+      "verb": [
+        "collaborates (第三人称单数)",
+        "collaborating (现在分词)",
+        "collaborated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Let's use this email trail to collaborate on this problem.",
+      "cn": "让我们用这个邮件线索来合作解决这个问题。"
+    }
+  },
+  {
+    "id": 36,
+    "english": "formal",
+    "chinese": "正式的",
+    "phonetic": "/ˈfɔːrml/",
+    "forms": {},
+    "example": {
+      "en": "Die Pre formal Production setup.",
+      "cn": "芯片预正式生产设置。"
+    }
+  },
+  {
+    "id": 37,
+    "english": "production",
+    "chinese": "生产",
+    "phonetic": "/prəˈdʌkʃn/",
+    "forms": {},
+    "example": {
+      "en": "The machine is in production.",
+      "cn": "这台机器正在生产中。"
+    }
+  },
+  {
+    "id": 38,
+    "english": "setup",
+    "chinese": "设置",
+    "phonetic": "/ˈsetʌp/",
+    "forms": {},
+    "example": {
+      "en": "This is the production setup.",
+      "cn": "这是生产设置。"
+    }
+  },
+  {
+    "id": 39,
+    "english": "robustness",
+    "chinese": "稳健性",
+    "phonetic": "/roʊˈbʌstnəs/",
+    "forms": {},
+    "example": {
+      "en": "Improve the robustness of the inspection.",
+      "cn": "提高检查的稳健性。"
+    }
+  },
+  {
+    "id": 40,
+    "english": "URGENT",
+    "chinese": "紧急",
+    "phonetic": "/ˈɜːrdʒənt/",
+    "forms": {},
+    "example": {
+      "en": "This is EXTREMELY URGENT!",
+      "cn": "这非常紧急！"
+    }
+  }
+]

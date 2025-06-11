@@ -1,0 +1,551 @@
+[
+  {
+    "id": 1,
+    "english": "conditions",
+    "chinese": "条件",
+    "phonetic": "/kənˈdɪʃnz/",
+    "forms": {
+      "singular": "condition (单数)"
+    },
+    "example": {
+      "en": "We need to know the test conditions.",
+      "cn": "我们需要知道测试条件。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "tolerances",
+    "chinese": "公差",
+    "phonetic": "/ˈtɒlərənsɪz/",
+    "forms": {
+      "singular": "tolerance (单数)"
+    },
+    "example": {
+      "en": "The 3D model does not have tolerances.",
+      "cn": "3D模型没有公差。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "risk",
+    "chinese": "风险",
+    "phonetic": "/rɪsk/",
+    "forms": {
+      "plural": "risks (复数)"
+    },
+    "example": {
+      "en": "Isn't that a risk?",
+      "cn": "那不是有风险吗？"
+    }
+  },
+  {
+    "id": 4,
+    "english": "tasked",
+    "chinese": "分派任务",
+    "phonetic": "/tɑːskt/",
+    "forms": {
+      "verb": [
+        "tasks (第三人称单数)",
+        "tasking (现在分词)",
+        "tasked (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "You tasked TengYang to make the chuck.",
+      "cn": "你委托腾阳制作卡盘。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "re-arrange",
+    "chinese": "重新安排",
+    "phonetic": "/ˌriːəˈreɪndʒ/",
+    "forms": {
+      "verb": [
+        "re-arranges (第三人称单数)",
+        "re-arranging (现在分词)",
+        "re-arranged (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Can you re-arrange the chucks?",
+      "cn": "你能重新安排一下卡盘吗？"
+    }
+  },
+  {
+    "id": 6,
+    "english": "potential",
+    "chinese": "潜力",
+    "phonetic": "/pəˈtenʃl/",
+    "forms": {},
+    "example": {
+      "en": "There seems to be potential for improvement.",
+      "cn": "似乎有改进的潜力。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "gamma",
+    "chinese": "伽马",
+    "phonetic": "/ˈɡæmə/",
+    "forms": {},
+    "example": {
+      "en": "An even higher gamma will keep black areas dark.",
+      "cn": "更高的伽马值将使黑色区域保持暗黑。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "gain",
+    "chinese": "增益",
+    "phonetic": "/ɡeɪn/",
+    "forms": {},
+    "example": {
+      "en": "Increase the intensity and/or camera gain.",
+      "cn": "增加强度和/或相机增益。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "critical",
+    "chinese": "关键的",
+    "phonetic": "/ˈkrɪtɪkl/",
+    "forms": {},
+    "example": {
+      "en": "There are a few critical items.",
+      "cn": "有几个关键项目。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "gaps",
+    "chinese": "差距",
+    "phonetic": "/ɡæps/",
+    "forms": {
+      "singular": "gap (单数)"
+    },
+    "example": {
+      "en": "We have some remaining gaps.",
+      "cn": "我们还有一些差距。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "reworked",
+    "chinese": "返工的",
+    "phonetic": "/ˌriːˈwɜːkt/",
+    "forms": {},
+    "example": {
+      "en": "The reworked parts were installed.",
+      "cn": "返工的零件已经安装好了。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "enable",
+    "chinese": "使能够",
+    "phonetic": "/ɪˈneɪbl/",
+    "forms": {
+      "verb": [
+        "enables (第三人称单数)",
+        "enabling (现在分词)",
+        "enabled (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "This will enable control of the claw height.",
+      "cn": "这将能够控制爪子的高度。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "control",
+    "chinese": "控制",
+    "phonetic": "/kənˈtrəʊl/",
+    "forms": {
+      "verb": [
+        "controls (第三人称单数)",
+        "controlling (现在分词)",
+        "controlled (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to control the temperature.",
+      "cn": "我们需要控制温度。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "tilt",
+    "chinese": "倾斜",
+    "phonetic": "/tɪlt/",
+    "forms": {},
+    "example": {
+      "en": "Control the clamp tilt.",
+      "cn": "控制夹具的倾斜度。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "closure",
+    "chinese": "结束；定案",
+    "phonetic": "/ˈkləʊʒə(r)/",
+    "forms": {},
+    "example": {
+      "en": "There was no closure on the process chucks.",
+      "cn": "工艺卡盘的问题还没有定论。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "optical",
+    "chinese": "光学的",
+    "phonetic": "/ˈɒptɪkl/",
+    "forms": {},
+    "example": {
+      "en": "This enables very good optical contrast.",
+      "cn": "这可以实现非常好的光学对比度。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "benefit",
+    "chinese": "受益",
+    "phonetic": "/ˈbenɪfɪt/",
+    "forms": {
+      "verb": [
+        "benefits (第三人称单数)",
+        "benefiting (现在分词)",
+        "benefited (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The new settings do not benefit these chucks.",
+      "cn": "新设置对这些卡盘没有好处。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "document",
+    "chinese": "记录",
+    "phonetic": "/ˈdɒkjument/",
+    "forms": {
+      "verb": [
+        "documents (第三人称单数)",
+        "documenting (现在分词)",
+        "documented (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please document the manufacturing processes.",
+      "cn": "请记录制造过程。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "materials",
+    "chinese": "材料",
+    "phonetic": "/məˈtɪəriəlz/",
+    "forms": {
+      "singular": "material (单数)"
+    },
+    "example": {
+      "en": "Document the materials used.",
+      "cn": "记录所用材料。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "manufacturing",
+    "chinese": "制造",
+    "phonetic": "/ˌmænjuˈfæktʃərɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "The manufacturing process is complex.",
+      "cn": "制造过程很复杂。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "suspect",
+    "chinese": "怀疑",
+    "phonetic": "/səˈspekt/",
+    "forms": {
+      "verb": [
+        "suspects (第三人称单数)",
+        "suspecting (现在分词)",
+        "suspected (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We suspect the bulk material is different.",
+      "cn": "我们怀疑原材料不同。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "bulk",
+    "chinese": "大量的；主要的",
+    "phonetic": "/bʌlk/",
+    "forms": {},
+    "example": {
+      "en": "The bulk material might be the issue.",
+      "cn": "原材料可能是问题所在。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "regular",
+    "chinese": "常规的",
+    "phonetic": "/ˈreɡjələ(r)/",
+    "forms": {},
+    "example": {
+      "en": "The regular blackening process is different.",
+      "cn": "常规的黑化工艺是不同的。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "configure",
+    "chinese": "配置",
+    "phonetic": "/kənˈfɪɡə(r)/",
+    "forms": {
+      "verb": [
+        "configures (第三人称单数)",
+        "configuring (现在分词)",
+        "configured (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Can we configure the software to work with these chucks?",
+      "cn": "我们可以配置软件以使用这些卡盘吗？"
+    }
+  },
+  {
+    "id": 25,
+    "english": "identical",
+    "chinese": "相同的",
+    "phonetic": "/aɪˈdentɪkl/",
+    "forms": {},
+    "example": {
+      "en": "The two chucks are identical.",
+      "cn": "这两个卡盘是相同的。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "copying",
+    "chinese": "复制",
+    "phonetic": "/ˈkɒpiɪŋ/",
+    "forms": {
+      "verb": [
+        "copies (第三人称单数)",
+        "copying (现在分词)",
+        "copied (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Make new chucks by copying the TengYang design.",
+      "cn": "通过复制腾阳的设计来制造新的卡盘。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "expedite",
+    "chinese": "加快",
+    "phonetic": "/ˈekspədaɪt/",
+    "forms": {
+      "verb": [
+        "expedites (第三人称单数)",
+        "expediting (现在分词)",
+        "expedited (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please expedite the purchase order.",
+      "cn": "请加快采购订单的处理速度。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "debugging",
+    "chinese": "调试",
+    "phonetic": "/diːˈbʌɡɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "This is the effect from debugging the bonder.",
+      "cn": "这是调试焊接机后的效果。"
+    }
+  },
+  {
+    "id": 29,
+    "english": "adjusted",
+    "chinese": "调整过的",
+    "phonetic": "/əˈdʒʌstɪd/",
+    "forms": {},
+    "example": {
+      "en": "We mainly adjusted the Gamma value.",
+      "cn": "我们主要调整了伽马值。"
+    }
+  },
+  {
+    "id": 30,
+    "english": "sensitive",
+    "chinese": "敏感的",
+    "phonetic": "/ˈsensətɪv/",
+    "forms": {},
+    "example": {
+      "en": "The ring light is also sensitive to the chuck.",
+      "cn": "环形灯对卡盘也很敏感。"
+    }
+  },
+  {
+    "id": 31,
+    "english": "extends",
+    "chinese": "延长",
+    "phonetic": "/ɪkˈstendz/",
+    "forms": {
+      "verb": [
+        "extends (第三人称单数)",
+        "extending (现在分词)",
+        "extended (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "LiYong extends his stay by one day.",
+      "cn": "李勇延长逗留一天。"
+    }
+  },
+  {
+    "id": 32,
+    "english": "changeover",
+    "chinese": "转换",
+    "phonetic": "/ˈtʃeɪndʒəʊvə(r)/",
+    "forms": {},
+    "example": {
+      "en": "He does the changeover for Jianfei.",
+      "cn": "他为建飞做转换工作。"
+    }
+  },
+  {
+    "id": 33,
+    "english": "revert",
+    "chinese": "恢复",
+    "phonetic": "/rɪˈvɜːt/",
+    "forms": {
+      "verb": [
+        "reverts (第三人称单数)",
+        "reverting (现在分词)",
+        "reverted (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We will revert back to the present configuration.",
+      "cn": "我们将恢复到目前的配置。"
+    }
+  },
+  {
+    "id": 34,
+    "english": "encoder",
+    "chinese": "编码器",
+    "phonetic": "/ɪnˈkəʊdə(r)/",
+    "forms": {
+      "plural": "encoders (复数)"
+    },
+    "example": {
+      "en": "Check the encoder scale for cleanliness.",
+      "cn": "检查编码器刻度是否清洁。"
+    }
+  },
+  {
+    "id": 35,
+    "english": "scale",
+    "chinese": "刻度；规模",
+    "phonetic": "/skeɪl/",
+    "forms": {
+      "plural": "scales (复数)"
+    },
+    "example": {
+      "en": "The encoder scale might be dirty.",
+      "cn": "编码器刻度可能脏了。"
+    }
+  },
+  {
+    "id": 36,
+    "english": "cleanliness",
+    "chinese": "清洁度",
+    "phonetic": "/ˈklenlinəs/",
+    "forms": {},
+    "example": {
+      "en": "Check the scale for cleanliness.",
+      "cn": "检查刻度的清洁度。"
+    }
+  },
+  {
+    "id": 37,
+    "english": "contribute",
+    "chinese": "促成；贡献",
+    "phonetic": "/kənˈtrɪbjuːt/",
+    "forms": {
+      "verb": [
+        "contributes (第三人称单数)",
+        "contributing (现在分词)",
+        "contributed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "This may contribute to the random error.",
+      "cn": "这可能会导致随机误差。"
+    }
+  },
+  {
+    "id": 38,
+    "english": "random",
+    "chinese": "随机的",
+    "phonetic": "/ˈrændəm/",
+    "forms": {},
+    "example": {
+      "en": "We see a random error.",
+      "cn": "我们看到了一个随机误差。"
+    }
+  },
+  {
+    "id": 39,
+    "english": "couplings",
+    "chinese": "联轴器",
+    "phonetic": "/ˈkʌplɪŋz/",
+    "forms": {
+      "singular": "coupling (单数)"
+    },
+    "example": {
+      "en": "The motor shaft couplings need to be fixed.",
+      "cn": "电机轴联轴器需要修理。"
+    }
+  },
+  {
+    "id": 40,
+    "english": "quantity",
+    "chinese": "数量",
+    "phonetic": "/ˈkwɒntəti/",
+    "forms": {
+      "plural": "quantities (复数)"
+    },
+    "example": {
+      "en": "Order the appropriate quantity of correct parts.",
+      "cn": "订购适量的正确零件。"
+    }
+  },
+  {
+    "id": 41,
+    "english": "weaknesses",
+    "chinese": "弱点",
+    "phonetic": "/ˈwiːknəsɪz/",
+    "forms": {
+      "singular": "weakness (单数)"
+    },
+    "example": {
+      "en": "Look for other design weaknesses.",
+      "cn": "寻找其他设计弱点。"
+    }
+  }
+]

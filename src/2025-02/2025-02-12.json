@@ -1,0 +1,538 @@
+[
+  {
+    "id": 1,
+    "english": "helpful",
+    "chinese": "有帮助的",
+    "phonetic": "/ˈhelpfl/",
+    "forms": {},
+    "example": {
+      "en": "This is helpful.",
+      "cn": "这很有帮助。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "impression",
+    "chinese": "印象",
+    "phonetic": "/ɪmˈpreʃn/",
+    "forms": {
+      "plural": "impressions (复数)"
+    },
+    "example": {
+      "en": "My first impression is that the red light is better.",
+      "cn": "我的第一印象是红光更好。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "details",
+    "chinese": "细节",
+    "phonetic": "/ˈdiːteɪlz/",
+    "forms": {
+      "singular": "detail (单数)"
+    },
+    "example": {
+      "en": "The red light is able to show the details of the die better.",
+      "cn": "红光能更好地显示芯片的细节。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "fiducial",
+    "chinese": "基准点",
+    "phonetic": "/fɪˈduːʃl/",
+    "forms": {
+      "plural": "fiducials (复数)"
+    },
+    "example": {
+      "en": "We can better see the fiducial and the die.",
+      "cn": "我们可以更好地看到基准点和芯片。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "intensity",
+    "chinese": "强度",
+    "phonetic": "/ɪnˈtensəti/",
+    "forms": {
+      "plural": "intensities (复数)"
+    },
+    "example": {
+      "en": "Could you do it for 2 or 3 light intensity levels?",
+      "cn": "你能用2到3个光强度水平来做吗？"
+    }
+  },
+  {
+    "id": 6,
+    "english": "variations",
+    "chinese": "变化",
+    "phonetic": "/ˌveriˈeɪʃnz/",
+    "forms": {
+      "singular": "variation (单数)"
+    },
+    "example": {
+      "en": "Did you see any image appearance variations?",
+      "cn": "你看到任何图像外观变化吗？"
+    }
+  },
+  {
+    "id": 7,
+    "english": "appearance",
+    "chinese": "外观",
+    "phonetic": "/əˈpɪrəns/",
+    "forms": {},
+    "example": {
+      "en": "The side light changes the appearance of the dice.",
+      "cn": "侧光改变了芯片的外观。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "condition",
+    "chinese": "条件",
+    "phonetic": "/kənˈdɪʃn/",
+    "forms": {
+      "plural": "conditions (复数)"
+    },
+    "example": {
+      "en": "What is the light condition on slide 6?",
+      "cn": "幻灯片6的光照条件是什么？"
+    }
+  },
+  {
+    "id": 9,
+    "english": "option",
+    "chinese": "选项",
+    "phonetic": "/ˈɑːpʃn/",
+    "forms": {
+      "plural": "options (复数)"
+    },
+    "example": {
+      "en": "Is the light which you used an option to install at the pick camera?",
+      "cn": "你使用的灯是可以在取料相机上安装的选项吗？"
+    }
+  },
+  {
+    "id": 10,
+    "english": "elaborate",
+    "chinese": "详细说明",
+    "phonetic": "/ɪˈlæbəreɪt/",
+    "forms": {
+      "verb": ["elaborates (第三人称单数)", "elaborating (现在分词)", "elaborated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Can you elaborate on what is important for the vision?",
+      "cn": "你能详细说明一下视觉系统的重要性吗？"
+    }
+  },
+  {
+    "id": 11,
+    "english": "reliably",
+    "chinese": "可靠地",
+    "phonetic": "/rɪˈlaɪəbli/",
+    "forms": {},
+    "example": {
+      "en": "The vision needs to reliably find a die.",
+      "cn": "视觉系统需要可靠地找到芯片。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "indication",
+    "chinese": "指示",
+    "phonetic": "/ˌɪndɪˈkeɪʃn/",
+    "forms": {
+      "plural": "indications (复数)"
+    },
+    "example": {
+      "en": "Can you measure something that gives an indication?",
+      "cn": "你能测量一些能给出指示的东西吗？"
+    }
+  },
+  {
+    "id": 13,
+    "english": "unacceptable",
+    "chinese": "不可接受的",
+    "phonetic": "/ˌʌnəkˈseptəbl/",
+    "forms": {},
+    "example": {
+      "en": "This lead time is completely unacceptable.",
+      "cn": "这个交货时间是完全不可接受的。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "consistently",
+    "chinese": "一贯地",
+    "phonetic": "/kənˈsɪstəntli/",
+    "forms": {},
+    "example": {
+      "en": "They have consistently hurt our timeline.",
+      "cn": "他们一贯地损害我们的时间表。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "timeline",
+    "chinese": "时间表",
+    "phonetic": "/ˈtaɪmlaɪn/",
+    "forms": {
+      "plural": "timelines (复数)"
+    },
+    "example": {
+      "en": "We need to meet the timeline.",
+      "cn": "我们需要赶上时间表。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "verification",
+    "chinese": "验证",
+    "phonetic": "/ˌverɪfɪˈkeɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "We will not be allowed to proceed with the verification run.",
+      "cn": "我们将不被允许进行验证运行。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "fulfill",
+    "chinese": "满足",
+    "phonetic": "/fʊlˈfɪl/",
+    "forms": {
+      "verb": ["fulfills (第三人称单数)", "fulfilling (现在分词)", "fulfilled (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We need to fulfill all other requirements.",
+      "cn": "我们需要满足所有其他要求。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "gating",
+    "chinese": "门控；限制",
+    "phonetic": "/ˈɡeɪtɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "Can we identify which parts are gating delivery?",
+      "cn": "我们能确定哪些零件是限制交付的吗？"
+    }
+  },
+  {
+    "id": 19,
+    "english": "existing",
+    "chinese": "现有的",
+    "phonetic": "/ɪɡˈzɪstɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "Can we modify an existing door?",
+      "cn": "我们可以修改现有的门吗？"
+    }
+  },
+  {
+    "id": 20,
+    "english": "perfect",
+    "chinese": "完美的",
+    "phonetic": "/ˈpɜːrfɪkt/",
+    "forms": {},
+    "example": {
+      "en": "It doesn't look perfect.",
+      "cn": "它看起来不完美。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "shorten",
+    "chinese": "缩短",
+    "phonetic": "/ˈʃɔːrtn/",
+    "forms": {
+      "verb": ["shortens (第三人称单数)", "shortening (现在分词)", "shortened (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Please work to shorten the lead time.",
+      "cn": "请努力缩短交货时间。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "source",
+    "chinese": "来源",
+    "phonetic": "/sɔːrs/",
+    "forms": {
+      "plural": "sources (复数)"
+    },
+    "example": {
+      "en": "We can implement parts from an alternate source.",
+      "cn": "我们可以采用来自替代来源的零件。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "prove",
+    "chinese": "证明",
+    "phonetic": "/pruːv/",
+    "forms": {
+      "verb": ["proves (第三人称单数)", "proving (现在分词)", "proved/proven (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We need to prove that the design works.",
+      "cn": "我们需要证明设计是可行的。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "aligns",
+    "chinese": "对齐；符合",
+    "phonetic": "/əˈlaɪnz/",
+    "forms": {
+      "infinitive": "align (原形)"
+    },
+    "example": {
+      "en": "This height aligns well with the optimum dispense height.",
+      "cn": "这个高度与最佳点胶高度非常吻合。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "optimum",
+    "chinese": "最佳的",
+    "phonetic": "/ˈɑːptɪməm/",
+    "forms": {},
+    "example": {
+      "en": "We need to find the optimum settings.",
+      "cn": "我们需要找到最佳设置。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "determined",
+    "chinese": "确定的",
+    "phonetic": "/dɪˈtɜːrmɪnd/",
+    "forms": {
+      "infinitive": "determine (原形)"
+    },
+    "example": {
+      "en": "That height is determined from touch-down measurements.",
+      "cn": "那个高度是通过接触测量确定的。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "touch-down",
+    "chinese": "接触",
+    "phonetic": "/ˈtʌtʃ daʊn/",
+    "forms": {},
+    "example": {
+      "en": "We need to do careful touch-down tests.",
+      "cn": "我们需要进行仔细的接触测试。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "behavior",
+    "chinese": "行为；特性",
+    "phonetic": "/bɪˈheɪvjər/",
+    "forms": {},
+    "example": {
+      "en": "The dispense behavior strongly indicates that the dispense height is wrong.",
+      "cn": "点胶特性强烈表明点胶高度是错误的。"
+    }
+  },
+  {
+    "id": 29,
+    "english": "overflow",
+    "chinese": "溢出",
+    "phonetic": "/ˈoʊvərfloʊ/",
+    "forms": {},
+    "example": {
+      "en": "We had solder overflow.",
+      "cn": "我们遇到了焊料溢出的问题。"
+    }
+  },
+  {
+    "id": 30,
+    "english": "adaptive",
+    "chinese": "自适应的",
+    "phonetic": "/əˈdæptɪv/",
+    "forms": {},
+    "example": {
+      "en": "Repeat the test with the adaptive solder area correction.",
+      "cn": "使用自适应焊料面积校正重复测试。"
+    }
+  },
+  {
+    "id": 31,
+    "english": "distance",
+    "chinese": "距离",
+    "phonetic": "/ˈdɪstəns/",
+    "forms": {
+      "plural": "distances (复数)"
+    },
+    "example": {
+      "en": "Is the dispense height the distance between the nozzle tip and the substrate?",
+      "cn": "点胶高度是喷嘴尖端和基板之间的距离吗？"
+    }
+  },
+  {
+    "id": 32,
+    "english": "substrate",
+    "chinese": "基板",
+    "phonetic": "/ˈsʌbstreɪt/",
+    "forms": {
+      "plural": "substrates (复数)"
+    },
+    "example": {
+      "en": "The material is dispensed onto the substrate.",
+      "cn": "材料被点涂在基板上。"
+    }
+  },
+  {
+    "id": 33,
+    "english": "phase",
+    "chinese": "阶段",
+    "phonetic": "/feɪz/",
+    "forms": {
+      "plural": "phases (复数)"
+    },
+    "example": {
+      "en": "This is gating the next phase.",
+      "cn": "这正在限制下一阶段的进行。"
+    }
+  },
+  {
+    "id": 34,
+    "english": "reminder",
+    "chinese": "提醒",
+    "phonetic": "/rɪˈmaɪndər/",
+    "forms": {
+      "plural": "reminders (复数)"
+    },
+    "example": {
+      "en": "This is a friendly but urgent reminder.",
+      "cn": "这是一个友好但紧急的提醒。"
+    }
+  },
+  {
+    "id": 35,
+    "english": "escalated",
+    "chinese": "升级",
+    "phonetic": "/ˈeskəleɪtɪd/",
+    "forms": {
+      "infinitive": "escalate (原形)"
+    },
+    "example": {
+      "en": "This item is escalated in our corporate QBR.",
+      "cn": "这个项目在我们的公司季度业务回顾中被提级了。"
+    }
+  },
+  {
+    "id": 36,
+    "english": "corporate",
+    "chinese": "公司的",
+    "phonetic": "/ˈkɔːrpərət/",
+    "forms": {},
+    "example": {
+      "en": "This is a corporate level issue.",
+      "cn": "这是一个公司层面的问题。"
+    }
+  },
+  {
+    "id": 37,
+    "english": "gap",
+    "chinese": "差距",
+    "phonetic": "/ɡæp/",
+    "forms": {
+      "plural": "gaps (复数)"
+    },
+    "example": {
+      "en": "This is a critical gap at Yangjie.",
+      "cn": "这是扬杰的一个关键差距。"
+    }
+  },
+  {
+    "id": 38,
+    "english": "session",
+    "chinese": "会议；会话",
+    "phonetic": "/ˈseʃn/",
+    "forms": {
+      "plural": "sessions (复数)"
+    },
+    "example": {
+      "en": "I would like to set a remote session.",
+      "cn": "我想安排一个远程会议。"
+    }
+  },
+  {
+    "id": 39,
+    "english": "robust",
+    "chinese": "稳健的",
+    "phonetic": "/roʊˈbʌst/",
+    "forms": {},
+    "example": {
+      "en": "This can make the system more robust.",
+      "cn": "这可以使系统更加稳健。"
+    }
+  },
+  {
+    "id": 40,
+    "english": "compensate",
+    "chinese": "补偿",
+    "phonetic": "/ˈkɑːmpenseɪt/",
+    "forms": {
+      "verb": ["compensates (第三人称单数)", "compensating (现在分词)", "compensated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We did this to compensate for the die position.",
+      "cn": "我们这样做是为了补偿芯片位置。"
+    }
+  },
+  {
+    "id": 41,
+    "english": "averaging",
+    "chinese": "平均",
+    "phonetic": "/ˈævərɪdʒɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "That was based on significant averaging.",
+      "cn": "那是基于大量的平均计算。"
+    }
+  },
+  {
+    "id": 42,
+    "english": "reacts",
+    "chinese": "反应",
+    "phonetic": "/riˈækts/",
+    "forms": {
+      "infinitive": "react (原形)"
+    },
+    "example": {
+      "en": "Is there a better approach which reacts sooner?",
+      "cn": "有没有一种能更快反应的更好方法？"
+    }
+  },
+  {
+    "id": 43,
+    "english": "assume",
+    "chinese": "假设",
+    "phonetic": "/əˈsuːm/",
+    "forms": {
+      "verb": ["assumes (第三人称单数)", "assuming (现在分词)", "assumed (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Let's assume the material shall not be used after 10 hours.",
+      "cn": "让我们假设材料在10小时后就不能使用了。"
+    }
+  },
+  {
+    "id": 44,
+    "english": "acceptable",
+    "chinese": "可接受的",
+    "phonetic": "/əkˈseptəbl/",
+    "forms": {},
+    "example": {
+      "en": "The material is no more acceptable.",
+      "cn": "这种材料不再是可接受的。"
+    }
+  }
+]

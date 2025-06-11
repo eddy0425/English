@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能英语学习助手</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #4f46e5;
+            --secondary-color: #10b981;
+            --accent-color: #f59e0b;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --border-color: #e5e7eb;
+            --shadow: 0 10px 25px rgba(0,0,0,0.1);
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #111827;
+            --card-bg: #1f2937;
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --border-color: #374151;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            transition: all 0.3s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .user-stats {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .theme-toggle {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
+        .nav {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .nav-btn {
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: var(--text-primary);
+        }
+
+        .nav-btn:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-btn.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .nav {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .nav-btn {
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .nav-btn:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-btn.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .main-content {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: var(--shadow);
+            min-height: 500px;
+        }
+
+        .flashcard {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .flashcard:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+
+        .english-word {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .phonetic {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+            font-style: italic;
+        }
+
+        .chinese-meaning {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .example {
+            font-size: 14px;
+            opacity: 0.9;
+            font-style: italic;
+            border-top: 1px solid rgba(255,255,255,0.3);
+            padding-top: 16px;
+            margin-top: 16px;
+        }
+
+        .card-controls {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 24px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: var(--secondary-color);
+            color: white;
+        }
+
+        .btn-accent {
+            background: var(--accent-color);
+            color: white;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .progress-bar {
+            background: var(--border-color);
+            border-radius: 10px;
+            height: 8px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.5s ease;
+        }
+
+        .speak-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px auto;
+        }
+
+        .speak-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .file-upload {
+            margin-bottom: 24px;
+            padding: 20px;
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .file-upload input {
+            margin: 10px;
+        }
+
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--border-color);
+            border-top: 4px solid var(--primary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes fadeInOut {
+            0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+            50% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+            100% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 12px;
+            }
+            
+            .header {
+                padding: 16px;
+            }
+            
+            .main-content {
+                padding: 20px;
+            }
+            
+            .english-word {
+                font-size: 28px;
+            }
+            
+            .user-stats {
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">🧠 智能英语学习助手</div>
+            <div class="user-stats">
+                <div class="stat">
+                    <div class="stat-value" id="totalWords">0</div>
+                    <div class="stat-label">总词汇</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="studiedToday">0</div>
+                    <div class="stat-label">今日学习</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="currentLevel">1</div>
+                    <div class="stat-label">等级</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="totalPoints">0</div>
+                    <div class="stat-label">积分</div>
+                </div>
+            </div>
+            <button class="theme-toggle" onclick="toggleMode()" id="modeToggle">📖 自动显示模式</button>
+        </header>
+
+        <nav class="nav">
+            <button class="nav-btn active">
+                📚 卡片学习
+            </button>
+        </nav>
+
+        <main class="main-content">
+            <!-- 自动加载状态显示 -->
+            <div id="autoLoadingStatus" style="text-align: center; padding: 40px;">
+                <div style="display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 16px;">
+                    <div class="spinner"></div>
+                    <span id="autoLoadingText" style="font-size: 18px; font-weight: 500;">正在自动加载词汇数据...</span>
+                </div>
+                <div id="autoLoadingProgress" style="font-size: 14px; color: var(--text-secondary);"></div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+            </div>
+            
+            <div class="flashcard" id="flashcard" onclick="flipCard()">
+                <div class="loading">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+
+            <div class="card-controls">
+                <button class="btn btn-secondary" onclick="previousCard()">⬅️ 上一个</button>
+                <button class="btn btn-primary" onclick="flipCard()">🔄 翻转</button>
+                <button class="btn btn-secondary" onclick="nextCard()">➡️ 下一个</button>
+            </div>
+
+
+            
+            <!-- 使用说明切换按钮 -->
+            <div style="margin-top: 32px; text-align: center;">
+                <button class="btn btn-secondary" onclick="toggleInstructions()" id="instructionsToggle">
+                    📖 显示使用说明
+                </button>
+            </div>
+
+            <!-- 使用说明 -->
+            <div id="instructionsPanel" style="margin-top: 16px; padding: 16px; background: var(--bg-color); border-radius: 12px; font-size: 14px; color: var(--text-secondary); display: none;">
+                <h4 style="color: var(--text-primary); margin-bottom: 12px;">💡 使用说明</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;">
+                    <div>
+                        <strong>学习模式：</strong><br>
+                        • 自动显示模式：同时显示中英文<br>
+                        • 翻转卡片模式：需要翻转查看中文<br>
+                        • 点击右上角按钮切换模式
+                    </div>
+                    <div>
+                        <strong>快捷键：</strong><br>
+                        • 自动显示：空格键/右箭头切换下一个<br>
+                        • 翻转模式：空格键翻转，左右箭头切换<br>
+                        • 所有操作都会自动播放发音
+                    </div>
+                    <div>
+                        <strong>自动加载：</strong><br>
+                        • 应用启动时自动加载词汇数据<br>
+                        • 包含所有src文件夹中的词汇文件<br>
+                        • 无需手动导入，开箱即用
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // 全局变量
+        let wordsData = [];
+        let currentWordIndex = 0;
+        let isCardFlipped = false;
+        let currentMode = 1; // 1: 自动显示模式, 2: 翻转卡片模式
+        let userStats = {
+            totalWords: 0,
+            studiedToday: 0,
+            currentLevel: 1,
+            totalPoints: 0,
+            wordProgress: {}
+        };
+
+        // 间隔重复算法
+        class SpacedRepetition {
+            constructor() {
+                this.intervals = [1, 3, 7, 15, 30, 60]; // 天数
+            }
+
+            calculateNextReview(wordId, difficulty) {
+                const progress = userStats.wordProgress[wordId] || {
+                    level: 0,
+                    lastReview: Date.now(),
+                    nextReview: Date.now(),
+                    reviewCount: 0
+                };
+
+                let newLevel = progress.level;
+                
+                if (difficulty === 'easy') {
+                    newLevel = Math.min(progress.level + 1, this.intervals.length - 1);
+                } else if (difficulty === 'hard') {
+                    newLevel = Math.max(0, progress.level - 1);
+                }
+
+                const intervalDays = this.intervals[newLevel];
+                const nextReview = Date.now() + (intervalDays * 24 * 60 * 60 * 1000);
+
+                userStats.wordProgress[wordId] = {
+                    level: newLevel,
+                    lastReview: Date.now(),
+                    nextReview: nextReview,
+                    reviewCount: progress.reviewCount + 1
+                };
+
+                saveUserStats();
+            }
+        }
+
+        const spacedRepetition = new SpacedRepetition();
+
+        // 模式切换函数
+        function toggleMode() {
+            // 切换模式
+            currentMode = currentMode === 1 ? 2 : 1;
+            isCardFlipped = false;
+            
+            // 更新按钮文本
+            const modeToggle = document.getElementById('modeToggle');
+            if (currentMode === 1) {
+                modeToggle.textContent = '📖 自动显示模式';
+            } else {
+                modeToggle.textContent = '🔄 翻转卡片模式';
+            }
+            
+            // 保存模式设置
+            localStorage.setItem('learningMode', currentMode.toString());
+            
+            // 重新显示卡片和控制按钮
+            showCurrentCard();
+            updateControlButtons();
+        }
+
+        // 更新控制按钮
+        function updateControlButtons() {
+            const controlsDiv = document.querySelector('.card-controls');
+            if (!controlsDiv) return;
+            
+            if (currentMode === 1) {
+                // 模式一：只有上一个和下一个
+                controlsDiv.innerHTML = `
+                    <button class="btn btn-secondary" onclick="previousCard()">⬅️ 上一个</button>
+                    <button class="btn btn-secondary" onclick="nextCard()">➡️ 下一个</button>
+                `;
+            } else {
+                // 模式二：上一个、翻转、下一个
+                controlsDiv.innerHTML = `
+                    <button class="btn btn-secondary" onclick="previousCard()">⬅️ 上一个</button>
+                    <button class="btn btn-primary" onclick="flipCard()">🔄 翻转</button>
+                    <button class="btn btn-secondary" onclick="nextCard()">➡️ 下一个</button>
+                `;
+            }
+        }
+
+        // 初始化应用
+        async function initApp() {
+            loadUserStats();
+            await loadDefaultData();
+            updateStats();
+        }
+
+        // 自动加载服务器数据
+        async function loadDefaultData() {
+            try {
+                await autoLoadServerData();
+            } catch (error) {
+                console.error('自动加载失败，使用示例数据:', error);
+                // 如果自动加载失败，使用示例数据
+                if (wordsData.length === 0) {
+                    wordsData = [
+                        {
+                            "id": 1,
+                            "english": "side",
+                            "chinese": "侧面",
+                            "phonetic": "/saɪd/",
+                            "forms": {"plural": "sides (复数)"},
+                            "example": {
+                                "en": "Please look at the problem from the other side.",
+                                "cn": "请从另一面看待这个问题。"
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "english": "light",
+                            "chinese": "光",
+                            "phonetic": "/laɪt/",
+                            "forms": {"verb": ["lights", "lighting", "lit"]},
+                            "example": {
+                                "en": "The sun provides light and heat.",
+                                "cn": "太阳提供光和热。"
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "english": "design",
+                            "chinese": "设计",
+                            "phonetic": "/dɪˈzaɪn/",
+                            "forms": {"verb": ["designs", "designing", "designed"]},
+                            "example": {
+                                "en": "She works in fashion design.",
+                                "cn": "她从事时装设计工作。"
+                            }
+                        }
+                    ];
+                }
+                
+                userStats.totalWords = wordsData.length;
+                updateStats();
+                hideAutoLoadingStatus();
+            }
+        }
+
+        // 自动加载服务器上的JSON文件
+        async function autoLoadServerData() {
+            showAutoLoadingStatus('正在连接服务器...', '初始化中');
+            
+            // 定义需要加载的文件列表
+            const jsonFiles = [
+                'src/2025-04-01.json',
+                'src/2025-02/2025-02-06.json',
+                'src/2025-02/2025-02-07.json',
+                'src/2025-02/2025-02-08.json',
+                'src/2025-02/2025-02-09.json',
+                'src/2025-02/2025-02-10.json',
+                'src/2025-02/2025-02-11.json',
+                'src/2025-02/2025-02-12.json',
+                'src/2025-02/2025-02-13.json',
+                'src/2025-02/2025-02-14.json',
+                'src/2025-02/2025-02-18.json',
+                'src/2025-02/2025-02-21.json',
+                'src/2025-02/2025-02-22.json',
+                'src/2025-02/2025-02-24.json',
+                'src/2025-02/2025-02-25.json',
+                'src/2025-02/2025-02-26.json',
+                'src/2025-02/2025-02-27.json',
+                'src/2025-02/2025-02-28.json'
+            ];
+
+            const allWordsData = [];
+            let loadedCount = 0;
+            let totalWords = 0;
+
+            for (const filePath of jsonFiles) {
+                try {
+                    showAutoLoadingStatus('正在加载词汇数据...', 
+                        `正在处理: ${filePath.split('/').pop()} (${loadedCount + 1}/${jsonFiles.length})`);
+                    
+                    const response = await fetch(filePath);
+                    if (!response.ok) {
+                        console.warn(`无法加载文件: ${filePath} (${response.status})`);
+                        continue;
+                    }
+                    
+                    const jsonData = await response.json();
+                    
+                    if (Array.isArray(jsonData) && jsonData.length > 0) {
+                        // 重新分配ID以避免冲突
+                        const adjustedData = jsonData.map((word, index) => ({
+                            ...word,
+                            id: totalWords + index + 1,
+                            sourceFile: filePath
+                        }));
+                        
+                        allWordsData.push(...adjustedData);
+                        totalWords += adjustedData.length;
+                        loadedCount++;
+                        
+                        console.log(`已加载: ${filePath} (${adjustedData.length} 个词汇)`);
+                    }
+                } catch (error) {
+                    console.error(`加载文件失败: ${filePath}`, error);
+                }
+            }
+
+            if (allWordsData.length > 0) {
+                wordsData = allWordsData;
+                userStats.totalWords = wordsData.length;
+                currentWordIndex = 0;
+                updateStats();
+                
+                showAutoLoadingStatus(`加载完成！`, 
+                    `成功加载 ${loadedCount} 个文件，共 ${totalWords} 个词汇`);
+                
+                // 延迟一秒后隐藏加载状态并显示卡片
+                setTimeout(() => {
+                    hideAutoLoadingStatus();
+                    showCurrentCard();
+                }, 1000);
+                
+                console.log('自动加载统计:', {
+                    文件数量: loadedCount,
+                    总词汇数: totalWords,
+                    成功率: `${Math.round(loadedCount / jsonFiles.length * 100)}%`
+                });
+            } else {
+                throw new Error('没有成功加载任何词汇数据');
+            }
+        }
+
+        // 显示自动加载状态
+        function showAutoLoadingStatus(text, progress = '') {
+            const status = document.getElementById('autoLoadingStatus');
+            const loadingText = document.getElementById('autoLoadingText');
+            const loadingProgress = document.getElementById('autoLoadingProgress');
+            
+            status.style.display = 'block';
+            loadingText.textContent = text;
+            loadingProgress.textContent = progress;
+        }
+
+        // 隐藏自动加载状态
+        function hideAutoLoadingStatus() {
+            const status = document.getElementById('autoLoadingStatus');
+            status.style.display = 'none';
+        }
+
+        // 显示当前卡片
+        function showCurrentCard() {
+            if (wordsData.length === 0) {
+                document.getElementById('flashcard').innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+                return;
+            }
+
+            const word = wordsData[currentWordIndex];
+            const flashcard = document.getElementById('flashcard');
+            isCardFlipped = false;
+
+            if (currentMode === 1) {
+                // 模式一：自动显示中英文
+                flashcard.innerHTML = `
+                    <div class="english-word">${word.english}</div>
+                    <div class="phonetic">${word.phonetic}</div>
+                    <div class="chinese-meaning" style="margin-top: 20px;">${word.chinese}</div>
+                    <button class="speak-btn" onclick="speakWord(event)">🔊</button>
+                    <div class="example" style="margin-top: 20px;">
+                        <div>${word.example.en}</div>
+                        <div style="margin-top: 8px; opacity: 0.8;">${word.example.cn}</div>
+                    </div>
+                `;
+            } else {
+                // 模式二：只显示英文，需要翻转
+                flashcard.innerHTML = `
+                    <div class="english-word">${word.english}</div>
+                    <div class="phonetic">${word.phonetic}</div>
+                    <button class="speak-btn" onclick="speakWord(event)">🔊</button>
+                    <div style="font-size: 14px; opacity: 0.8; margin-top: 20px;">点击卡片翻转查看中文</div>
+                `;
+            }
+
+            // 更新进度条
+            const progress = ((currentWordIndex + 1) / wordsData.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            // 更新控制按钮
+            updateControlButtons();
+
+            // 自动播放发音
+            setTimeout(() => speakWord(), 500);
+        }
+
+        // 翻转卡片（仅在模式二时生效）
+        function flipCard() {
+            if (wordsData.length === 0 || currentMode === 1) return;
+            
+            const flashcard = document.getElementById('flashcard');
+            const word = wordsData[currentWordIndex];
+
+            if (!isCardFlipped) {
+                flashcard.innerHTML = `
+                    <div class="chinese-meaning">${word.chinese}</div>
+                    <div class="phonetic">${word.phonetic}</div>
+                    <div class="example">
+                        <div>${word.example.en}</div>
+                        <div style="margin-top: 8px; opacity: 0.8;">${word.example.cn}</div>
+                    </div>
+                    <button class="speak-btn" onclick="speakWord(event)">🔊</button>
+                `;
+                isCardFlipped = true;
+                // 翻转到中文面时播放发音
+                setTimeout(() => speakWord(), 300);
+            } else {
+                showCurrentCard();
+                // 翻转回英文面时播放发音
+                setTimeout(() => speakWord(), 300);
+            }
+        }
+
+        // 语音合成
+        function speakWord(event) {
+            if (event) event.stopPropagation();
+            
+            if (wordsData.length === 0) return;
+            
+            const word = wordsData[currentWordIndex];
+            if (word && 'speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(word.english);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.8;
+                speechSynthesis.speak(utterance);
+            }
+        }
+
+        // 导航控制
+        function nextCard() {
+            if (wordsData.length === 0) return;
+            currentWordIndex = (currentWordIndex + 1) % wordsData.length;
+            showCurrentCard();
+            // 模式一时立即播放发音，模式二时延迟播放
+            const delay = currentMode === 1 ? 200 : 500;
+            setTimeout(() => speakWord(), delay);
+        }
+
+        function previousCard() {
+            if (wordsData.length === 0) return;
+            currentWordIndex = (currentWordIndex - 1 + wordsData.length) % wordsData.length;
+            showCurrentCard();
+            // 模式一时立即播放发音，模式二时延迟播放
+            const delay = currentMode === 1 ? 200 : 500;
+            setTimeout(() => speakWord(), delay);
+        }
+
+
+
+        // 显示反馈
+        function showFeedback(message, type) {
+            const feedback = document.createElement('div');
+            feedback.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: ${type === 'easy' ? '#10b981' : type === 'normal' ? '#f59e0b' : '#ef4444'};
+                color: white;
+                padding: 16px 24px;
+                border-radius: 8px;
+                font-weight: 500;
+                z-index: 1000;
+                animation: fadeInOut 1s ease;
+            `;
+            feedback.textContent = message;
+            document.body.appendChild(feedback);
+            
+            setTimeout(() => feedback.remove(), 1000);
+        }
+
+        // 检查升级
+        function checkLevelUp() {
+            const pointsForNextLevel = userStats.currentLevel * 100;
+            if (userStats.totalPoints >= pointsForNextLevel) {
+                userStats.currentLevel++;
+                showFeedback(`🎉 恭喜升级到 ${userStats.currentLevel} 级!`, 'easy');
+            }
+        }
+
+        // 更新统计信息
+        function updateStats() {
+            document.getElementById('totalWords').textContent = userStats.totalWords;
+            document.getElementById('studiedToday').textContent = userStats.studiedToday;
+            document.getElementById('currentLevel').textContent = userStats.currentLevel;
+            document.getElementById('totalPoints').textContent = userStats.totalPoints;
+            
+            saveUserStats();
+        }
+
+
+
+
+
+        // 数据存储
+        function saveUserStats() {
+            localStorage.setItem('englishLearningStats', JSON.stringify(userStats));
+        }
+
+        function loadUserStats() {
+            const saved = localStorage.getItem('englishLearningStats');
+            if (saved) {
+                userStats = { ...userStats, ...JSON.parse(saved) };
+            }
+            
+            // 加载保存的学习模式
+            const savedMode = localStorage.getItem('learningMode');
+            if (savedMode) {
+                currentMode = parseInt(savedMode);
+                const modeToggle = document.getElementById('modeToggle');
+                if (currentMode === 1) {
+                    modeToggle.textContent = '📖 自动显示模式';
+                } else {
+                    modeToggle.textContent = '🔄 翻转卡片模式';
+                }
+            }
+        }
+
+        // 键盘快捷键
+        document.addEventListener('keydown', function(e) {
+            // 如果正在输入或选择文件，不处理快捷键
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+                return;
+            }
+            
+            switch(e.code) {
+                case 'Space':
+                    e.preventDefault();
+                    if (currentMode === 1) {
+                        nextCard(); // 模式一：空格键切换到下一个
+                    } else {
+                        flipCard(); // 模式二：空格键翻转
+                    }
+                    break;
+                case 'ArrowLeft':
+                    e.preventDefault();
+                    previousCard();
+                    break;
+                case 'ArrowRight':
+                    e.preventDefault();
+                    nextCard();
+                    break;
+            }
+        });
+
+        // 使用说明显示/隐藏功能
+        function toggleInstructions() {
+            const panel = document.getElementById('instructionsPanel');
+            const toggle = document.getElementById('instructionsToggle');
+            
+            if (panel.style.display === 'none') {
+                panel.style.display = 'block';
+                toggle.innerHTML = '📖 隐藏使用说明';
+                localStorage.setItem('showInstructions', 'true');
+            } else {
+                panel.style.display = 'none';
+                toggle.innerHTML = '📖 显示使用说明';
+                localStorage.setItem('showInstructions', 'false');
+            }
+        }
+
+        // 加载使用说明显示状态
+        function loadInstructionsState() {
+            const showInstructions = localStorage.getItem('showInstructions');
+            const panel = document.getElementById('instructionsPanel');
+            const toggle = document.getElementById('instructionsToggle');
+            
+            if (showInstructions === 'true') {
+                panel.style.display = 'block';
+                toggle.innerHTML = '📖 隐藏使用说明';
+            } else {
+                panel.style.display = 'none';
+                toggle.innerHTML = '📖 显示使用说明';
+            }
+        }
+
+        // 启动应用
+        document.addEventListener('DOMContentLoaded', () => {
+            initApp();
+            // 延迟加载使用说明状态，确保DOM元素已加载
+            setTimeout(() => {
+                loadInstructionsState();
+            }, 100);
+        });
+
+        // 初始化高级功能（在外部脚本加载后）
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                try {
+                    // 检查高级功能是否可用
+                    if (typeof QuizSystem !== 'undefined' && typeof LearningAnalytics !== 'undefined' && typeof GamificationSystem !== 'undefined') {
+                        // 初始化系统实例
+                        window.quizSystem = new QuizSystem();
+                        window.analytics = new LearningAnalytics();
+                        window.gamification = new GamificationSystem();
+                        
+                        // 创建高级UI界面
+                        if (typeof createAdvancedUI === 'function') {
+                            createAdvancedUI();
+                        }
+                        
+                        console.log('高级功能已激活！');
+                    } else {
+                        console.warn('高级功能类未找到，将只使用基础功能');
+                    }
+                } catch (error) {
+                    console.error('高级功能初始化失败:', error);
+                }
+            }, 500);
+        });
+    </script>
+    
+    <!-- 高级功能模块 -->
+    <script src="advanced-features.js"></script>
+</body>
+</html> 

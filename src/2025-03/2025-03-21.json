@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "english": "massively",
+    "chinese": "大规模地",
+    "phonetic": "/ˈmæsɪvli/",
+    "forms": {},
+    "example": {
+      "en": "The changes were implemented massively.",
+      "cn": "这些变更被大规模地实施了。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "maintain",
+    "chinese": "维护",
+    "phonetic": "/meɪnˈteɪn/",
+    "forms": {
+      "verb": [
+        "maintains (第三人称单数)",
+        "maintaining (现在分词)",
+        "maintained (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We can't maintain two software branches.",
+      "cn": "我们无法维护两个软件分支。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "branches",
+    "chinese": "分支",
+    "phonetic": "/brɑːntʃɪz/",
+    "forms": {
+      "singular": "branch (单数)"
+    },
+    "example": {
+      "en": "The software has multiple branches.",
+      "cn": "该软件有多个分支。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "capacity",
+    "chinese": "能力；容量",
+    "phonetic": "/kəˈpæsəti/",
+    "forms": {},
+    "example": {
+      "en": "We don't have the capacity to support this line.",
+      "cn": "我们没有能力支持这条生产线。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "support",
+    "chinese": "支持",
+    "phonetic": "/səˈpɔːt/",
+    "forms": {
+      "verb": [
+        "supports (第三人称单数)",
+        "supporting (现在分词)",
+        "supported (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to support our customers.",
+      "cn": "我们需要支持我们的客户。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "puzzled",
+    "chinese": "困惑的",
+    "phonetic": "/ˈpʌzld/",
+    "forms": {},
+    "example": {
+      "en": "I'm still puzzled that we can't move the rail.",
+      "cn": "我仍然对我们无法移动导轨感到困惑。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "manually",
+    "chinese": "手动地",
+    "phonetic": "/ˈmænjuəli/",
+    "forms": {},
+    "example": {
+      "en": "Can you move the rail manually?",
+      "cn": "你能手动移动导轨吗？"
+    }
+  },
+  {
+    "id": 8,
+    "english": "specifications",
+    "chinese": "规格",
+    "phonetic": "/ˌspesɪfɪˈkeɪʃnz/",
+    "forms": {
+      "singular": "specification (单数)"
+    },
+    "example": {
+      "en": "These are the customer's purchase specifications.",
+      "cn": "这些是客户的采购规格。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "reply",
+    "chinese": "回复",
+    "phonetic": "/rɪˈplaɪ/",
+    "forms": {
+      "verb": [
+        "replies (第三人称单数)",
+        "replying (现在分词)",
+        "replied (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please reply back by the end of today.",
+      "cn": "请在今天结束前回复。"
+    }
+  }
+]

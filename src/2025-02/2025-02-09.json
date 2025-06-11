@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "english": "image",
+    "chinese": "图像",
+    "phonetic": "/ˈɪmɪdʒ/",
+    "forms": {
+      "plural": "images (复数)"
+    },
+    "example": {
+      "en": "The system performs image analysis.",
+      "cn": "该系统执行图像分析。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "analysis",
+    "chinese": "分析",
+    "phonetic": "/əˈnæləsɪs/",
+    "forms": {
+      "plural": "analyses (复数)"
+    },
+    "example": {
+      "en": "We need to do a detailed analysis of the data.",
+      "cn": "我们需要对数据进行详细分析。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "struggle",
+    "chinese": "挣扎；努力",
+    "phonetic": "/ˈstrʌɡl/",
+    "forms": {
+      "verb": ["struggles (第三人称单数)", "struggling (现在分词)", "struggled (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We continue to struggle with setting up the vision system.",
+      "cn": "我们在设置视觉系统方面仍然很吃力。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "solidly",
+    "chinese": "可靠地",
+    "phonetic": "/ˈsɑːlɪdli/",
+    "forms": {},
+    "example": {
+      "en": "We need to solidly measure the die placement.",
+      "cn": "我们需要可靠地测量芯片位置。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "measure",
+    "chinese": "测量",
+    "phonetic": "/ˈmeʒər/",
+    "forms": {
+      "verb": ["measures (第三人称单数)", "measuring (现在分词)", "measured (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Could that tool be used to measure the die position?",
+      "cn": "那个工具可以用来测量芯片位置吗？"
+    }
+  },
+  {
+    "id": 6,
+    "english": "placement",
+    "chinese": "放置；位置",
+    "phonetic": "/ˈpleɪsmənt/",
+    "forms": {},
+    "example": {
+      "en": "The die placement is not accurate.",
+      "cn": "芯片的放置位置不准确。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "especially",
+    "chinese": "尤其",
+    "phonetic": "/ɪˈspeʃəli/",
+    "forms": {},
+    "example": {
+      "en": "It is difficult, especially when we use blank dice.",
+      "cn": "这很困难，尤其是当我们使用空白芯片时。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "blank",
+    "chinese": "空白的",
+    "phonetic": "/blæŋk/",
+    "forms": {},
+    "example": {
+      "en": "We use blank dice for testing.",
+      "cn": "我们使用空白芯片进行测试。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "limited",
+    "chinese": "有限的",
+    "phonetic": "/ˈlɪmɪtɪd/",
+    "forms": {},
+    "example": {
+      "en": "Customer material is always limited and expensive.",
+      "cn": "客户的材料总是有限且昂贵的。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "expensive",
+    "chinese": "昂贵的",
+    "phonetic": "/ɪkˈspensɪv/",
+    "forms": {},
+    "example": {
+      "en": "This is a very expensive piece of equipment.",
+      "cn": "这是一台非常昂贵的设备。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "guidelines",
+    "chinese": "指导方针",
+    "phonetic": "/ˈɡaɪdlaɪnz/",
+    "forms": {
+      "singular": "guideline (单数)"
+    },
+    "example": {
+      "en": "Do we have some guidelines for how to set up the lighting?",
+      "cn": "我们有关于如何设置照明的指导方针吗？"
+    }
+  },
+  {
+    "id": 12,
+    "english": "success",
+    "chinese": "成功",
+    "phonetic": "/səkˈses/",
+    "forms": {},
+    "example": {
+      "en": "This is critical for the success at Yangjie.",
+      "cn": "这对在扬杰的成功至关重要。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "intensive",
+    "chinese": "密集的",
+    "phonetic": "/ɪnˈtensɪv/",
+    "forms": {},
+    "example": {
+      "en": "How time intensive is that?",
+      "cn": "那需要花费多少时间？"
+    }
+  },
+  {
+    "id": 14,
+    "english": "script",
+    "chinese": "脚本",
+    "phonetic": "/skrɪpt/",
+    "forms": {
+      "plural": "scripts (复数)"
+    },
+    "example": {
+      "en": "Is it possible to create a script for this task?",
+      "cn": "是否可以为此任务创建一个脚本？"
+    }
+  },
+  {
+    "id": 15,
+    "english": "tool",
+    "chinese": "工具",
+    "phonetic": "/tuːl/",
+    "forms": {
+      "plural": "tools (复数)"
+    },
+    "example": {
+      "en": "You created a measurement tool.",
+      "cn": "你创建了一个测量工具。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "accurately",
+    "chinese": "准确地",
+    "phonetic": "/ˈækjərətli/",
+    "forms": {},
+    "example": {
+      "en": "The tool can accurately shift the die position.",
+      "cn": "该工具可以准确地移动芯片位置。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "functionality",
+    "chinese": "功能",
+    "phonetic": "/ˌfʌŋkʃəˈnæləti/",
+    "forms": {},
+    "example": {
+      "en": "This functionality is very critical.",
+      "cn": "这个功能非常关键。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "uniformity",
+    "chinese": "均匀性",
+    "phonetic": "/ˌjuːnɪˈfɔːrməti/",
+    "forms": {},
+    "example": {
+      "en": "We found very bad light uniformity.",
+      "cn": "我们发现光的均匀性非常差。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "lenses",
+    "chinese": "镜头",
+    "phonetic": "/ˈlenzɪz/",
+    "forms": {
+      "singular": "lens (单数)"
+    },
+    "example": {
+      "en": "We use different lenses.",
+      "cn": "我们使用不同的镜头。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "alternate",
+    "chinese": "替代的",
+    "phonetic": "/ˈɔːltərnət/",
+    "forms": {},
+    "example": {
+      "en": "Basler claims to have an alternate lens.",
+      "cn": "巴斯勒声称有替代镜头。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "performance",
+    "chinese": "性能",
+    "phonetic": "/pərˈfɔːrməns/",
+    "forms": {},
+    "example": {
+      "en": "CP will ask Basler to demonstrate the performance.",
+      "cn": "CP会要求巴斯勒演示其性能。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "alternative",
+    "chinese": "替代方案",
+    "phonetic": "/ɔːlˈtɜːrnətɪv/",
+    "forms": {
+      "plural": "alternatives (复数)"
+    },
+    "example": {
+      "en": "It can be an alternative to the 3520 lens.",
+      "cn": "它可以作为3520镜头的替代方案。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "modified",
+    "chinese": "修改过的",
+    "phonetic": "/ˈmɑːdɪfaɪd/",
+    "forms": {
+      "infinitive": "modify (原形)"
+    },
+    "example": {
+      "en": "We need a modified plate.",
+      "cn": "我们需要一个修改过的板。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "implement",
+    "chinese": "实施",
+    "phonetic": "/ˈɪmplɪment/",
+    "forms": {
+      "verb": ["implements (第三人称单数)", "implementing (现在分词)", "implemented (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We want to implement this at Yangjie.",
+      "cn": "我们想在扬杰实施这个方案。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "appreciate",
+    "chinese": "感激",
+    "phonetic": "/əˈpriːʃieɪt/",
+    "forms": {
+      "verb": ["appreciates (第三人称单数)", "appreciating (现在分词)", "appreciated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "I would appreciate if you could prepare the design changes.",
+      "cn": "如果您能准备好设计变更，我将不胜感激。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "documentation",
+    "chinese": "文档",
+    "phonetic": "/ˌdɑːkjumenˈteɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "Please prepare the documentation to drive these modified parts.",
+      "cn": "请准备文档来推动这些修改零件的生产。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "die",
+    "chinese": "芯片",
+    "phonetic": "/daɪ/",
+    "forms": {
+      "plural": "dice (复数)"
+    },
+    "example": {
+      "en": "The red cross is not in the center of the die.",
+      "cn": "红十字不在芯片的中心。"
+    }
+  }
+]

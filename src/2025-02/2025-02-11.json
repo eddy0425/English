@@ -1,0 +1,510 @@
+[
+  {
+    "id": 1,
+    "english": "expanded",
+    "chinese": "扩展的",
+    "phonetic": "/ɪkˈspændɪd/",
+    "forms": {
+      "infinitive": "expand (原形)"
+    },
+    "example": {
+      "en": "Please get the expanded auto-correction feature ready.",
+      "cn": "请准备好扩展的自动校正功能。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "debug",
+    "chinese": "调试",
+    "phonetic": "/diːˈbʌɡ/",
+    "forms": {
+      "verb": ["debugs (第三人称单数)", "debugging (现在分词)", "debugged (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "It would be great if we could debug it then.",
+      "cn": "如果我们能在那时调试它就太好了。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "remote",
+    "chinese": "远程的",
+    "phonetic": "/rɪˈmoʊt/",
+    "forms": {},
+    "example": {
+      "en": "We can debug it with you remote in.",
+      "cn": "我们可以在您远程接入的情况下进行调试。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "concept",
+    "chinese": "概念",
+    "phonetic": "/ˈkɑːnsept/",
+    "forms": {
+      "plural": "concepts (复数)"
+    },
+    "example": {
+      "en": "The concept for auto-correction is correct.",
+      "cn": "自动校正的概念是正确的。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "nozzles",
+    "chinese": "喷嘴",
+    "phonetic": "/ˈnɑːzlz/",
+    "forms": {
+      "singular": "nozzle (单数)"
+    },
+    "example": {
+      "en": "We are dispensing with 2-column multi-tube nozzles.",
+      "cn": "我们正在使用双列多管喷嘴进行点胶。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "variable",
+    "chinese": "变量",
+    "phonetic": "/ˈveriəbl/",
+    "forms": {
+      "plural": "variables (复数)"
+    },
+    "example": {
+      "en": "Please try to make the number of tubes a variable.",
+      "cn": "请尝试将管的数量设为变量。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "implemented",
+    "chinese": "实施",
+    "phonetic": "/ˈɪmplɪmentɪd/",
+    "forms": {
+      "infinitive": "implement (原形)"
+    },
+    "example": {
+      "en": "The other two features are implemented.",
+      "cn": "另外两个功能已经实施了。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "collected",
+    "chinese": "收集",
+    "phonetic": "/kəˈlektɪd/",
+    "forms": {
+      "infinitive": "collect (原形)"
+    },
+    "example": {
+      "en": "Can you share any data you collected?",
+      "cn": "你能分享你收集到的任何数据吗？"
+    }
+  },
+  {
+    "id": 9,
+    "english": "verify",
+    "chinese": "验证",
+    "phonetic": "/ˈverɪfaɪ/",
+    "forms": {
+      "verb": ["verifies (第三人称单数)", "verifying (现在分词)", "verified (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We need to verify the proper function.",
+      "cn": "我们需要验证其功能是否正常。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "proper",
+    "chinese": "正确的；适当的",
+    "phonetic": "/ˈprɑːpər/",
+    "forms": {},
+    "example": {
+      "en": "Please ensure the proper function of the machine.",
+      "cn": "请确保机器的正常功能。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "orientation",
+    "chinese": "方向",
+    "phonetic": "/ˌɔːriənˈteɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "The Lead Frame Orientation sensor needs to be completed.",
+      "cn": "引线框架方向传感器需要完成。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "syringe",
+    "chinese": "注射器",
+    "phonetic": "/sɪˈrɪndʒ/",
+    "forms": {
+      "plural": "syringes (复数)"
+    },
+    "example": {
+      "en": "We need to complete the Syringe life time recording.",
+      "cn": "我们需要完成注射器寿命记录。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "lifetime",
+    "chinese": "寿命",
+    "phonetic": "/ˈlaɪftaɪm/",
+    "forms": {},
+    "example": {
+      "en": "The lifetime of this component is about five years.",
+      "cn": "这个部件的寿命大约是五年。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "recording",
+    "chinese": "记录",
+    "phonetic": "/rɪˈkɔːrdɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "The system is recording the data.",
+      "cn": "系统正在记录数据。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "operate",
+    "chinese": "操作",
+    "phonetic": "/ˈɑːpəreɪt/",
+    "forms": {
+      "verb": ["operates (第三人称单数)", "operating (现在分词)", "operated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "CB3 can already operate with the new lens.",
+      "cn": "CB3已经可以使用新镜头进行操作。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "focal length",
+    "chinese": "焦距",
+    "phonetic": "/ˈfoʊkl leŋθ/",
+    "forms": {},
+    "example": {
+      "en": "The lens has a short focal length.",
+      "cn": "这个镜头的焦距很短。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "rework",
+    "chinese": "返工",
+    "phonetic": "/ˈriːwɜːrk/",
+    "forms": {},
+    "example": {
+      "en": "The parts will be shipped back for rework.",
+      "cn": "这些零件将被运回进行返工。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "worthwhile",
+    "chinese": "值得的",
+    "phonetic": "/ˌwɜːrθˈwaɪl/",
+    "forms": {},
+    "example": {
+      "en": "Is it worthwhile to ship it back?",
+      "cn": "把它运回去值得吗？"
+    }
+  },
+  {
+    "id": 19,
+    "english": "shipment",
+    "chinese": "装运",
+    "phonetic": "/ˈʃɪpmənt/",
+    "forms": {
+      "plural": "shipments (复数)"
+    },
+    "example": {
+      "en": "We can arrange the shipment.",
+      "cn": "我们可以安排装运。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "synchronize",
+    "chinese": "同步",
+    "phonetic": "/ˈsɪŋkrənaɪz/",
+    "forms": {
+      "verb": ["synchronizes (第三人称单数)", "synchronizing (现在分词)", "synchronized (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We need to synchronize with the availability of the parts.",
+      "cn": "我们需要与零件的可用性同步。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "availability",
+    "chinese": "可用性",
+    "phonetic": "/əˌveɪləˈbɪləti/",
+    "forms": {},
+    "example": {
+      "en": "Please check the availability of the meeting room.",
+      "cn": "请检查会议室的可用性。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "evidence",
+    "chinese": "证据",
+    "phonetic": "/ˈevɪdəns/",
+    "forms": {},
+    "example": {
+      "en": "Do we have evidence that the red light has benefits?",
+      "cn": "我们有证据表明红光有好处吗？"
+    }
+  },
+  {
+    "id": 23,
+    "english": "benefits",
+    "chinese": "好处",
+    "phonetic": "/ˈbenɪfɪts/",
+    "forms": {
+      "singular": "benefit (单数)"
+    },
+    "example": {
+      "en": "What are the benefits of this new approach?",
+      "cn": "这种新方法有什么好处？"
+    }
+  },
+  {
+    "id": 24,
+    "english": "repeatability",
+    "chinese": "可重复性",
+    "phonetic": "/rɪˌpiːtəˈbɪləti/",
+    "forms": {},
+    "example": {
+      "en": "This is very good, compared to our solder dot repeatability.",
+      "cn": "与我们的焊点可重复性相比，这已经非常好了。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "reticle",
+    "chinese": "标线片",
+    "phonetic": "/ˈretɪkl/",
+    "forms": {
+      "plural": "reticles (复数)"
+    },
+    "example": {
+      "en": "What is the actual area of the dots on the reticle?",
+      "cn": "标线片上点的实际面积是多少？"
+    }
+  },
+  {
+    "id": 26,
+    "english": "instruction",
+    "chinese": "指令；说明",
+    "phonetic": "/ɪnˈstrʌkʃn/",
+    "forms": {
+      "plural": "instructions (复数)"
+    },
+    "example": {
+      "en": "Can you please create a Work Instruction for this measurement?",
+      "cn": "您能为这个测量创建一个工作指令吗？"
+    }
+  },
+  {
+    "id": 27,
+    "english": "assembly",
+    "chinese": "装配",
+    "phonetic": "/əˈsembli/",
+    "forms": {
+      "plural": "assemblies (复数)"
+    },
+    "example": {
+      "en": "This is included in the assembly.",
+      "cn": "这包含在装配中。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "calibrate",
+    "chinese": "校准",
+    "phonetic": "/ˈkælɪbreɪt/",
+    "forms": {
+      "verb": ["calibrates (第三人称单数)", "calibrating (现在分词)", "calibrated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We can calibrate our vision systems accordingly.",
+      "cn": "我们可以相应地校准我们的视觉系统。"
+    }
+  },
+  {
+    "id": 29,
+    "english": "accordingly",
+    "chinese": "相应地",
+    "phonetic": "/əˈkɔːrdɪŋli/",
+    "forms": {},
+    "example": {
+      "en": "Please review the document and act accordingly.",
+      "cn": "请审阅文件并采取相应行动。"
+    }
+  },
+  {
+    "id": 30,
+    "english": "independent",
+    "chinese": "独立的",
+    "phonetic": "/ˌɪndɪˈpendənt/",
+    "forms": {},
+    "example": {
+      "en": "We need to arrive at our own method, independent from a customer's method.",
+      "cn": "我们需要得出自己的方法，独立于客户的方法。"
+    }
+  },
+  {
+    "id": 31,
+    "english": "purchased",
+    "chinese": "购买",
+    "phonetic": "/ˈpɜːrtʃəst/",
+    "forms": {
+      "infinitive": "purchase (原形)"
+    },
+    "example": {
+      "en": "This was one reason why we purchased the reticles.",
+      "cn": "这是我们购买标线片的原因之一。"
+    }
+  },
+  {
+    "id": 32,
+    "english": "conclusion",
+    "chinese": "结论",
+    "phonetic": "/kənˈkluːʒn/",
+    "forms": {
+      "plural": "conclusions (复数)"
+    },
+    "example": {
+      "en": "I don't understand your conclusion.",
+      "cn": "我不明白你的结论。"
+    }
+  },
+  {
+    "id": 33,
+    "english": "variation",
+    "chinese": "变化",
+    "phonetic": "/ˌveriˈeɪʃn/",
+    "forms": {
+      "plural": "variations (复数)"
+    },
+    "example": {
+      "en": "The variation of the measured dot area is +/-0.015mm2.",
+      "cn": "测量的点面积的变化为+/-0.015平方毫米。"
+    }
+  },
+  {
+    "id": 34,
+    "english": "variability",
+    "chinese": "可变性",
+    "phonetic": "/ˌveriəˈbɪləti/",
+    "forms": {},
+    "example": {
+      "en": "I assume it has a variability.",
+      "cn": "我假设它有可变性。"
+    }
+  },
+  {
+    "id": 35,
+    "english": "convinced",
+    "chinese": "确信的",
+    "phonetic": "/kənˈvɪnst/",
+    "forms": {},
+    "example": {
+      "en": "I'm not convinced that you focus on the right aspects.",
+      "cn": "我不敢肯定你关注的是正确的方面。"
+    }
+  },
+  {
+    "id": 36,
+    "english": "aspects",
+    "chinese": "方面",
+    "phonetic": "/ˈæspekts/",
+    "forms": {
+      "singular": "aspect (单数)"
+    },
+    "example": {
+      "en": "We need to consider all aspects of the problem.",
+      "cn": "我们需要考虑问题的所有方面。"
+    }
+  },
+  {
+    "id": 37,
+    "english": "stdev",
+    "chinese": "标准差",
+    "phonetic": "",
+    "forms": {},
+    "example": {
+      "en": "Please provide the measured average and stdev.",
+      "cn": "请提供测量的平均值和标准差。"
+    }
+  },
+  {
+    "id": 38,
+    "english": "plot",
+    "chinese": "绘制",
+    "phonetic": "/plɑːt/",
+    "forms": {
+      "verb": ["plots (第三人称单数)", "plotting (现在分词)", "plotted (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Then plot the measured averages against the actuals.",
+      "cn": "然后将测量的平均值与实际值进行对比绘制。"
+    }
+  },
+  {
+    "id": 39,
+    "english": "synergies",
+    "chinese": "协同效应",
+    "phonetic": "/ˈsɪnərdʒiz/",
+    "forms": {
+      "singular": "synergy (单数)"
+    },
+    "example": {
+      "en": "We then have synergies between the 2 vision modules.",
+      "cn": "这样我们两个视觉模块之间就有了协同效应。"
+    }
+  },
+  {
+    "id": 40,
+    "english": "nervously",
+    "chinese": "紧张地",
+    "phonetic": "/ˈnɜːrvəsli/",
+    "forms": {},
+    "example": {
+      "en": "I am nervously looking to use the auto-correction.",
+      "cn": "我正紧张地期望使用自动校正功能。"
+    }
+  },
+  {
+    "id": 41,
+    "english": "consistency",
+    "chinese": "一致性",
+    "phonetic": "/kənˈsɪstənsi/",
+    "forms": {},
+    "example": {
+      "en": "The process consistency is now much better.",
+      "cn": "过程的一致性现在好多了。"
+    }
+  },
+  {
+    "id": 42,
+    "english": "dependence",
+    "chinese": "依赖性",
+    "phonetic": "/dɪˈpendəns/",
+    "forms": {},
+    "example": {
+      "en": "There is a significant row dependence.",
+      "cn": "存在显著的行依赖性。"
+    }
+  }
+]

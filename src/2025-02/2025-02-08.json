@@ -1,0 +1,265 @@
+[
+  {
+    "id": 1,
+    "english": "assignments",
+    "chinese": "任务",
+    "phonetic": "/əˈsaɪnmənts/",
+    "forms": {
+      "singular": "assignment (单数)"
+    },
+    "example": {
+      "en": "He has several assignments to complete.",
+      "cn": "他有几项任务需要完成。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "tasks",
+    "chinese": "任务",
+    "phonetic": "/tæsks/",
+    "forms": {
+      "singular": "task (单数)"
+    },
+    "example": {
+      "en": "All have tasks assigned in the Vision Backlog.",
+      "cn": "所有在视觉积压工作里的人都被分配了任务。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "assigned",
+    "chinese": "分配",
+    "phonetic": "/əˈsaɪnd/",
+    "forms": {
+      "infinitive": "assign (原形)"
+    },
+    "example": {
+      "en": "The teacher assigned homework to the students.",
+      "cn": "老师给学生们布置了家庭作业。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "below",
+    "chinese": "下面",
+    "phonetic": "/bɪˈloʊ/",
+    "forms": {},
+    "example": {
+      "en": "Please see the details below.",
+      "cn": "请看下面的详细信息。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "due",
+    "chinese": "到期的",
+    "phonetic": "/duː/",
+    "forms": {},
+    "example": {
+      "en": "The due dates are in the column CP.",
+      "cn": "截止日期在CP栏。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "dates",
+    "chinese": "日期",
+    "phonetic": "/deɪts/",
+    "forms": {
+      "singular": "date (单数)"
+    },
+    "example": {
+      "en": "We need to set the dates for the next meeting.",
+      "cn": "我们需要确定下次会议的日期。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "column",
+    "chinese": "列",
+    "phonetic": "/ˈkɑːləm/",
+    "forms": {
+      "plural": "columns (复数)"
+    },
+    "example": {
+      "en": "The data is organized in rows and columns.",
+      "cn": "数据按行和列组织。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "urgent",
+    "chinese": "紧急的",
+    "phonetic": "/ˈɜːrdʒənt/",
+    "forms": {},
+    "example": {
+      "en": "This is an urgent message.",
+      "cn": "这是一条紧急信息。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "bold",
+    "chinese": "粗体",
+    "phonetic": "/boʊld/",
+    "forms": {},
+    "example": {
+      "en": "Please make the title bold.",
+      "cn": "请将标题设置为粗体。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "read",
+    "chinese": "阅读",
+    "phonetic": "/riːd/",
+    "forms": {
+      "past": "read (过去式 /riːd/ -> /red/)",
+      "participle": "read (过去分词 /riːd/ -> /red/)"
+    },
+    "example": {
+      "en": "Please read carefully.",
+      "cn": "请仔细阅读。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "carefully",
+    "chinese": "仔细地",
+    "phonetic": "/ˈkerfəli/",
+    "forms": {},
+    "example": {
+      "en": "He listened carefully to the instructions.",
+      "cn": "他仔细地听了说明。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "ask",
+    "chinese": "问",
+    "phonetic": "/æsk/",
+    "forms": {
+      "verb": [
+        "asks (第三人称单数)",
+        "asking (现在分词)",
+        "asked (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "If needed, please ask questions.",
+      "cn": "如果需要，请提问。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "questions",
+    "chinese": "问题",
+    "phonetic": "/ˈkwestʃənz/",
+    "forms": {
+      "singular": "question (单数)"
+    },
+    "example": {
+      "en": "Do you have any questions?",
+      "cn": "你有什么问题吗？"
+    }
+  },
+  {
+    "id": 15,
+    "english": "start",
+    "chinese": "开始",
+    "phonetic": "/stɑːrt/",
+    "forms": {
+      "verb": [
+        "starts (第三人称单数)",
+        "starting (现在分词)",
+        "started (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I will start following up.",
+      "cn": "我将开始跟进。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "following up",
+    "chinese": "跟进",
+    "phonetic": "/ˈfɑːloʊɪŋ ʌp/",
+    "forms": {},
+    "example": {
+      "en": "She is following up on the customer's complaint.",
+      "cn": "她正在跟进客户的投诉。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "reply",
+    "chinese": "回复",
+    "phonetic": "/rɪˈplaɪ/",
+    "forms": {
+      "verb": [
+        "replies (第三人称单数)",
+        "replying (现在分词)",
+        "replied (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please reply to this email as soon as possible.",
+      "cn": "请尽快回复此电子邮件。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "reach out",
+    "chinese": "联系",
+    "phonetic": "/riːtʃ aʊt/",
+    "forms": {},
+    "example": {
+      "en": "I will reach out on your Tuesday to review your plan.",
+      "cn": "我将在你周二的时候联系你，审查你的计划。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "target",
+    "chinese": "目标",
+    "phonetic": "/ˈtɑːrɡɪt/",
+    "forms": {
+      "verb": [
+        "targets (第三人称单数)",
+        "targeting (现在分词)",
+        "targeted (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Let's target to have this problem closed.",
+      "cn": "让我们力争解决这个问题。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "problem",
+    "chinese": "问题",
+    "phonetic": "/ˈprɑːbləm/",
+    "forms": {
+      "plural": "problems (复数)"
+    },
+    "example": {
+      "en": "We need to find a solution to this problem.",
+      "cn": "我们需要找到解决这个问题的方法。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "closed",
+    "chinese": "解决",
+    "phonetic": "/kloʊzd/",
+    "forms": {
+      "infinitive": "close (原形)"
+    },
+    "example": {
+      "en": "The case is now closed.",
+      "cn": "这个案子现在已经了结了。"
+    }
+  }
+]

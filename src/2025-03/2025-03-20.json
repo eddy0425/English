@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "english": "turnaround",
+    "chinese": "周转",
+    "phonetic": "/ˈtɜːnəraʊnd/",
+    "forms": {},
+    "example": {
+      "en": "We will have a daily meeting on the Yangjie turnaround.",
+      "cn": "我们将就扬杰的周转问题举行每日会议。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "assign",
+    "chinese": "分配",
+    "phonetic": "/əˈsaɪn/",
+    "forms": {
+      "verb": [
+        "assigns (第三人称单数)",
+        "assigning (现在分词)",
+        "assigned (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We will assign tasks to the team.",
+      "cn": "我们将向团队分配任务。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "tasks",
+    "chinese": "任务",
+    "phonetic": "/tɑːsks/",
+    "forms": {
+      "singular": "task (单数)"
+    },
+    "example": {
+      "en": "There are several open tasks.",
+      "cn": "有几个未完成的任务。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "targeting",
+    "chinese": "瞄准",
+    "phonetic": "/ˈtɑːɡɪtɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "DPA stands for targeting, before dispense.",
+      "cn": "DPA代表点胶前的瞄准。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "inspection",
+    "chinese": "检查",
+    "phonetic": "/ɪnˈspekʃn/",
+    "forms": {
+      "plural": "inspections (复数)"
+    },
+    "example": {
+      "en": "DPI stands for inspection, after dispense.",
+      "cn": "DPI代表点胶后的检查。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "appearance",
+    "chinese": "外观",
+    "phonetic": "/əˈpɪərəns/",
+    "forms": {},
+    "example": {
+      "en": "The chuck has a full black appearance.",
+      "cn": "卡盘外观全黑。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "applies",
+    "chinese": "适用",
+    "phonetic": "/əˈplaɪz/",
+    "forms": {
+      "verb": [
+        "applies (第三人称单数)",
+        "applying (现在分词)",
+        "applied (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The same applies to the test with Richard.",
+      "cn": "这同样适用于与理查德的测试。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "surfaces",
+    "chinese": "表面",
+    "phonetic": "/ˈsɜːfɪsɪz/",
+    "forms": {
+      "singular": "surface (单数)"
+    },
+    "example": {
+      "en": "He created these surfaces with his laser.",
+      "cn": "他用他的激光创造了这些表面。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "created",
+    "chinese": "创造的",
+    "phonetic": "/kriˈeɪtɪd/",
+    "forms": {},
+    "example": {
+      "en": "The new design was created last week.",
+      "cn": "新设计是上周创建的。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "laser",
+    "chinese": "激光",
+    "phonetic": "/ˈleɪzə(r)/",
+    "forms": {
+      "plural": "lasers (复数)"
+    },
+    "example": {
+      "en": "Laser processing can change the surface properties.",
+      "cn": "激光加工可以改变表面特性。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "marking",
+    "chinese": "标记",
+    "phonetic": "/ˈmɑːkɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "This is like laser marking.",
+      "cn": "这就像激光打标。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "coated",
+    "chinese": "涂层的",
+    "phonetic": "/ˈkəʊtɪd/",
+    "forms": {},
+    "example": {
+      "en": "The chuck was coated with DLC.",
+      "cn": "卡盘上涂有类金刚石碳膜。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "resistance",
+    "chinese": "抗性",
+    "phonetic": "/rɪˈzɪstəns/",
+    "forms": {},
+    "example": {
+      "en": "The coating is for wear resistance.",
+      "cn": "涂层是为了耐磨。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "interaction",
+    "chinese": "相互作用",
+    "phonetic": "/ˌɪntərˈækʃn/",
+    "forms": {
+      "plural": "interactions (复数)"
+    },
+    "example": {
+      "en": "Is it an interaction with the coating?",
+      "cn": "是与涂层的相互作用吗？"
+    }
+  },
+  {
+    "id": 15,
+    "english": "suggestion",
+    "chinese": "建议",
+    "phonetic": "/səˈdʒestʃən/",
+    "forms": {
+      "plural": "suggestions (复数)"
+    },
+    "example": {
+      "en": "The only suggestion I have is to test the surfaces.",
+      "cn": "我唯一的建议是测试这些表面。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "remote",
+    "chinese": "远程",
+    "phonetic": "/rɪˈməʊt/",
+    "forms": {},
+    "example": {
+      "en": "If you can remote into the bonder, you can do the adjustments.",
+      "cn": "如果你能远程连接到焊接机，你就可以进行调整。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "adjustments",
+    "chinese": "调整",
+    "phonetic": "/əˈdʒʌstmənts/",
+    "forms": {
+      "singular": "adjustment (单数)"
+    },
+    "example": {
+      "en": "You can do the light and camera setting adjustments.",
+      "cn": "你可以进行灯光和相机设置的调整。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "observed",
+    "chinese": "观察到的",
+    "phonetic": "/əbˈzɜːvd/",
+    "forms": {},
+    "example": {
+      "en": "I observed CP doing this in Yangjie.",
+      "cn": "我观察到CP在扬杰这样做。"
+    }
+  }
+]

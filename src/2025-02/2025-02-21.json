@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "english": "busy",
+    "chinese": "忙碌的",
+    "phonetic": "/ˈbɪzi/",
+    "forms": {},
+    "example": {
+      "en": "We are busy with Yangjie and Rohm.",
+      "cn": "我们正忙于扬杰和罗姆的项目。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "temperature",
+    "chinese": "温度",
+    "phonetic": "/ˈtemprətʃər/",
+    "forms": {
+      "plural": "temperatures (复数)"
+    },
+    "example": {
+      "en": "There is a temperature control problem.",
+      "cn": "存在一个温度控制问题。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "control",
+    "chinese": "控制",
+    "phonetic": "/kənˈtroʊl/",
+    "forms": {
+      "verb": ["controls (第三人称单数)", "controlling (现在分词)", "controlled (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "We need to control the temperature.",
+      "cn": "我们需要控制温度。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "zone",
+    "chinese": "区域",
+    "phonetic": "/zoʊn/",
+    "forms": {
+      "plural": "zones (复数)"
+    },
+    "example": {
+      "en": "There is another zone that behaves similarly bad.",
+      "cn": "还有另一个区域表现得同样糟糕。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "behaves",
+    "chinese": "表现",
+    "phonetic": "/bɪˈheɪvz/",
+    "forms": {
+      "infinitive": "behave (原形)"
+    },
+    "example": {
+      "en": "The system behaves as expected.",
+      "cn": "系统按预期运行。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "similarly",
+    "chinese": "类似地",
+    "phonetic": "/ˈsɪmələrli/",
+    "forms": {},
+    "example": {
+      "en": "The two problems are similarly difficult.",
+      "cn": "这两个问题同样困难。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "address",
+    "chinese": "处理",
+    "phonetic": "/əˈdres/",
+    "forms": {
+      "verb": ["addresses (第三人称单数)", "addressing (现在分词)", "addressed (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Please help address this problem.",
+      "cn": "请帮助处理这个问题。"
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "english": "vision",
+    "chinese": "视力；眼光；愿景",
+    "phonetic": "/ˈvɪʒn/",
+    "forms": {
+      "plural": "visions (复数)"
+    },
+    "example": {
+      "en": "He has a clear vision for the future of the company.",
+      "cn": "他对公司的未来有清晰的愿景。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "backlog",
+    "chinese": "积压的工作",
+    "phonetic": "/ˈbæklɔːɡ/",
+    "forms": {
+      "plural": "backlogs (复数)"
+    },
+    "example": {
+      "en": "I have a huge backlog of work to do.",
+      "cn": "我有一大堆积压的工作要做。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "review",
+    "chinese": "审查；回顾",
+    "phonetic": "/rɪˈvjuː/",
+    "forms": {
+      "plural": "reviews (复数)",
+      "verb": [
+        "reviews (第三人称单数)",
+        "reviewing (现在分词)",
+        "reviewed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please review this document carefully.",
+      "cn": "请仔细审阅这份文件。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "prepared",
+    "chinese": "准备好的",
+    "phonetic": "/prɪˈpeəd/",
+    "forms": {},
+    "example": {
+      "en": "She was not prepared for the bad news.",
+      "cn": "她对这个坏消息没有准备。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "call",
+    "chinese": "电话；呼叫",
+    "phonetic": "/kɔːl/",
+    "forms": {
+      "plural": "calls (复数)",
+      "verb": [
+        "calls (第三人称单数)",
+        "calling (现在分词)",
+        "called (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I have to make an important call.",
+      "cn": "我得打一个重要的电话。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "translate",
+    "chinese": "翻译",
+    "phonetic": "/trænsˈleɪt/",
+    "forms": {
+      "verb": [
+        "translates (第三人称单数)",
+        "translating (现在分词)",
+        "translated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "He was asked to translate the document.",
+      "cn": "他被要求翻译这份文件。"
+    }
+  }
+]

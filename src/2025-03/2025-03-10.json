@@ -1,0 +1,277 @@
+[
+  {
+    "id": 1,
+    "english": "assume",
+    "chinese": "假设；承担",
+    "phonetic": "/əˈsjuːm/",
+    "forms": {
+      "verb": [
+        "assumes (第三人称单数)",
+        "assuming (现在分词)",
+        "assumed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I assume you have finished the work.",
+      "cn": "我假设你已经完成了工作。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "documented",
+    "chinese": "记录的",
+    "phonetic": "/ˈdɒkjumentɪd/",
+    "forms": {},
+    "example": {
+      "en": "The process is well documented.",
+      "cn": "这个过程有详细的记录。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "slide",
+    "chinese": "幻灯片",
+    "phonetic": "/slaɪd/",
+    "forms": {
+      "plural": "slides (复数)"
+    },
+    "example": {
+      "en": "Please move to the next slide.",
+      "cn": "请翻到下一张幻灯片。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "contrast",
+    "chinese": "对比；反差",
+    "phonetic": "/ˈkɒntrɑːst/",
+    "forms": {
+      "plural": "contrasts (复数)"
+    },
+    "example": {
+      "en": "The high contrast makes the image clear.",
+      "cn": "高对比度使图像清晰。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "lead",
+    "chinese": "引脚",
+    "phonetic": "/liːd/",
+    "forms": {
+      "plural": "leads (复数)"
+    },
+    "example": {
+      "en": "Check the solder on the lead frame.",
+      "cn": "检查引线框架上的焊料。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "frame",
+    "chinese": "框架",
+    "phonetic": "/freɪm/",
+    "forms": {
+      "plural": "frames (复数)"
+    },
+    "example": {
+      "en": "The lead frame holds the die.",
+      "cn": "引线框架固定着芯片。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "chuck",
+    "chinese": "卡盘",
+    "phonetic": "/tʃʌk/",
+    "forms": {
+      "plural": "chucks (复数)"
+    },
+    "example": {
+      "en": "The wafer is held by a vacuum chuck.",
+      "cn": "晶圆由真空吸盘固定。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "inner",
+    "chinese": "内部的",
+    "phonetic": "/ˈɪnə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The inner ring of the die is visible.",
+      "cn": "芯片的内环是可见的。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "outer",
+    "chinese": "外部的",
+    "phonetic": "/ˈaʊtə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The outer ring provides support.",
+      "cn": "外环提供支撑。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "ring",
+    "chinese": "环",
+    "phonetic": "/rɪŋ/",
+    "forms": {
+      "plural": "rings (复数)"
+    },
+    "example": {
+      "en": "The light source is a ring light.",
+      "cn": "光源是环形灯。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "die",
+    "chinese": "芯片",
+    "phonetic": "/daɪ/",
+    "forms": {
+      "plural": "dice/dies (复数)"
+    },
+    "example": {
+      "en": "The die is placed on the substrate.",
+      "cn": "芯片被放置在基板上。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "applicable",
+    "chinese": "适用的",
+    "phonetic": "/əˈplɪkəbl/",
+    "forms": {},
+    "example": {
+      "en": "This solution is applicable to many cases.",
+      "cn": "这个解决方案适用于许多情况。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "place",
+    "chinese": "放置",
+    "phonetic": "/pleɪs/",
+    "forms": {
+      "verb": [
+        "places (第三人称单数)",
+        "placing (现在分词)",
+        "placed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The machine will place the component accurately.",
+      "cn": "机器将精确地放置组件。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "solder",
+    "chinese": "焊料",
+    "phonetic": "/ˈsəʊldə(r)/",
+    "forms": {},
+    "example": {
+      "en": "Apply solder to the pad.",
+      "cn": "将焊料涂在焊盘上。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "perform",
+    "chinese": "执行",
+    "phonetic": "/pəˈfɔːm/",
+    "forms": {
+      "verb": [
+        "performs (第三人称单数)",
+        "performing (现在分词)",
+        "performed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Can you perform the test today?",
+      "cn": "你今天能进行测试吗？"
+    }
+  },
+  {
+    "id": 16,
+    "english": "define",
+    "chinese": "定义",
+    "phonetic": "/dɪˈfaɪn/",
+    "forms": {
+      "verb": [
+        "defines (第三人称单数)",
+        "defining (现在分词)",
+        "defined (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please define the requirements.",
+      "cn": "请定义需求。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "upgrade",
+    "chinese": "升级",
+    "phonetic": "/ʌpˈɡreɪd/",
+    "forms": {
+      "plural": "upgrades (复数)"
+    },
+    "example": {
+      "en": "We need to order an upgrade kit.",
+      "cn": "我们需要订购一个升级套件。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "kit",
+    "chinese": "套件",
+    "phonetic": "/kɪt/",
+    "forms": {
+      "plural": "kits (复数)"
+    },
+    "example": {
+      "en": "The kit includes all necessary parts.",
+      "cn": "该套件包括所有必要的零件。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "significant",
+    "chinese": "显著的；重要的",
+    "phonetic": "/sɪɡˈnɪfɪkənt/",
+    "forms": {},
+    "example": {
+      "en": "This is a significant improvement.",
+      "cn": "这是一个显著的改进。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "generally",
+    "chinese": "通常；普遍地",
+    "phonetic": "/ˈdʒenrəli/",
+    "forms": {},
+    "example": {
+      "en": "We need a generally applicable solution.",
+      "cn": "我们需要一个普遍适用的解决方案。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "solution",
+    "chinese": "解决方案",
+    "phonetic": "/səˈluːʃn/",
+    "forms": {
+      "plural": "solutions (复数)"
+    },
+    "example": {
+      "en": "We are looking for a better solution.",
+      "cn": "我们正在寻找一个更好的解决方案。"
+    }
+  }
+]

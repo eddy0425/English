@@ -1,0 +1,265 @@
+[
+  {
+    "id": 1,
+    "english": "unfortunately",
+    "chinese": "不幸地",
+    "phonetic": "/ʌnˈfɔːtʃənətli/",
+    "forms": {},
+    "example": {
+      "en": "Unfortunately, we could not implement the ring light.",
+      "cn": "不幸的是，我们无法实施环形灯。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "blurry",
+    "chinese": "模糊的",
+    "phonetic": "/ˈblɜːri/",
+    "forms": {},
+    "example": {
+      "en": "The edges of the lead frame are too blurry.",
+      "cn": "引线框架的边缘太模糊了。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "major",
+    "chinese": "重大的",
+    "phonetic": "/ˈmeɪdʒə(r)/",
+    "forms": {},
+    "example": {
+      "en": "This is a major setback.",
+      "cn": "这是一个重大的挫折。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "setback",
+    "chinese": "挫折",
+    "phonetic": "/ˈsetbæk/",
+    "forms": {
+      "plural": "setbacks (复数)"
+    },
+    "example": {
+      "en": "We need to overcome this setback.",
+      "cn": "我们需要克服这个挫折。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "expecting",
+    "chinese": "期待",
+    "phonetic": "/ɪkˈspektɪŋ/",
+    "forms": {
+      "verb": [
+        "expects (第三人称单数)",
+        "expecting (现在分词)",
+        "expected (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We were expecting to reduce the PR problems.",
+      "cn": "我们曾期望减少公关问题。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "significantly",
+    "chinese": "显著地",
+    "phonetic": "/sɪɡˈnɪfɪkəntli/",
+    "forms": {},
+    "example": {
+      "en": "The new process significantly improved the quality.",
+      "cn": "新工艺显著提高了质量。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "square",
+    "chinese": "方形的",
+    "phonetic": "/skweə(r)/",
+    "forms": {},
+    "example": {
+      "en": "It is not even square anymore.",
+      "cn": "它甚至不再是方形的了。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "hesitant",
+    "chinese": "犹豫的",
+    "phonetic": "/ˈhezɪtənt/",
+    "forms": {},
+    "example": {
+      "en": "The team is hesitant to try this again.",
+      "cn": "团队对再次尝试此方法感到犹豫。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "varied",
+    "chinese": "变化的",
+    "phonetic": "/ˈveərid/",
+    "forms": {},
+    "example": {
+      "en": "The results varied in the tests.",
+      "cn": "测试结果各不相同。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "compensate",
+    "chinese": "补偿",
+    "phonetic": "/ˈkɒmpenseɪt/",
+    "forms": {
+      "verb": [
+        "compensates (第三人称单数)",
+        "compensating (现在分词)",
+        "compensated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "You may need to compensate with exposure time.",
+      "cn": "你可能需要用曝光时间来补偿。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "develop",
+    "chinese": "制定；开发",
+    "phonetic": "/dɪˈveləp/",
+    "forms": {
+      "verb": [
+        "develops (第三人称单数)",
+        "developing (现在分词)",
+        "developed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please prepare to develop a plan.",
+      "cn": "请准备制定一个计划。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "guide",
+    "chinese": "指导",
+    "phonetic": "/ɡaɪd/",
+    "forms": {
+      "verb": [
+        "guides (第三人称单数)",
+        "guiding (现在分词)",
+        "guided (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "You have more data which can guide us.",
+      "cn": "你有更多可以指导我们的数据。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "pros",
+    "chinese": "优点",
+    "phonetic": "/prəʊz/",
+    "forms": {},
+    "example": {
+      "en": "Think about the pros and cons.",
+      "cn": "考虑一下优缺点。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "cons",
+    "chinese": "缺点",
+    "phonetic": "/kɒnz/",
+    "forms": {},
+    "example": {
+      "en": "What are the cons of this approach?",
+      "cn": "这种方法的缺点是什么？"
+    }
+  },
+  {
+    "id": 15,
+    "english": "confidently",
+    "chinese": "自信地",
+    "phonetic": "/ˈkɒnfɪdəntli/",
+    "forms": {},
+    "example": {
+      "en": "We can confidently install them.",
+      "cn": "我们可以自信地安装它们。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "down-holder",
+    "chinese": "压紧器",
+    "phonetic": "/daʊn ˈhəʊldə(r)/",
+    "forms": {
+      "plural": "down-holders (复数)"
+    },
+    "example": {
+      "en": "We need to perform down-holder tests.",
+      "cn": "我们需要执行压紧器测试。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "dispenser",
+    "chinese": "点胶机",
+    "phonetic": "/dɪˈspensə(r)/",
+    "forms": {
+      "plural": "dispensers (复数)"
+    },
+    "example": {
+      "en": "This is the left dispenser on the Die Bonders.",
+      "cn": "这是芯片贴合机上的左点胶机。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "mechanically",
+    "chinese": "机械地",
+    "phonetic": "/məˈkænɪkli/",
+    "forms": {},
+    "example": {
+      "en": "We mechanically press the frame down.",
+      "cn": "我们用机械方式将框架向下压。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "contact",
+    "chinese": "接触",
+    "phonetic": "/ˈkɒntækt/",
+    "forms": {},
+    "example": {
+      "en": "Bring the pads in closer contact to the vacuum holes.",
+      "cn": "使焊盘与真空孔更紧密地接触。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "manufacturer",
+    "chinese": "制造商",
+    "phonetic": "/ˌmænjuˈfæktʃərə(r)/",
+    "forms": {
+      "plural": "manufacturers (复数)"
+    },
+    "example": {
+      "en": "Line up a XK manufacturer.",
+      "cn": "联系一家XK制造商。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "notice",
+    "chinese": "通知",
+    "phonetic": "/ˈnəʊtɪs/",
+    "forms": {},
+    "example": {
+      "en": "Make the down-holders on very short notice.",
+      "cn": "在很短的时间内制作好压紧器。"
+    }
+  }
+]

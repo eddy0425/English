@@ -1,0 +1,315 @@
+[
+  {
+    "id": 1,
+    "english": "settings",
+    "chinese": "设置",
+    "phonetic": "/ˈsetɪŋz/",
+    "forms": {
+      "singular": "setting (单数)"
+    },
+    "example": {
+      "en": "Please check the camera settings.",
+      "cn": "请检查相机设置。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "template",
+    "chinese": "模板",
+    "phonetic": "/ˈtempleɪt/",
+    "forms": {
+      "plural": "templates (复数)"
+    },
+    "example": {
+      "en": "We should create a template for the reports.",
+      "cn": "我们应该为报告创建一个模板。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "compare",
+    "chinese": "比较",
+    "phonetic": "/kəmˈpeə(r)/",
+    "forms": {
+      "verb": [
+        "compares (第三人称单数)",
+        "comparing (现在分词)",
+        "compared (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to compare the results.",
+      "cn": "我们需要比较结果。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "assess",
+    "chinese": "评估",
+    "phonetic": "/əˈses/",
+    "forms": {
+      "verb": [
+        "assesses (第三人称单数)",
+        "assessing (现在分词)",
+        "assessed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to assess the opportunities.",
+      "cn": "我们需要评估这些机会。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "opportunities",
+    "chinese": "机会",
+    "phonetic": "/ˌɒpəˈtjuːnətiz/",
+    "forms": {
+      "singular": "opportunity (单数)"
+    },
+    "example": {
+      "en": "There are many opportunities for improvement.",
+      "cn": "有很多改进的机会。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "processing",
+    "chinese": "处理",
+    "phonetic": "/ˈprəʊsesɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "Image processing can enhance the details.",
+      "cn": "图像处理可以增强细节。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "shipment",
+    "chinese": "装运",
+    "phonetic": "/ˈʃɪpmənt/",
+    "forms": {
+      "plural": "shipments (复数)"
+    },
+    "example": {
+      "en": "The shipment will arrive next week.",
+      "cn": "货物将于下周到达。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "efficient",
+    "chinese": "高效的",
+    "phonetic": "/ɪˈfɪʃnt/",
+    "forms": {},
+    "example": {
+      "en": "We need a more efficient process.",
+      "cn": "我们需要一个更高效的流程。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "downtime",
+    "chinese": "停机时间",
+    "phonetic": "/ˈdaʊntaɪm/",
+    "forms": {},
+    "example": {
+      "en": "We need to limit the downtime of the line.",
+      "cn": "我们需要限制生产线的停机时间。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "repair",
+    "chinese": "修理",
+    "phonetic": "/rɪˈpeə(r)/",
+    "forms": {
+      "verb": [
+        "repairs (第三人称单数)",
+        "repairing (现在分词)",
+        "repaired (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The machine needs repair.",
+      "cn": "这台机器需要修理。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "measurement",
+    "chinese": "测量",
+    "phonetic": "/ˈmeʒəmənt/",
+    "forms": {
+      "plural": "measurements (复数)"
+    },
+    "example": {
+      "en": "The measurement was accurate.",
+      "cn": "测量是准确的。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "clamp",
+    "chinese": "夹具",
+    "phonetic": "/klæmp/",
+    "forms": {
+      "plural": "clamps (复数)"
+    },
+    "example": {
+      "en": "The indexer clamp needs an upgrade.",
+      "cn": "分度器夹具需要升级。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "execute",
+    "chinese": "执行",
+    "phonetic": "/ˈeksɪkjuːt/",
+    "forms": {
+      "verb": [
+        "executes (第三人称单数)",
+        "executing (现在分词)",
+        "executed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to decide when to execute the upgrade.",
+      "cn": "我们需要决定何时执行升级。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "integrate",
+    "chinese": "集成",
+    "phonetic": "/ˈɪntɪɡreɪt/",
+    "forms": {
+      "verb": [
+        "integrates (第三人称单数)",
+        "integrating (现在分词)",
+        "integrated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to integrate the sensor into the software.",
+      "cn": "我们需要将传感器集成到软件中。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "confident",
+    "chinese": "自信的；确信的",
+    "phonetic": "/ˈkɒnfɪdənt/",
+    "forms": {},
+    "example": {
+      "en": "We are confident that the sensor works.",
+      "cn": "我们确信传感器是有效的。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "installation",
+    "chinese": "安装",
+    "phonetic": "/ˌɪnstəˈleɪʃn/",
+    "forms": {
+      "plural": "installations (复数)"
+    },
+    "example": {
+      "en": "They received the installation instructions.",
+      "cn": "他们收到了安装说明。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "implement",
+    "chinese": "实施",
+    "phonetic": "/ˈɪmplɪment/",
+    "forms": {
+      "verb": [
+        "implements (第三人称单数)",
+        "implementing (现在分词)",
+        "implemented (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "He will decide when to implement the changes.",
+      "cn": "他将决定何时实施这些更改。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "priority",
+    "chinese": "优先",
+    "phonetic": "/praɪˈɒrəti/",
+    "forms": {
+      "plural": "priorities (复数)"
+    },
+    "example": {
+      "en": "This task has a high priority.",
+      "cn": "这项任务具有高优先级。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "presentation",
+    "chinese": "演讲；报告",
+    "phonetic": "/ˌpreznˈteɪʃn/",
+    "forms": {
+      "plural": "presentations (复数)"
+    },
+    "example": {
+      "en": "We need to prepare for the customer presentation.",
+      "cn": "我们需要为客户报告做准备。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "requirements",
+    "chinese": "要求",
+    "phonetic": "/rɪˈkwaɪəmənts/",
+    "forms": {
+      "singular": "requirement (单数)"
+    },
+    "example": {
+      "en": "We need to discuss the requirements for safety.",
+      "cn": "我们需要讨论安全要求。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "platform",
+    "chinese": "平台",
+    "phonetic": "/ˈplætfɔːm/",
+    "forms": {
+      "plural": "platforms (复数)"
+    },
+    "example": {
+      "en": "Do not move the platform in X.",
+      "cn": "不要在X方向移动平台。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "pneumatic",
+    "chinese": "气动的",
+    "phonetic": "/njuːˈmætɪk/",
+    "forms": {},
+    "example": {
+      "en": "The original concept used a pneumatic move.",
+      "cn": "最初的概念使用气动移动。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "concept",
+    "chinese": "概念",
+    "phonetic": "/ˈkɒnsept/",
+    "forms": {
+      "plural": "concepts (复数)"
+    },
+    "example": {
+      "en": "This is the original concept.",
+      "cn": "这是最初的概念。"
+    }
+  }
+]

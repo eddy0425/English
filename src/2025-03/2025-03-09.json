@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "english": "enhance",
+    "chinese": "提高；增强",
+    "phonetic": "/ɪnˈhɑːns/",
+    "forms": {
+      "verb": [
+        "enhances (第三人称单数)",
+        "enhancing (现在分词)",
+        "enhanced (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Good lighting will enhance the image.",
+      "cn": "良好的照明会增强图像效果。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "performance",
+    "chinese": "性能；表现",
+    "phonetic": "/pəˈfɔːməns/",
+    "forms": {
+      "plural": "performances (复数)"
+    },
+    "example": {
+      "en": "The new engine has a better performance.",
+      "cn": "新发动机的性能更好。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "feature",
+    "chinese": "特征；功能",
+    "phonetic": "/ˈfiːtʃə(r)/",
+    "forms": {
+      "plural": "features (复数)"
+    },
+    "example": {
+      "en": "This phone has many new features.",
+      "cn": "这款手机有许多新功能。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "intensity",
+    "chinese": "强度",
+    "phonetic": "/ɪnˈtensəti/",
+    "forms": {
+      "plural": "intensities (复数)"
+    },
+    "example": {
+      "en": "The light intensity is adjustable.",
+      "cn": "光线强度是可调节的。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "fiducial",
+    "chinese": "基准点",
+    "phonetic": "/fɪˈdjuːʃəl/",
+    "forms": {
+      "plural": "fiducials (复数)"
+    },
+    "example": {
+      "en": "The vision system uses a fiducial mark for alignment.",
+      "cn": "视觉系统使用基准标记进行对准。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "placement",
+    "chinese": "放置；布置",
+    "phonetic": "/ˈpleɪsmənt/",
+    "forms": {},
+    "example": {
+      "en": "The placement of the components is critical.",
+      "cn": "组件的放置至关重要。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "dispense",
+    "chinese": "分配；点胶",
+    "phonetic": "/dɪˈspens/",
+    "forms": {
+      "verb": [
+        "dispenses (第三人称单数)",
+        "dispensing (现在分词)",
+        "dispensed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The machine dispenses the correct amount of glue.",
+      "cn": "机器分配适量的胶水。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "inspect",
+    "chinese": "检查",
+    "phonetic": "/ɪnˈspekt/",
+    "forms": {
+      "verb": [
+        "inspects (第三人称单数)",
+        "inspecting (现在分词)",
+        "inspected (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "You should inspect the equipment regularly.",
+      "cn": "你应该定期检查设备。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "flexibility",
+    "chinese": "灵活性",
+    "phonetic": "/ˌfleksəˈbɪləti/",
+    "forms": {},
+    "example": {
+      "en": "The new system offers greater flexibility.",
+      "cn": "新系统提供了更大的灵活性。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "prepare",
+    "chinese": "准备",
+    "phonetic": "/prɪˈpeə(r)/",
+    "forms": {
+      "verb": [
+        "prepares (第三人称单数)",
+        "preparing (现在分词)",
+        "prepared (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to prepare the machine for production.",
+      "cn": "我们需要为生产准备好机器。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "production",
+    "chinese": "生产",
+    "phonetic": "/prəˈdʌkʃn/",
+    "forms": {},
+    "example": {
+      "en": "The factory will start production next week.",
+      "cn": "工厂下周将开始生产。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "additional",
+    "chinese": "额外的",
+    "phonetic": "/əˈdɪʃənl/",
+    "forms": {},
+    "example": {
+      "en": "We need additional resources for this project.",
+      "cn": "这个项目我们需要额外的资源。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "pressure",
+    "chinese": "压力",
+    "phonetic": "/ˈpreʃə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The sensor measures the air pressure.",
+      "cn": "传感器测量气压。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "monitor",
+    "chinese": "监控",
+    "phonetic": "/ˈmɒnɪtə(r)/",
+    "forms": {
+      "verb": [
+        "monitors (第三人称单数)",
+        "monitoring (现在分词)",
+        "monitored (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to monitor the temperature closely.",
+      "cn": "我们需要密切监控温度。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "vacuum",
+    "chinese": "真空",
+    "phonetic": "/ˈvækjuəm/",
+    "forms": {},
+    "example": {
+      "en": "The process requires a high vacuum environment.",
+      "cn": "该过程需要高真空环境。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "clamping",
+    "chinese": "夹紧",
+    "phonetic": "/ˈklæmpɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "The clamping force must be sufficient.",
+      "cn": "夹紧力必须足够。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "affect",
+    "chinese": "影响",
+    "phonetic": "/əˈfekt/",
+    "forms": {
+      "verb": [
+        "affects (第三人称单数)",
+        "affecting (现在分词)",
+        "affected (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "This change will affect the final result.",
+      "cn": "这个改变会影响最终结果。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "competitor",
+    "chinese": "竞争者",
+    "phonetic": "/kəmˈpetɪtə(r)/",
+    "forms": {
+      "plural": "competitors (复数)"
+    },
+    "example": {
+      "en": "Our main competitor launched a new product.",
+      "cn": "我们的主要竞争对手推出了一款新产品。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "applied",
+    "chinese": "应用的",
+    "phonetic": "/əˈplaɪd/",
+    "forms": {},
+    "example": {
+      "en": "This method can be applied to other situations.",
+      "cn": "这种方法可以应用于其他情况。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "difficulty",
+    "chinese": "困难",
+    "phonetic": "/ˈdɪfɪkəlti/",
+    "forms": {
+      "plural": "difficulties (复数)"
+    },
+    "example": {
+      "en": "We are facing some technical difficulties.",
+      "cn": "我们正面临一些技术困难。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "responsible",
+    "chinese": "负责的",
+    "phonetic": "/rɪˈspɒnsəbl/",
+    "forms": {},
+    "example": {
+      "en": "He is responsible for the software development.",
+      "cn": "他负责软件开发。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "software",
+    "chinese": "软件",
+    "phonetic": "/ˈsɒftweə(r)/",
+    "forms": {},
+    "example": {
+      "en": "We need to install the new software.",
+      "cn": "我们需要安装新软件。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "optics",
+    "chinese": "光学",
+    "phonetic": "/ˈɒptɪks/",
+    "forms": {},
+    "example": {
+      "en": "He is an expert in optics.",
+      "cn": "他是光学专家。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "hardware",
+    "chinese": "硬件",
+    "phonetic": "/ˈhɑːdweə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The problem is with the hardware, not the software.",
+      "cn": "问题出在硬件上，而不是软件。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "configuration",
+    "chinese": "配置",
+    "phonetic": "/kənˌfɪɡəˈreɪʃn/",
+    "forms": {
+      "plural": "configurations (复数)"
+    },
+    "example": {
+      "en": "Please check the system configuration.",
+      "cn": "请检查系统配置。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "reduce",
+    "chinese": "减少",
+    "phonetic": "/rɪˈdjuːs/",
+    "forms": {
+      "verb": [
+        "reduces (第三人称单数)",
+        "reducing (现在分词)",
+        "reduced (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to reduce the workload.",
+      "cn": "我们需要减少工作量。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "workload",
+    "chinese": "工作量",
+    "phonetic": "/ˈwɜːkləʊd/",
+    "forms": {},
+    "example": {
+      "en": "His workload is very heavy.",
+      "cn": "他的工作量很重。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "voluntarily",
+    "chinese": "自愿地",
+    "phonetic": "/ˈvɒləntrəli/",
+    "forms": {},
+    "example": {
+      "en": "He voluntarily offered to help.",
+      "cn": "他自愿提出帮助。"
+    }
+  }
+]

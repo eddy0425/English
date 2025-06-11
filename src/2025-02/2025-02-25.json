@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "english": "addition",
+    "chinese": "此外",
+    "phonetic": "/əˈdɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "In addition, can't the software report the intensity?",
+      "cn": "此外，软件不能报告强度吗？"
+    }
+  },
+  {
+    "id": 2,
+    "english": "figure",
+    "chinese": "数字；图",
+    "phonetic": "/ˈfɪɡjər/",
+    "forms": {
+      "plural": "figures (复数)"
+    },
+    "example": {
+      "en": "Then we get a figure for the contrast.",
+      "cn": "然后我们得到了对比度的数值。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "extract",
+    "chinese": "提取",
+    "phonetic": "/ɪkˈstrækt/",
+    "forms": {
+      "verb": [
+        "extracts (第三人称单数)",
+        "extracting (现在分词)",
+        "extracted (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "If we could extract that information, our DOE becomes numerical.",
+      "cn": "如果我们能提取这些信息，我们的实验设计就变成数字化的了。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "numerical",
+    "chinese": "数字的",
+    "phonetic": "/nuːˈmerɪkl/",
+    "forms": {},
+    "example": {
+      "en": "The data needs to be in a numerical format.",
+      "cn": "数据需要是数字格式。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "evaluated",
+    "chinese": "评估",
+    "phonetic": "/ɪˈvæljueɪtɪd/",
+    "forms": {
+      "infinitive": "evaluate (原形)"
+    },
+    "example": {
+      "en": "The results can be evaluated.",
+      "cn": "结果可以被评估。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "perimeter",
+    "chinese": "周长；周边",
+    "phonetic": "/pəˈrɪmɪtər/",
+    "forms": {
+      "plural": "perimeters (复数)"
+    },
+    "example": {
+      "en": "The die has a large ring around the perimeter.",
+      "cn": "芯片周边有一个大环。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "goal",
+    "chinese": "目标",
+    "phonetic": "/ɡoʊl/",
+    "forms": {
+      "plural": "goals (复数)"
+    },
+    "example": {
+      "en": "The goal is to make the center area white.",
+      "cn": "目标是使中心区域变白。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "repeat",
+    "chinese": "重复",
+    "phonetic": "/rɪˈpiːt/",
+    "forms": {
+      "verb": [
+        "repeats (第三人称单数)",
+        "repeating (现在分词)",
+        "repeated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Can you repeat with that die?",
+      "cn": "你能用那个芯片重复一遍吗？"
+    }
+  },
+  {
+    "id": 10,
+    "english": "equally",
+    "chinese": "同样地",
+    "phonetic": "/ˈiːkwəli/",
+    "forms": {},
+    "example": {
+      "en": "Wang Fang's work is equally urgent and critical.",
+      "cn": "王芳的工作同样紧急和关键。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "severe",
+    "chinese": "严重的",
+    "phonetic": "/sɪˈvɪr/",
+    "forms": {},
+    "example": {
+      "en": "We have severe difficulties with the die place inspection.",
+      "cn": "我们在芯片放置检查方面遇到了严重的困难。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "inspection",
+    "chinese": "检查",
+    "phonetic": "/ɪnˈspekʃn/",
+    "forms": {
+      "plural": "inspections (复数)"
+    },
+    "example": {
+      "en": "The die place inspection is failing.",
+      "cn": "芯片放置检查失败。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "parameters",
+    "chinese": "参数",
+    "phonetic": "/pəˈræmɪtərz/",
+    "forms": {
+      "singular": "parameter (单数)"
+    },
+    "example": {
+      "en": "We have 3 parameters to affect image appearance.",
+      "cn": "我们有3个参数来影响图像外观。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "exposure",
+    "chinese": "曝光",
+    "phonetic": "/ɪkˈspoʊʒər/",
+    "forms": {},
+    "example": {
+      "en": "Exposure time is one of the parameters.",
+      "cn": "曝光时间是参数之一。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "gain",
+    "chinese": "增益",
+    "phonetic": "/ɡeɪn/",
+    "forms": {},
+    "example": {
+      "en": "Camera gain is another parameter.",
+      "cn": "相机增益是另一个参数。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "quantifiable",
+    "chinese": "可量化的",
+    "phonetic": "/ˈkwɑːntɪfaɪəbl/",
+    "forms": {},
+    "example": {
+      "en": "We do not have quantifiable output data.",
+      "cn": "我们没有可量化的输出数据。"
+    }
+  }
+]

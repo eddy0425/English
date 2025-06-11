@@ -1,0 +1,400 @@
+[
+  {
+    "id": 1,
+    "english": "indications",
+    "chinese": "迹象",
+    "phonetic": "/ˌɪndɪˈkeɪʃnz/",
+    "forms": {
+      "singular": "indication (单数)"
+    },
+    "example": {
+      "en": "There are some indications of a problem.",
+      "cn": "有一些问题迹象。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "non-uniformity",
+    "chinese": "不均匀性",
+    "phonetic": "/ˌnɒnˌjuːnɪˈfɔːməti/",
+    "forms": {},
+    "example": {
+      "en": "The light non-uniformity may have an effect.",
+      "cn": "光的不均匀性可能会产生影响。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "contributor",
+    "chinese": "贡献者；促成因素",
+    "phonetic": "/kənˈtrɪbjətə(r)/",
+    "forms": {
+      "plural": "contributors (复数)"
+    },
+    "example": {
+      "en": "The lens was identified as a contributor to this problem.",
+      "cn": "镜头被认为是导致此问题的因素之一。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "alternate",
+    "chinese": "替代的",
+    "phonetic": "/ɔːlˈtɜːnət/",
+    "forms": {},
+    "example": {
+      "en": "We came up with an alternate lens.",
+      "cn": "我们想出了一个替代镜头。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "re-positioning",
+    "chinese": "重新定位",
+    "phonetic": "/ˌriːpəˈzɪʃənɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "This requires a re-positioning of the camera.",
+      "cn": "这需要重新定位相机。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "concerns",
+    "chinese": "担忧",
+    "phonetic": "/kənˈsɜːnz/",
+    "forms": {
+      "singular": "concern (单数)"
+    },
+    "example": {
+      "en": "The concerns with this problem may get stronger.",
+      "cn": "对这个问题的担忧可能会加剧。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "worse",
+    "chinese": "更糟的",
+    "phonetic": "/wɜːs/",
+    "forms": {},
+    "example": {
+      "en": "The situation may get worse.",
+      "cn": "情况可能会变得更糟。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "hurts",
+    "chinese": "损害",
+    "phonetic": "/hɜːts/",
+    "forms": {
+      "verb": [
+        "hurts (第三人称单数)",
+        "hurting (现在分词)",
+        "hurt (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "This non-uniformity hurts our yield.",
+      "cn": "这种不均匀性损害了我们的产量。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "yield",
+    "chinese": "产量",
+    "phonetic": "/jiːld/",
+    "forms": {},
+    "example": {
+      "en": "We need to improve the yield.",
+      "cn": "我们需要提高产量。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "replacement",
+    "chinese": "替换品",
+    "phonetic": "/rɪˈpleɪsmənt/",
+    "forms": {
+      "plural": "replacements (复数)"
+    },
+    "example": {
+      "en": "We don't need a replacement for now.",
+      "cn": "我们暂时不需要替换品。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "upcoming",
+    "chinese": "即将到来的",
+    "phonetic": "/ˈʌpkʌmɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "This is for the upcoming upgrade.",
+      "cn": "这是为即将到来的升级。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "aligning",
+    "chinese": "对准",
+    "phonetic": "/əˈlaɪnɪŋ/",
+    "forms": {
+      "verb": [
+        "aligns (第三人称单数)",
+        "aligning (现在分词)",
+        "aligned (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We are aligning the process chucks and clamps.",
+      "cn": "我们正在对准工艺卡盘和夹具。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "absolute",
+    "chinese": "绝对的",
+    "phonetic": "/ˈæbsəluːt/",
+    "forms": {},
+    "example": {
+      "en": "This is the absolute minimum.",
+      "cn": "这是绝对的最低要求。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "minimum",
+    "chinese": "最小量",
+    "phonetic": "/ˈmɪnɪməm/",
+    "forms": {},
+    "example": {
+      "en": "We need to send the absolute minimum.",
+      "cn": "我们需要发送最少的数量。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "fittings",
+    "chinese": "配件",
+    "phonetic": "/ˈfɪtɪŋz/",
+    "forms": {
+      "singular": "fitting (单数)"
+    },
+    "example": {
+      "en": "Please add fittings and brackets.",
+      "cn": "请添加配件和支架。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "recommended",
+    "chinese": "推荐的",
+    "phonetic": "/ˌrekəˈmendɪd/",
+    "forms": {},
+    "example": {
+      "en": "Provide the recommended camera settings.",
+      "cn": "提供推荐的相机设置。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "aperture",
+    "chinese": "光圈",
+    "phonetic": "/ˈæpətʃə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The camera has a fixed aperture.",
+      "cn": "该相机具有固定光圈。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "exposure",
+    "chinese": "曝光",
+    "phonetic": "/ɪkˈspəʊʒə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The exposure time is too long.",
+      "cn": "曝光时间太长。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "smooth",
+    "chinese": "顺利的",
+    "phonetic": "/smuːð/",
+    "forms": {},
+    "example": {
+      "en": "This will enable a smooth installation.",
+      "cn": "这将使安装顺利进行。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "outline",
+    "chinese": "概述；轮廓",
+    "phonetic": "/ˈaʊtlaɪn/",
+    "forms": {
+      "plural": "outlines (复数)"
+    },
+    "example": {
+      "en": "Please outline what we have.",
+      "cn": "请概述我们所拥有的。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "spares",
+    "chinese": "备件",
+    "phonetic": "/speəz/",
+    "forms": {
+      "singular": "spare (单数)"
+    },
+    "example": {
+      "en": "We need spares in case of failures.",
+      "cn": "我们需要备件以防发生故障。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "couplers",
+    "chinese": "联轴器",
+    "phonetic": "/ˈkʌpləz/",
+    "forms": {
+      "singular": "coupler (单数)"
+    },
+    "example": {
+      "en": "We need to send the correct couplers.",
+      "cn": "我们需要发送正确的联轴器。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "identified",
+    "chinese": "识别出的",
+    "phonetic": "/aɪˈdentɪfaɪd/",
+    "forms": {},
+    "example": {
+      "en": "Luke identified the correct couplers.",
+      "cn": "卢克识别出了正确的联轴器。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "alternatively",
+    "chinese": "或者",
+    "phonetic": "/ɔːlˈtɜːnətɪvli/",
+    "forms": {},
+    "example": {
+      "en": "Alternatively, we can have them sent directly.",
+      "cn": "或者，我们可以让他们直接发送。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "directly",
+    "chinese": "直接地",
+    "phonetic": "/dəˈrektli/",
+    "forms": {},
+    "example": {
+      "en": "Please contact me directly.",
+      "cn": "请直接与我联系。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "conclude",
+    "chinese": "断定",
+    "phonetic": "/kənˈkluːd/",
+    "forms": {
+      "verb": [
+        "concludes (第三人称单数)",
+        "concluding (现在分词)",
+        "concluded (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "If we conclude this can address the problem, please send one.",
+      "cn": "如果我们断定这可以解决问题，请发送一个。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "cylinders",
+    "chinese": "气缸",
+    "phonetic": "/ˈsɪlɪndəz/",
+    "forms": {
+      "singular": "cylinder (单数)"
+    },
+    "example": {
+      "en": "This is for the cylinders of the wafer table.",
+      "cn": "这是用于晶圆台的气缸。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "wafer",
+    "chinese": "晶圆",
+    "phonetic": "/ˈweɪfə(r)/",
+    "forms": {
+      "plural": "wafers (复数)"
+    },
+    "example": {
+      "en": "The wafer table holds the wafer.",
+      "cn": "晶圆台用于固定晶圆。"
+    }
+  },
+  {
+    "id": 29,
+    "english": "component",
+    "chinese": "部件",
+    "phonetic": "/kəmˈpəʊnənt/",
+    "forms": {
+      "plural": "components (复数)"
+    },
+    "example": {
+      "en": "This is a high-performance component.",
+      "cn": "这是一个高性能部件。"
+    }
+  },
+  {
+    "id": 30,
+    "english": "coordinate",
+    "chinese": "协调",
+    "phonetic": "/kəʊˈɔːdɪneɪt/",
+    "forms": {
+      "verb": [
+        "coordinates (第三人称单数)",
+        "coordinating (现在分词)",
+        "coordinated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please coordinate these shipments.",
+      "cn": "请协调这些货运。"
+    }
+  },
+  {
+    "id": 31,
+    "english": "individual",
+    "chinese": "个别的",
+    "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+    "forms": {},
+    "example": {
+      "en": "Coordinate with the individual DRIs.",
+      "cn": "与各个直接责任人协调。"
+    }
+  },
+  {
+    "id": 32,
+    "english": "orientation",
+    "chinese": "方向",
+    "phonetic": "/ˌɔːriənˈteɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "The new orientation of the sensors.",
+      "cn": "传感器的新方向。"
+    }
+  }
+]

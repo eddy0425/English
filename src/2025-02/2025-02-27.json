@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "english": "understand",
+    "chinese": "理解",
+    "phonetic": "/ˌʌndərˈstænd/",
+    "forms": {
+      "verb": [
+        "understands (第三人称单数)",
+        "understanding (现在分词)",
+        "understood (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I don't understand most of your points.",
+      "cn": "我不太明白你的大部分观点。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "points",
+    "chinese": "观点",
+    "phonetic": "/pɔɪnts/",
+    "forms": {
+      "singular": "point (单数)"
+    },
+    "example": {
+      "en": "He made some interesting points.",
+      "cn": "他提出了一些有趣的观点。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "specific",
+    "chinese": "具体的",
+    "phonetic": "/spəˈsɪfɪk/",
+    "forms": {},
+    "example": {
+      "en": "Please be specific!",
+      "cn": "请说具体点！"
+    }
+  },
+  {
+    "id": 4,
+    "english": "currently",
+    "chinese": "目前",
+    "phonetic": "/ˈkɜːrəntli/",
+    "forms": {},
+    "example": {
+      "en": "Currently we have red lights on the dispense cameras.",
+      "cn": "目前我们的点胶相机上装的是红灯。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "different",
+    "chinese": "不同的",
+    "phonetic": "/ˈdɪfrənt/",
+    "forms": {},
+    "example": {
+      "en": "What is different in your test?",
+      "cn": "你的测试有什么不同？"
+    }
+  },
+  {
+    "id": 7,
+    "english": "over-driving",
+    "chinese": "过度驱动",
+    "phonetic": "/ˌoʊvərˈdraɪvɪŋ/",
+    "forms": {
+      "infinitive": "over-drive (原形)"
+    },
+    "example": {
+      "en": "Are you over-driving the LEDs?",
+      "cn": "你是否过度驱动了LED？"
+    }
+  },
+  {
+    "id": 8,
+    "english": "clarify",
+    "chinese": "澄清",
+    "phonetic": "/ˈklærəfaɪ/",
+    "forms": {
+      "verb": [
+        "clarifies (第三人称单数)",
+        "clarifying (现在分词)",
+        "clarified (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please clarify asap.",
+      "cn": "请尽快澄清。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "asap",
+    "chinese": "尽快",
+    "phonetic": "/ˌeɪˌesˌeɪˈpiː/",
+    "forms": {},
+    "example": {
+      "en": "I need the report asap.",
+      "cn": "我需要尽快拿到报告。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "present",
+    "chinese": "目前的",
+    "phonetic": "/ˈpreznt/",
+    "forms": {},
+    "example": {
+      "en": "Can you please list the present (default) setting?",
+      "cn": "你能列出当前（默认）的设置吗？"
+    }
+  },
+  {
+    "id": 11,
+    "english": "default",
+    "chinese": "默认",
+    "phonetic": "/dɪˈfɔːlt/",
+    "forms": {},
+    "example": {
+      "en": "The default value is 100.",
+      "cn": "默认值是100。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "apertures",
+    "chinese": "光圈",
+    "phonetic": "/ˈæpərtʃərz/",
+    "forms": {
+      "singular": "aperture (单数)"
+    },
+    "example": {
+      "en": "List the setting of the apertures on the cameras.",
+      "cn": "列出相机上光圈的设置。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "evaluation",
+    "chinese": "评估",
+    "phonetic": "/ɪˌvæljuˈeɪʃn/",
+    "forms": {
+      "plural": "evaluations (复数)"
+    },
+    "example": {
+      "en": "The side light evaluation is ongoing.",
+      "cn": "侧灯评估正在进行中。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "recommendation",
+    "chinese": "建议",
+    "phonetic": "/ˌrekəmenˈdeɪʃn/",
+    "forms": {
+      "plural": "recommendations (复数)"
+    },
+    "example": {
+      "en": "You need to provide a recommendation to Eric.",
+      "cn": "你需要向埃里克提供建议。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "meant",
+    "chinese": "意指",
+    "phonetic": "/ment/",
+    "forms": {
+      "infinitive": "mean (原形)"
+    },
+    "example": {
+      "en": "I do not understand what you meant with the 'dispenser light'.",
+      "cn": "我不明白你说的‘点胶灯’是什么意思。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "demonstrate",
+    "chinese": "演示",
+    "phonetic": "/ˈdemənstreɪt/",
+    "forms": {
+      "verb": [
+        "demonstrates (第三人称单数)",
+        "demonstrating (现在分词)",
+        "demonstrated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Why don't you demonstrate the improvement potential?",
+      "cn": "你为什么不演示一下改进的潜力呢？"
+    }
+  },
+  {
+    "id": 21,
+    "english": "potential",
+    "chinese": "潜力",
+    "phonetic": "/pəˈtenʃl/",
+    "forms": {},
+    "example": {
+      "en": "The project has great potential.",
+      "cn": "这个项目有很大的潜力。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "optimized",
+    "chinese": "优化的",
+    "phonetic": "/ˈɑːptɪmaɪzd/",
+    "forms": {
+      "infinitive": "optimize (原形)"
+    },
+    "example": {
+      "en": "Document the results together with the optimized settings.",
+      "cn": "将结果与优化后的设置一起记录下来。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "variables",
+    "chinese": "变量",
+    "phonetic": "/ˈveriəblz/",
+    "forms": {
+      "singular": "variable (单数)"
+    },
+    "example": {
+      "en": "The settings for the variables which you refer to.",
+      "cn": "你提到的那些变量的设置。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "deploy",
+    "chinese": "部署",
+    "phonetic": "/dɪˈplɔɪ/",
+    "forms": {
+      "verb": [
+        "deploys (第三人称单数)",
+        "deploying (现在分词)",
+        "deployed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We could deploy it quickly.",
+      "cn": "我们可以快速部署它。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "statement",
+    "chinese": "陈述",
+    "phonetic": "/ˈsteɪtmənt/",
+    "forms": {
+      "plural": "statements (复数)"
+    },
+    "example": {
+      "en": "How does that fit to your statement?",
+      "cn": "那如何与你的陈述相符？"
+    }
+  },
+  {
+    "id": 26,
+    "english": "powerpoint",
+    "chinese": "幻灯片",
+    "phonetic": "/ˈpaʊərpɔɪnt/",
+    "forms": {},
+    "example": {
+      "en": "I just took a quick look at your powerpoint files.",
+      "cn": "我刚快速看了一下你的幻灯片文件。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "explain",
+    "chinese": "解释",
+    "phonetic": "/ɪkˈspleɪn/",
+    "forms": {
+      "verb": [
+        "explains (第三人称单数)",
+        "explaining (现在分词)",
+        "explained (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please explain in detail.",
+      "cn": "请详细解释。"
+    }
+  }
+]

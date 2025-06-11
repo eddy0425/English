@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "english": "documentation",
+    "chinese": "文档",
+    "phonetic": "/ˌdɒkjumenˈteɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "Please review the documentation.",
+      "cn": "请查阅文档。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "proposals",
+    "chinese": "提议",
+    "phonetic": "/prəˈpəʊzəlz/",
+    "forms": {
+      "singular": "proposal (单数)"
+    },
+    "example": {
+      "en": "We need to review the design change proposals.",
+      "cn": "我们需要审查设计变更提议。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "telecentric",
+    "chinese": "远心",
+    "phonetic": "/ˌtelɪˈsentrɪk/",
+    "forms": {},
+    "example": {
+      "en": "A telecentric lens can reduce perspective errors.",
+      "cn": "远心镜头可以减少透视误差。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "lens",
+    "chinese": "镜头",
+    "phonetic": "/lenz/",
+    "forms": {
+      "plural": "lenses (复数)"
+    },
+    "example": {
+      "en": "We need to change to a telecentric lens.",
+      "cn": "我们需要更换为远心镜头。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "independent",
+    "chinese": "独立的",
+    "phonetic": "/ˌɪndɪˈpendənt/",
+    "forms": {},
+    "example": {
+      "en": "This is independent of the other issue.",
+      "cn": "这与另一个问题无关。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "appropriate",
+    "chinese": "适当的",
+    "phonetic": "/əˈprəʊpriət/",
+    "forms": {},
+    "example": {
+      "en": "We need an appropriate side light.",
+      "cn": "我们需要一个合适的侧灯。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "concepts",
+    "chinese": "概念",
+    "phonetic": "/ˈkɒnsept s/",
+    "forms": {
+      "singular": "concept (单数)"
+    },
+    "example": {
+      "en": "Please put your concepts together.",
+      "cn": "请把你的概念整合起来。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "supported",
+    "chinese": "支持的",
+    "phonetic": "/səˈpɔːtɪd/",
+    "forms": {},
+    "example": {
+      "en": "The proposal should be supported with data.",
+      "cn": "该提议应有数据支持。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "improving",
+    "chinese": "改进",
+    "phonetic": "/ɪmˈpruːvɪŋ/",
+    "forms": {
+      "verb": [
+        "improves (第三人称单数)",
+        "improving (现在分词)",
+        "improved (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need support in improving the designs.",
+      "cn": "我们需要在改进设计方面得到支持。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "designs",
+    "chinese": "设计",
+    "phonetic": "/dɪˈzaɪnz/",
+    "forms": {
+      "singular": "design (单数)"
+    },
+    "example": {
+      "en": "The new designs are better.",
+      "cn": "新设计更好。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "summarize",
+    "chinese": "总结",
+    "phonetic": "/ˈsʌməraɪz/",
+    "forms": {
+      "verb": [
+        "summarizes (第三人称单数)",
+        "summarizing (现在分词)",
+        "summarized (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Can we summarize the present state?",
+      "cn": "我们能总结一下现状吗？"
+    }
+  },
+  {
+    "id": 12,
+    "english": "present",
+    "chinese": "目前的",
+    "phonetic": "/ˈpreznt/",
+    "forms": {},
+    "example": {
+      "en": "The present state of vision quality is good.",
+      "cn": "目前的视觉质量状况良好。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "quality",
+    "chinese": "质量",
+    "phonetic": "/ˈkwɒləti/",
+    "forms": {},
+    "example": {
+      "en": "We need to improve the product quality.",
+      "cn": "我们需要提高产品质量。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "application",
+    "chinese": "应用",
+    "phonetic": "/ˌæplɪˈkeɪʃn/",
+    "forms": {
+      "plural": "applications (复数)"
+    },
+    "example": {
+      "en": "This is for the Yangjie application.",
+      "cn": "这是为扬杰的应用。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "summary",
+    "chinese": "摘要",
+    "phonetic": "/ˈsʌməri/",
+    "forms": {
+      "plural": "summaries (复数)"
+    },
+    "example": {
+      "en": "Please provide a summary of the meeting.",
+      "cn": "请提供会议摘要。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "unzipped",
+    "chinese": "解压缩的",
+    "phonetic": "/ʌnˈzɪpt/",
+    "forms": {},
+    "example": {
+      "en": "The files are in the unzipped folder.",
+      "cn": "文件在解压缩的文件夹中。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "folder",
+    "chinese": "文件夹",
+    "phonetic": "/ˈfəʊldə(r)/",
+    "forms": {
+      "plural": "folders (复数)"
+    },
+    "example": {
+      "en": "Create a new folder for the project.",
+      "cn": "为项目创建一个新文件夹。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "struggled",
+    "chinese": "挣扎；奋斗",
+    "phonetic": "/ˈstrʌɡld/",
+    "forms": {
+      "verb": [
+        "struggles (第三人称单数)",
+        "struggling (现在分词)",
+        "struggled (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I struggled with the analyzer.",
+      "cn": "我用那个分析器用得很费劲。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "principle",
+    "chinese": "原则",
+    "phonetic": "/ˈprɪnsəpl/",
+    "forms": {
+      "plural": "principles (复数)"
+    },
+    "example": {
+      "en": "In principle, we have to analyze three areas.",
+      "cn": "原则上，我们必须分析三个领域。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "indicated",
+    "chinese": "指出的",
+    "phonetic": "/ˈɪndɪkeɪtɪd/",
+    "forms": {},
+    "example": {
+      "en": "Analyze the areas indicated in the image.",
+      "cn": "分析图像中所示的区域。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "focus",
+    "chinese": "聚焦",
+    "phonetic": "/ˈfəʊkəs/",
+    "forms": {
+      "verb": [
+        "focuses (第三人称单数)",
+        "focusing (现在分词)",
+        "focused (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Let's focus on the main issue.",
+      "cn": "让我们关注主要问题。"
+    }
+  }
+]

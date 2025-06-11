@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "english": "way",
+    "chinese": "方式；道路",
+    "phonetic": "/weɪ/",
+    "forms": {
+      "plural": "ways (复数)"
+    },
+    "example": {
+      "en": "Is there another way to do this?",
+      "cn": "还有其他方法可以做到这一点吗？"
+    }
+  },
+  {
+    "id": 2,
+    "english": "files",
+    "chinese": "文件",
+    "phonetic": "/faɪlz/",
+    "forms": {
+      "singular": "file (单数)"
+    },
+    "example": {
+      "en": "I cannot open these files.",
+      "cn": "我打不开这些文件。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "time",
+    "chinese": "时间",
+    "phonetic": "/taɪm/",
+    "forms": {
+      "plural": "times (复数)"
+    },
+    "example": {
+      "en": "I don't have enough time for this.",
+      "cn": "我没有足够的时间来做这个。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "analysis",
+    "chinese": "分析",
+    "phonetic": "/əˈnæləsɪs/",
+    "forms": {
+      "plural": "analyses (复数)"
+    },
+    "example": {
+      "en": "I need to do the analysis this week.",
+      "cn": "我需要在这周内完成分析。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "week",
+    "chinese": "星期",
+    "phonetic": "/wiːk/",
+    "forms": {
+      "plural": "weeks (复数)"
+    },
+    "example": {
+      "en": "The deadline is the end of the week.",
+      "cn": "截止日期是本周末。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "correct",
+    "chinese": "正确的",
+    "phonetic": "/kəˈrekt/",
+    "forms": {},
+    "example": {
+      "en": "Are you using the correct file?",
+      "cn": "你用的是正确的文件吗？"
+    }
+  },
+  {
+    "id": 7,
+    "english": "seems",
+    "chinese": "似乎",
+    "phonetic": "/siːmz/",
+    "forms": {
+      "verb": [
+        "seems (第三人称单数)",
+        "seeming (现在分词)",
+        "seemed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "It seems that the file is corrupted.",
+      "cn": "文件似乎已损坏。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "open",
+    "chinese": "打开",
+    "phonetic": "/ˈəʊpən/",
+    "forms": {
+      "verb": [
+        "opens (第三人称单数)",
+        "opening (现在分词)",
+        "opened (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The program cannot open the file.",
+      "cn": "程序无法打开该文件。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "around",
+    "chinese": "解决；绕过",
+    "phonetic": "/əˈraʊnd/",
+    "forms": {},
+    "example": {
+      "en": "Is there a way to get around this problem?",
+      "cn": "有什么办法可以解决这个问题吗？"
+    }
+  }
+]

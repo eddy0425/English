@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "english": "suggestions",
+    "chinese": "建议",
+    "phonetic": "/səˈdʒestʃənz/",
+    "forms": {
+      "singular": "suggestion (单数)"
+    },
+    "example": {
+      "en": "Attached are the suggestions from Alex.",
+      "cn": "附件是亚历克斯的建议。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "refers",
+    "chinese": "指的是",
+    "phonetic": "/rɪˈfɜːz/",
+    "forms": {
+      "verb": [
+        "refers (第三人称单数)",
+        "referring (现在分词)",
+        "referred (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I believe he refers to such a tool.",
+      "cn": "我相信他指的是这样一个工具。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "engineers",
+    "chinese": "工程师",
+    "phonetic": "/ˌendʒɪˈnɪəz/",
+    "forms": {
+      "singular": "engineer (单数)"
+    },
+    "example": {
+      "en": "Jianfei knows the two engineers in Suzhou.",
+      "cn": "建飞认识苏州的两位工程师。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "inform",
+    "chinese": "通知",
+    "phonetic": "/ɪnˈfɔːm/",
+    "forms": {
+      "verb": [
+        "informs (第三人称单数)",
+        "informing (现在分词)",
+        "informed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Can you inform the engineers about our need?",
+      "cn": "你能把我们的需求通知工程师们吗？"
+    }
+  },
+  {
+    "id": 5,
+    "english": "introduce",
+    "chinese": "介绍",
+    "phonetic": "/ˌɪntrəˈdjuːs/",
+    "forms": {
+      "verb": [
+        "introduces (第三人称单数)",
+        "introducing (现在分词)",
+        "introduced (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please introduce Jianfei to the team.",
+      "cn": "请把建飞介绍给团队。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "address",
+    "chinese": "地址",
+    "phonetic": "/əˈdres/",
+    "forms": {
+      "plural": "addresses (复数)"
+    },
+    "example": {
+      "en": "He will give them the ship to address.",
+      "cn": "他会给他们收货地址。"
+    }
+  }
+]

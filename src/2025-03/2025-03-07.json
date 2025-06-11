@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "english": "attend",
+    "chinese": "出席；参加",
+    "phonetic": "/əˈtend/",
+    "forms": {
+      "verb": [
+        "attends (第三人称单数)",
+        "attending (现在分词)",
+        "attended (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Are you going to attend the meeting?",
+      "cn": "你会参加会议吗？"
+    }
+  },
+  {
+    "id": 2,
+    "english": "meeting",
+    "chinese": "会议",
+    "phonetic": "/ˈmiːtɪŋ/",
+    "forms": {
+      "plural": "meetings (复数)"
+    },
+    "example": {
+      "en": "The meeting will be held tomorrow.",
+      "cn": "会议将于明天举行。"
+    }
+  }
+]

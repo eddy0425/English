@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1,
+    "english": "error",
+    "chinese": "错误",
+    "phonetic": "/ˈerər/",
+    "forms": {
+      "plural": "errors (复数)"
+    },
+    "example": {
+      "en": "The system reported an unknown error.",
+      "cn": "系统报告了一个未知错误。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "code",
+    "chinese": "代码",
+    "phonetic": "/koʊd/",
+    "forms": {
+      "plural": "codes (复数)"
+    },
+    "example": {
+      "en": "Please check the error code in the manual.",
+      "cn": "请在手册中查找错误代码。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "language",
+    "chinese": "语言",
+    "phonetic": "/ˈlæŋɡwɪdʒ/",
+    "forms": {
+      "plural": "languages (复数)"
+    },
+    "example": {
+      "en": "The language errors need to be corrected.",
+      "cn": "语言错误需要被纠正。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "corrected",
+    "chinese": "纠正",
+    "phonetic": "/kəˈrektɪd/",
+    "forms": {
+      "infinitive": "correct (原形)"
+    },
+    "example": {
+      "en": "He corrected the mistakes in the report.",
+      "cn": "他纠正了报告中的错误。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "customer",
+    "chinese": "客户",
+    "phonetic": "/ˈkʌstəmər/",
+    "forms": {
+      "plural": "customers (复数)"
+    },
+    "example": {
+      "en": "The changes must be done before the customer visit.",
+      "cn": "这些变更必须在客户来访前完成。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "visit",
+    "chinese": "访问",
+    "phonetic": "/ˈvɪzɪt/",
+    "forms": {
+      "verb": [
+        "visits (第三人称单数)",
+        "visiting (现在分词)",
+        "visited (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We are expecting a visit from the auditors.",
+      "cn": "我们预计审计人员会来访。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "plan",
+    "chinese": "计划",
+    "phonetic": "/plæn/",
+    "forms": {
+      "verb": [
+        "plans (第三人称单数)",
+        "planning (现在分词)",
+        "planned (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please plan and arrange the schedule.",
+      "cn": "请计划和安排日程。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "arrange",
+    "chinese": "安排",
+    "phonetic": "/əˈreɪndʒ/",
+    "forms": {
+      "verb": [
+        "arranges (第三人称单数)",
+        "arranging (现在分词)",
+        "arranged (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Can you arrange a meeting for next week?",
+      "cn": "你能安排一个下周的会议吗？"
+    }
+  },
+  {
+    "id": 9,
+    "english": "estimated",
+    "chinese": "估计的",
+    "phonetic": "/ˈestɪmeɪtɪd/",
+    "forms": {
+      "infinitive": "estimate (原形)"
+    },
+    "example": {
+      "en": "Please provide an estimated date of completion.",
+      "cn": "请提供一个预计的完成日期。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "date",
+    "chinese": "日期",
+    "phonetic": "/deɪt/",
+    "forms": {
+      "plural": "dates (复数)"
+    },
+    "example": {
+      "en": "What is the delivery date?",
+      "cn": "交货日期是哪天？"
+    }
+  },
+  {
+    "id": 11,
+    "english": "check",
+    "chinese": "检查",
+    "phonetic": "/tʃek/",
+    "forms": {
+      "verb": [
+        "checks (第三人称单数)",
+        "checking (现在分词)",
+        "checked (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I will check again early next week.",
+      "cn": "我下周初会再次检查。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "early",
+    "chinese": "早",
+    "phonetic": "/ˈɜːrli/",
+    "forms": {},
+    "example": {
+      "en": "He arrived early for the meeting.",
+      "cn": "他提前到达了会场。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "translation",
+    "chinese": "翻译",
+    "phonetic": "/trænsˈleɪʃn/",
+    "forms": {
+      "plural": "translations (复数)"
+    },
+    "example": {
+      "en": "We need to correct the translation.",
+      "cn": "我们需要纠正这个翻译。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "version",
+    "chinese": "版本",
+    "phonetic": "/ˈvɜːrʒn/",
+    "forms": {
+      "plural": "versions (复数)"
+    },
+    "example": {
+      "en": "This is the latest version of the software.",
+      "cn": "这是这个软件的最新版本。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "upgrades",
+    "chinese": "升级",
+    "phonetic": "/ʌpˈɡreɪdz/",
+    "forms": {
+      "singular": "upgrade (单数)"
+    },
+    "example": {
+      "en": "The next upgrades will include this fix.",
+      "cn": "下一次升级将包含此修复。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "always",
+    "chinese": "总是",
+    "phonetic": "/ˈɔːlweɪz/",
+    "forms": {},
+    "example": {
+      "en": "This is always correct.",
+      "cn": "这一直都是正确的。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "vision",
+    "chinese": "视觉",
+    "phonetic": "/ˈvɪʒən/",
+    "forms": {
+      "plural": "visions (复数)"
+    },
+    "example": {
+      "en": "The vision system needs calibration.",
+      "cn": "视觉系统需要校准。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "backlog",
+    "chinese": "积压工作",
+    "phonetic": "/ˈbæklɔːɡ/",
+    "forms": {
+      "plural": "backlogs (复数)"
+    },
+    "example": {
+      "en": "We have a large backlog of tasks to complete.",
+      "cn": "我们有大量积压的任务需要完成。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "review",
+    "chinese": "审查",
+    "phonetic": "/rɪˈvjuː/",
+    "forms": {
+      "verb": [
+        "reviews (第三人称单数)",
+        "reviewing (现在分词)",
+        "reviewed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please review the document before the meeting.",
+      "cn": "请在会议前审阅这份文件。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "prepared",
+    "chinese": "准备好的",
+    "phonetic": "/prɪˈpeərd/",
+    "forms": {
+      "infinitive": "prepare (原形)"
+    },
+    "example": {
+      "en": "Please come prepared to the call.",
+      "cn": "请准备好再参加电话会议。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "translate",
+    "chinese": "翻译",
+    "phonetic": "/trænsˈleɪt/",
+    "forms": {
+      "verb": [
+        "translates (第三人称单数)",
+        "translating (现在分词)",
+        "translated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "You will be needed to translate.",
+      "cn": "将需要你来进行翻译。"
+    }
+  }
+]

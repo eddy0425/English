@@ -1,0 +1,377 @@
+[
+  {
+    "id": 1,
+    "english": "resistors",
+    "chinese": "电阻器",
+    "phonetic": "/rɪˈzɪstəz/",
+    "forms": {
+      "singular": "resistor (单数)"
+    },
+    "example": {
+      "en": "The 50Ohm series resistor was tested.",
+      "cn": "50欧姆串联电阻已经过测试。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "option",
+    "chinese": "选项",
+    "phonetic": "/ˈɒpʃn/",
+    "forms": {
+      "plural": "options (复数)"
+    },
+    "example": {
+      "en": "We need to have the option.",
+      "cn": "我们需要有这个选项。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "criteria",
+    "chinese": "标准",
+    "phonetic": "/kraɪˈtɪəriə/",
+    "forms": {
+      "singular": "criterion (单数)"
+    },
+    "example": {
+      "en": "What is the criteria for choosing the setting?",
+      "cn": "选择设置的标准是什么？"
+    }
+  },
+  {
+    "id": 4,
+    "english": "choosing",
+    "chinese": "选择",
+    "phonetic": "/ˈtʃuːzɪŋ/",
+    "forms": {
+      "verb": [
+        "chooses (第三人称单数)",
+        "choosing (现在分词)",
+        "chose (过去式)",
+        "chosen (过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The criteria for choosing the right material is important.",
+      "cn": "选择合适材料的标准很重要。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "minimal",
+    "chinese": "最小的",
+    "phonetic": "/ˈmɪnɪml/",
+    "forms": {},
+    "example": {
+      "en": "We want minimal impact on the chuck appearance.",
+      "cn": "我们希望对卡盘外观的影响最小。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "maintains",
+    "chinese": "保持",
+    "phonetic": "/meɪnˈteɪnz/",
+    "forms": {
+      "verb": [
+        "maintains (第三人称单数)",
+        "maintaining (现在分词)",
+        "maintained (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "This setting maintains a darker appearance of the chuck.",
+      "cn": "此设置可保持卡盘较暗的外观。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "darker",
+    "chinese": "更暗的",
+    "phonetic": "/ˈdɑːkə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The chuck has a darker appearance.",
+      "cn": "卡盘的外观更暗。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "screening",
+    "chinese": "筛选",
+    "phonetic": "/ˈskriːnɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "Did you do a screening of the settings?",
+      "cn": "你对设置进行筛选了吗？"
+    }
+  },
+  {
+    "id": 9,
+    "english": "range",
+    "chinese": "范围",
+    "phonetic": "/reɪndʒ/",
+    "forms": {
+      "plural": "ranges (复数)"
+    },
+    "example": {
+      "en": "Can you show images for a range of settings?",
+      "cn": "你能显示一系列设置的图像吗？"
+    }
+  },
+  {
+    "id": 10,
+    "english": "gradual",
+    "chinese": "逐渐的",
+    "phonetic": "/ˈɡrædʒuəl/",
+    "forms": {},
+    "example": {
+      "en": "The change in appearance is gradual.",
+      "cn": "外观的变化是逐渐的。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "tradeoff",
+    "chinese": "权衡",
+    "phonetic": "/ˈtreɪdɒf/",
+    "forms": {
+      "plural": "tradeoffs (复数)"
+    },
+    "example": {
+      "en": "There is a tradeoff between die and chuck appearance.",
+      "cn": "在芯片和卡盘外观之间需要权衡。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "report",
+    "chinese": "报告",
+    "phonetic": "/rɪˈpɔːt/",
+    "forms": {
+      "plural": "reports (复数)"
+    },
+    "example": {
+      "en": "Please send out the test report.",
+      "cn": "请发送测试报告。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "eventual",
+    "chinese": "最终的",
+    "phonetic": "/ɪˈventʃuəl/",
+    "forms": {},
+    "example": {
+      "en": "This is for an eventual upgrade.",
+      "cn": "这是为了最终的升级。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "mentioned",
+    "chinese": "提到的",
+    "phonetic": "/ˈmenʃənd/",
+    "forms": {},
+    "example": {
+      "en": "You mentioned that the red LEDs are 6V.",
+      "cn": "你提到红色LED是6V的。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "failures",
+    "chinese": "故障",
+    "phonetic": "/ˈfeɪljəz/",
+    "forms": {
+      "singular": "failure (单数)"
+    },
+    "example": {
+      "en": "We need to prepare for potential failures.",
+      "cn": "我们需要为潜在的故障做准备。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "repeatable",
+    "chinese": "可重复的",
+    "phonetic": "/rɪˈpiːtəbl/",
+    "forms": {},
+    "example": {
+      "en": "We need to see how repeatable the behavior is.",
+      "cn": "我们需要看看这种行为的可重复性如何。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "behavior",
+    "chinese": "行为；特性",
+    "phonetic": "/bɪˈheɪvjə(r)/",
+    "forms": {},
+    "example": {
+      "en": "The machine's behavior is unpredictable.",
+      "cn": "这台机器的特性是不可预测的。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "consistency",
+    "chinese": "一致性",
+    "phonetic": "/kənˈsɪstənsi/",
+    "forms": {},
+    "example": {
+      "en": "We need to check the consistency of the chuck's downset.",
+      "cn": "我们需要检查卡盘下压的一致性。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "downset",
+    "chinese": "下压",
+    "phonetic": "/ˈdaʊnset/",
+    "forms": {},
+    "example": {
+      "en": "The chuck's downset is not consistent.",
+      "cn": "卡盘的下压不一致。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "gauge",
+    "chinese": "测量仪",
+    "phonetic": "/ɡeɪdʒ/",
+    "forms": {
+      "plural": "gauges (复数)"
+    },
+    "example": {
+      "en": "Perform the force gauge pull test.",
+      "cn": "执行测力计拉力测试。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "frictional",
+    "chinese": "摩擦的",
+    "phonetic": "/ˈfrɪkʃənl/",
+    "forms": {},
+    "example": {
+      "en": "Measure the frictional holding forces.",
+      "cn": "测量摩擦保持力。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "holding",
+    "chinese": "保持",
+    "phonetic": "/ˈhəʊldɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "The holding force is important.",
+      "cn": "保持力很重要。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "forces",
+    "chinese": "力",
+    "phonetic": "/fɔːsɪz/",
+    "forms": {
+      "singular": "force (单数)"
+    },
+    "example": {
+      "en": "The vacuum holes create holding forces.",
+      "cn": "真空孔产生保持力。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "availability",
+    "chinese": "可用性",
+    "phonetic": "/əˌveɪləˈbɪləti/",
+    "forms": {},
+    "example": {
+      "en": "Please update on the availability of the boards.",
+      "cn": "请更新电路板的可用性情况。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "install",
+    "chinese": "安装",
+    "phonetic": "/ɪnˈstɔːl/",
+    "forms": {
+      "verb": [
+        "installs (第三人称单数)",
+        "installing (现在分词)",
+        "installed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We will install the sensors on the machine.",
+      "cn": "我们将在机器上安装传感器。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "beta",
+    "chinese": "贝塔；测试版",
+    "phonetic": "/ˈbiːtə/",
+    "forms": {},
+    "example": {
+      "en": "This will serve as a beta test.",
+      "cn": "这将作为一次beta测试。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "dynamic",
+    "chinese": "动态的",
+    "phonetic": "/daɪˈnæmɪk/",
+    "forms": {},
+    "example": {
+      "en": "This is a dynamic pressure measurement.",
+      "cn": "这是一种动态压力测量。"
+    }
+  },
+  {
+    "id": 28,
+    "english": "communicate",
+    "chinese": "沟通",
+    "phonetic": "/kəˈmjuːnɪkeɪt/",
+    "forms": {
+      "verb": [
+        "communicates (第三人称单数)",
+        "communicating (现在分词)",
+        "communicated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please communicate with Wang Fang.",
+      "cn": "请与王芳沟通。"
+    }
+  },
+  {
+    "id": 29,
+    "english": "respective",
+    "chinese": "各自的",
+    "phonetic": "/rɪˈspektɪv/",
+    "forms": {},
+    "example": {
+      "en": "Add the data to the respective log files.",
+      "cn": "将数据添加到各自的日志文件中。"
+    }
+  },
+  {
+    "id": 30,
+    "english": "log",
+    "chinese": "日志",
+    "phonetic": "/lɒɡ/",
+    "forms": {
+      "plural": "logs (复数)"
+    },
+    "example": {
+      "en": "Check the log files for errors.",
+      "cn": "检查日志文件中的错误。"
+    }
+  }
+]

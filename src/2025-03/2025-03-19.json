@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "english": "cancel",
+    "chinese": "取消",
+    "phonetic": "/ˈkænsl/",
+    "forms": {
+      "verb": [
+        "cancels (第三人称单数)",
+        "canceling (现在分词)",
+        "canceled (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I need to cancel the call.",
+      "cn": "我需要取消这次通话。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "emergency",
+    "chinese": "紧急情况",
+    "phonetic": "/ɪˈmɜːdʒənsi/",
+    "forms": {
+      "plural": "emergencies (复数)"
+    },
+    "example": {
+      "en": "We have an emergency at Yangjie.",
+      "cn": "我们在扬杰有紧急情况。"
+    }
+  }
+]

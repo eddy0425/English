@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "english": "reducing",
+    "chinese": "减少",
+    "phonetic": "/rɪˈduːsɪŋ/",
+    "forms": {
+      "infinitive": "reduce (原形)"
+    },
+    "example": {
+      "en": "Reducing the search area bears the risk.",
+      "cn": "减少搜索区域会带来风险。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "risk",
+    "chinese": "风险",
+    "phonetic": "/rɪsk/",
+    "forms": {
+      "plural": "risks (复数)"
+    },
+    "example": {
+      "en": "There is a risk of data loss.",
+      "cn": "存在数据丢失的风险。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "fully",
+    "chinese": "完全地",
+    "phonetic": "/ˈfʊli/",
+    "forms": {},
+    "example": {
+      "en": "The dot is not fully inside the search area.",
+      "cn": "该点未完全在搜索区域内。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "inside",
+    "chinese": "在...里面",
+    "phonetic": "/ɪnˈsaɪd/",
+    "forms": {},
+    "example": {
+      "en": "Please check what is inside the box.",
+      "cn": "请检查盒子里有什么。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "cut off",
+    "chinese": "切断",
+    "phonetic": "/kʌt ɔːf/",
+    "forms": {},
+    "example": {
+      "en": "The area outside the search area is cut off.",
+      "cn": "搜索区域外的区域被切掉了。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "tie",
+    "chinese": "绑定",
+    "phonetic": "/taɪ/",
+    "forms": {
+      "verb": ["ties (第三人称单数)", "tying (现在分词)", "tied (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Is there no way to tie the left side of the search area to the edge of the lead?",
+      "cn": "有没有办法将搜索区域的左侧与引线的边缘绑定？"
+    }
+  },
+  {
+    "id": 7,
+    "english": "edge",
+    "chinese": "边缘",
+    "phonetic": "/edʒ/",
+    "forms": {
+      "plural": "edges (复数)"
+    },
+    "example": {
+      "en": "Be careful with the sharp edge of the knife.",
+      "cn": "小心刀的锋利边缘。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "includes",
+    "chinese": "包括",
+    "phonetic": "/ɪnˈkluːdz/",
+    "forms": {
+      "infinitive": "include (原形)"
+    },
+    "example": {
+      "en": "The measurement includes the dark area of the chuck.",
+      "cn": "测量包括了夹头的暗区。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "dark",
+    "chinese": "黑暗的",
+    "phonetic": "/dɑːrk/",
+    "forms": {},
+    "example": {
+      "en": "It's too dark to see anything.",
+      "cn": "太黑了，什么也看不见。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "window",
+    "chinese": "窗口",
+    "phonetic": "/ˈwɪndoʊ/",
+    "forms": {
+      "plural": "windows (复数)"
+    },
+    "example": {
+      "en": "The search window is too large.",
+      "cn": "搜索窗口太大了。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "lock",
+    "chinese": "锁定",
+    "phonetic": "/lɑːk/",
+    "forms": {
+      "verb": ["locks (第三人称单数)", "locking (现在分词)", "locked (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Is there a way to lock the search window to the edge of the lead?",
+      "cn": "有没有办法将搜索窗口锁定到引线的边缘？"
+    }
+  },
+  {
+    "id": 12,
+    "english": "extend",
+    "chinese": "延伸",
+    "phonetic": "/ɪkˈstend/",
+    "forms": {
+      "verb": ["extends (第三人称单数)", "extending (现在分词)", "extended (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "The search area should not extend beyond the lead.",
+      "cn": "搜索区域不应超出引线范围。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "beyond",
+    "chinese": "超越",
+    "phonetic": "/biˈɑːnd/",
+    "forms": {},
+    "example": {
+      "en": "The results were beyond our expectations.",
+      "cn": "结果超出了我们的预期。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "visible",
+    "chinese": "可见的",
+    "phonetic": "/ˈvɪzəbl/",
+    "forms": {},
+    "example": {
+      "en": "The chuck area must be black to make the lead better visible.",
+      "cn": "夹头区域必须是黑色的，以使引线更清晰可见。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "equal",
+    "chinese": "相等的",
+    "phonetic": "/ˈiːkwəl/",
+    "forms": {},
+    "example": {
+      "en": "Make the search area equal to the lead area.",
+      "cn": "使搜索区域等于引线区域。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "thoughts",
+    "chinese": "想法",
+    "phonetic": "/θɔːts/",
+    "forms": {
+      "singular": "thought (单数)"
+    },
+    "example": {
+      "en": "Please let me know your thoughts and ideas.",
+      "cn": "请告诉我您的想法和主意。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "ideas",
+    "chinese": "主意",
+    "phonetic": "/aɪˈdiːəz/",
+    "forms": {
+      "singular": "idea (单数)"
+    },
+    "example": {
+      "en": "Do you have any ideas on how to solve this problem?",
+      "cn": "你对如何解决这个问题有什么主意吗？"
+    }
+  },
+  {
+    "id": 18,
+    "english": "termination",
+    "chinese": "终止",
+    "phonetic": "/ˌtɜːrmɪˈneɪʃn/",
+    "forms": {},
+    "example": {
+      "en": "We need the termination of the line writing by moving back in X.",
+      "cn": "我们需要通过在X方向上后退来终止线状书写。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "diagram",
+    "chinese": "图表",
+    "phonetic": "/ˈdaɪəɡræm/",
+    "forms": {
+      "plural": "diagrams (复数)"
+    },
+    "example": {
+      "en": "Please see the timing diagram below.",
+      "cn": "请看下面的时序图。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "describe",
+    "chinese": "描述",
+    "phonetic": "/dɪˈskraɪb/",
+    "forms": {
+      "verb": ["describes (第三人称单数)", "describing (现在分词)", "described (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "I believe I did describe this a few times.",
+      "cn": "我相信我已经描述过好几次了。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "soonest",
+    "chinese": "尽快",
+    "phonetic": "/ˈsuːnɪst/",
+    "forms": {},
+    "example": {
+      "en": "We need this soonest.",
+      "cn": "我们尽快需要这个。"
+    }
+  }
+]

@@ -1,0 +1,396 @@
+[
+  {
+    "id": 1,
+    "english": "organize",
+    "chinese": "组织",
+    "phonetic": "/ˈɔːɡənaɪz/",
+    "forms": {
+      "verb": [
+        "organizes (第三人称单数)",
+        "organizing (现在分词)",
+        "organized (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please organize this small activity.",
+      "cn": "请组织这次小型活动。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "activity",
+    "chinese": "活动",
+    "phonetic": "/ækˈtɪvəti/",
+    "forms": {
+      "plural": "activities (复数)"
+    },
+    "example": {
+      "en": "We have a lot of activities planned.",
+      "cn": "我们计划了很多活动。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "wear",
+    "chinese": "磨损",
+    "phonetic": "/weə(r)/",
+    "forms": {},
+    "example": {
+      "en": "There may be a problem with wear.",
+      "cn": "可能会有磨损问题。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "columns",
+    "chinese": "列",
+    "phonetic": "/ˈkɒləmz/",
+    "forms": {
+      "singular": "column (单数)"
+    },
+    "example": {
+      "en": "The die bonder processes the odd columns.",
+      "cn": "固晶机处理奇数列。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "odd",
+    "chinese": "奇数的",
+    "phonetic": "/ɒd/",
+    "forms": {},
+    "example": {
+      "en": "One dispenser works on odd columns.",
+      "cn": "一个点胶机处理奇数列。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "even",
+    "chinese": "偶数的",
+    "phonetic": "/ˈiːvn/",
+    "forms": {},
+    "example": {
+      "en": "The other dispenser works on even columns.",
+      "cn": "另一个点胶机处理偶数列。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "processes",
+    "chinese": "处理",
+    "phonetic": "/ˈprəʊsesɪz/",
+    "forms": {
+      "verb": [
+        "processes (第三人称单数)",
+        "processing (现在分词)",
+        "processed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The machine processes two columns at once.",
+      "cn": "这台机器一次处理两列。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "confirm",
+    "chinese": "确认",
+    "phonetic": "/kənˈfɜːm/",
+    "forms": {
+      "verb": [
+        "confirms (第三人称单数)",
+        "confirming (现在分词)",
+        "confirmed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please confirm the setup.",
+      "cn": "请确认设置。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "setup",
+    "chinese": "设置；装置",
+    "phonetic": "/ˈsetʌp/",
+    "forms": {},
+    "example": {
+      "en": "Explain the exact setup.",
+      "cn": "解释确切的设置。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "prevent",
+    "chinese": "防止",
+    "phonetic": "/prɪˈvent/",
+    "forms": {
+      "verb": [
+        "prevents (第三人称单数)",
+        "preventing (现在分词)",
+        "prevented (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "This is to prevent mistakes.",
+      "cn": "这是为了防止错误。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "mistakes",
+    "chinese": "错误",
+    "phonetic": "/mɪˈsteɪks/",
+    "forms": {
+      "singular": "mistake (单数)"
+    },
+    "example": {
+      "en": "We need to avoid making mistakes.",
+      "cn": "我们需要避免犯错。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "parallel",
+    "chinese": "并行的",
+    "phonetic": "/ˈpærəlel/",
+    "forms": {},
+    "example": {
+      "en": "In parallel, we need to understand what TengYang is doing.",
+      "cn": "同时，我们需要了解腾阳在做什么。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "coating",
+    "chinese": "涂层",
+    "phonetic": "/ˈkəʊtɪŋ/",
+    "forms": {
+      "plural": "coatings (复数)"
+    },
+    "example": {
+      "en": "The laser removes the coating.",
+      "cn": "激光去除了涂层。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "removes",
+    "chinese": "移除",
+    "phonetic": "/rɪˈmuːvz/",
+    "forms": {
+      "verb": [
+        "removes (第三人称单数)",
+        "removing (现在分词)",
+        "removed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The process removes the top layer.",
+      "cn": "该过程移除了顶层。"
+    }
+  },
+  {
+    "id": 15,
+    "english": "reworking",
+    "chinese": "返工",
+    "phonetic": "/ˌriːˈwɜːkɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "Try reworking the chuck with the laser.",
+      "cn": "尝试用激光返工卡盘。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "separately",
+    "chinese": "分别地",
+    "phonetic": "/ˈseprətli/",
+    "forms": {},
+    "example": {
+      "en": "I will contact you separately.",
+      "cn": "我会单独联系你。"
+    }
+  },
+  {
+    "id": 17,
+    "english": "roughness",
+    "chinese": "粗糙度",
+    "phonetic": "/ˈrʌfnəs/",
+    "forms": {},
+    "example": {
+      "en": "Measure the surface roughness.",
+      "cn": "测量表面粗糙度。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "disappointing",
+    "chinese": "令人失望的",
+    "phonetic": "/ˌdɪsəˈpɔɪntɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "This was very disappointing.",
+      "cn": "这非常令人失望。"
+    }
+  },
+  {
+    "id": 19,
+    "english": "ideally",
+    "chinese": "理想地",
+    "phonetic": "/aɪˈdiəli/",
+    "forms": {},
+    "example": {
+      "en": "Ideally, the inner area is white.",
+      "cn": "理想情况下，内部区域是白色的。"
+    }
+  },
+  {
+    "id": 20,
+    "english": "sufficient",
+    "chinese": "足够的",
+    "phonetic": "/səˈfɪʃnt/",
+    "forms": {},
+    "example": {
+      "en": "The contrast is not sufficient.",
+      "cn": "对比度不足。"
+    }
+  },
+  {
+    "id": 21,
+    "english": "properly",
+    "chinese": "适当地",
+    "phonetic": "/ˈprɒpəli/",
+    "forms": {},
+    "example": {
+      "en": "The die may not be detected properly.",
+      "cn": "芯片可能无法被正确检测到。"
+    }
+  },
+  {
+    "id": 22,
+    "english": "influence",
+    "chinese": "影响",
+    "phonetic": "/ˈɪnfluəns/",
+    "forms": {},
+    "example": {
+      "en": "There is an influence from DPI on the placement.",
+      "cn": "DPI对贴装有影响。"
+    }
+  },
+  {
+    "id": 23,
+    "english": "reported",
+    "chinese": "报告的",
+    "phonetic": "/rɪˈpɔːtɪd/",
+    "forms": {},
+    "example": {
+      "en": "The reported die placement is not accurate.",
+      "cn": "报告的芯片贴装位置不准确。"
+    }
+  },
+  {
+    "id": 24,
+    "english": "backup",
+    "chinese": "备用",
+    "phonetic": "/ˈbækʌp/",
+    "forms": {},
+    "example": {
+      "en": "We need a backup plan.",
+      "cn": "我们需要一个备用计划。"
+    }
+  },
+  {
+    "id": 25,
+    "english": "robust",
+    "chinese": "稳健的",
+    "phonetic": "/rəʊˈbʌst/",
+    "forms": {},
+    "example": {
+      "en": "Make this improvement robust.",
+      "cn": "使这项改进更加稳健。"
+    }
+  },
+  {
+    "id": 26,
+    "english": "reliable",
+    "chinese": "可靠的",
+    "phonetic": "/rɪˈlaɪəbl/",
+    "forms": {},
+    "example": {
+      "en": "The solution needs to be reliable.",
+      "cn": "解决方案需要可靠。"
+    }
+  },
+  {
+    "id": 27,
+    "english": "available",
+    "chinese": "可用的",
+    "phonetic": "/əˈveɪləbl/",
+    "forms": {},
+    "example": {
+      "en": "When can these sets be available?",
+      "cn": "这些套件什么时候能准备好？"
+    }
+  },
+  {
+    "id": 28,
+    "english": "torqued",
+    "chinese": "上紧的",
+    "phonetic": "/tɔːkt/",
+    "forms": {},
+    "example": {
+      "en": "How do we make sure the screws are properly torqued?",
+      "cn": "我们如何确保螺丝被正确拧紧？"
+    }
+  },
+  {
+    "id": 29,
+    "english": "lose",
+    "chinese": "松动",
+    "phonetic": "/luːs/",
+    "forms": {},
+    "example": {
+      "en": "The screws might get lose.",
+      "cn": "螺丝可能会松动。"
+    }
+  },
+  {
+    "id": 30,
+    "english": "frequent",
+    "chinese": "频繁的",
+    "phonetic": "/ˈfriːkwənt/",
+    "forms": {},
+    "example": {
+      "en": "The machine has frequent fast moves.",
+      "cn": "机器有频繁的快速移动。"
+    }
+  },
+  {
+    "id": 31,
+    "english": "jerks",
+    "chinese": "颠簸；急动",
+    "phonetic": "/dʒɜːks/",
+    "forms": {
+      "singular": "jerk (单数)"
+    },
+    "example": {
+      "en": "The moves cause jerks and vibrations.",
+      "cn": "这些移动会引起颠簸和振动。"
+    }
+  },
+  {
+    "id": 32,
+    "english": "vibrations",
+    "chinese": "振动",
+    "phonetic": "/vaɪˈbreɪʃnz/",
+    "forms": {
+      "singular": "vibration (单数)"
+    },
+    "example": {
+      "en": "The vibrations can loosen the screws.",
+      "cn": "振动会使螺丝松动。"
+    }
+  }
+]

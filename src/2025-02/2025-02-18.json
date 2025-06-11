@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "english": "massively",
+    "chinese": "大量地；大规模地",
+    "phonetic": "/ˈmæsɪvli/",
+    "forms": {},
+    "example": {
+      "en": "It seems that you massively over-saturate it with light.",
+      "cn": "看来你用光把它过度饱和了。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "over-saturate",
+    "chinese": "过度饱和",
+    "phonetic": "/ˌoʊvərˈsætʃəreɪt/",
+    "forms": {
+      "verb": ["over-saturates (第三人称单数)", "over-saturating (现在分词)", "over-saturated (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Do not over-saturate the image with light.",
+      "cn": "不要用光使图像过度饱和。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "reduce",
+    "chinese": "减少",
+    "phonetic": "/rɪˈduːs/",
+    "forms": {
+      "verb": ["reduces (第三人称单数)", "reducing (现在分词)", "reduced (过去式/过去分词)"]
+    },
+    "example": {
+      "en": "Please review whether you can reduce the light in your test.",
+      "cn": "请检查您是否可以在测试中减少光线。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "order of magnitude",
+    "chinese": "数量级",
+    "phonetic": "/ˈɔːrdər əv ˈmæɡnɪtuːd/",
+    "forms": {},
+    "example": {
+      "en": "Can you reduce the light by an order of magnitude?",
+      "cn": "你能把光线减少一个数量级吗？"
+    }
+  }
+]

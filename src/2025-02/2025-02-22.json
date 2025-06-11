@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "english": "support",
+    "chinese": "支持",
+    "phonetic": "/səˈpɔːrt/",
+    "forms": {
+      "verb": [
+        "supports (第三人称单数)",
+        "supporting (现在分词)",
+        "supported (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to provide SECS/GEM support.",
+      "cn": "我们需要提供SECS/GEM支持。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "created",
+    "chinese": "创建",
+    "phonetic": "/kriˈeɪtɪd/",
+    "forms": {
+      "infinitive": "create (原形)"
+    },
+    "example": {
+      "en": "You created these reports for Yangjie.",
+      "cn": "你为扬杰创建了这些报告。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "usable",
+    "chinese": "可用的",
+    "phonetic": "/ˈjuːzəbl/",
+    "forms": {},
+    "example": {
+      "en": "Are they also usable for Rohm?",
+      "cn": "它们也适用于罗姆公司吗？"
+    }
+  }
+]

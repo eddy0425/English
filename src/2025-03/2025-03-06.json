@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "english": "issues",
+    "chinese": "问题",
+    "phonetic": "/ˈɪʃuːz/",
+    "forms": {
+      "singular": "issue (单数)"
+    },
+    "example": {
+      "en": "We need to discuss the current issues.",
+      "cn": "我们需要讨论当前的问题。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "volume",
+    "chinese": "数量；体积",
+    "phonetic": "/ˈvɒljuːm/",
+    "forms": {
+      "plural": "volumes (复数)"
+    },
+    "example": {
+      "en": "The company has seen a significant volume of sales.",
+      "cn": "公司的销售额大幅增长。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "expedited",
+    "chinese": "加快的；迅速的",
+    "phonetic": "/ˈekspədaɪtɪd/",
+    "forms": {},
+    "example": {
+      "en": "Please use expedited shipping for this order.",
+      "cn": "此订单请使用加急运送。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "delivery",
+    "chinese": "交付；递送",
+    "phonetic": "/dɪˈlɪvəri/",
+    "forms": {
+      "plural": "deliveries (复数)"
+    },
+    "example": {
+      "en": "The delivery is scheduled for tomorrow.",
+      "cn": "交货定于明天。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "impact",
+    "chinese": "影响；冲击",
+    "phonetic": "/ˈɪmpækt/",
+    "forms": {
+      "plural": "impacts (复数)"
+    },
+    "example": {
+      "en": "The new law will have a significant impact on our business.",
+      "cn": "新法律将对我们的业务产生重大影响。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "massive",
+    "chinese": "巨大的；大量的",
+    "phonetic": "/ˈmæsɪv/",
+    "forms": {},
+    "example": {
+      "en": "The project requires a massive investment.",
+      "cn": "该项目需要巨额投资。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "doubt",
+    "chinese": "怀疑",
+    "phonetic": "/daʊt/",
+    "forms": {
+      "plural": "doubts (复数)",
+      "verb": [
+        "doubts (第三人称单数)",
+        "doubting (现在分词)",
+        "doubted (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "I have no doubt that you will succeed.",
+      "cn": "我毫不怀疑你会成功。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "addressed",
+    "chinese": "处理；解决",
+    "phonetic": "/əˈdrest/",
+    "forms": {},
+    "example": {
+      "en": "The issue has been addressed by the manager.",
+      "cn": "这个问题已经由经理处理了。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "sensor",
+    "chinese": "传感器",
+    "phonetic": "/ˈsensə(r)/",
+    "forms": {
+      "plural": "sensors (复数)"
+    },
+    "example": {
+      "en": "The device is equipped with multiple sensors.",
+      "cn": "该设备配备了多个传感器。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "tremendously",
+    "chinese": "极大地；非常",
+    "phonetic": "/trəˈmendəsli/",
+    "forms": {},
+    "example": {
+      "en": "The team has worked tremendously hard.",
+      "cn": "团队工作非常努力。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "tracker",
+    "chinese": "追踪器",
+    "phonetic": "/ˈtrækə(r)/",
+    "forms": {
+      "plural": "trackers (复数)"
+    },
+    "example": {
+      "en": "We use a GPS tracker to monitor the location of our vehicles.",
+      "cn": "我们使用GPS追踪器来监控车辆的位置。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "urgent",
+    "chinese": "紧急的",
+    "phonetic": "/ˈɜːdʒənt/",
+    "forms": {},
+    "example": {
+      "en": "This is an urgent message.",
+      "cn": "这是一条紧急信息。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "improvements",
+    "chinese": "改进；改善",
+    "phonetic": "/ɪmˈpruːvmənts/",
+    "forms": {
+      "singular": "improvement (单数)"
+    },
+    "example": {
+      "en": "We have made several improvements to the system.",
+      "cn": "我们对系统进行了多项改进。"
+    }
+  }
+]

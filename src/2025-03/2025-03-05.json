@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "english": "bond",
+    "chinese": "结合；纽带",
+    "phonetic": "/bɒnd/",
+    "forms": {
+      "plural": "bonds (复数)",
+      "verb": [
+        "bonds (第三人称单数)",
+        "bonding (现在分词)",
+        "bonded (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The two atoms bond together.",
+      "cn": "这两个原子结合在一起。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "camera",
+    "chinese": "相机",
+    "phonetic": "/ˈkæmərə/",
+    "forms": {
+      "plural": "cameras (复数)"
+    },
+    "example": {
+      "en": "This is a high-resolution camera.",
+      "cn": "这是一个高分辨率相机。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "lighting",
+    "chinese": "照明",
+    "phonetic": "/ˈlaɪtɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "The lighting in this room is too dim.",
+      "cn": "这个房间的照明太暗了。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "modify",
+    "chinese": "修改",
+    "phonetic": "/ˈmɒdɪfaɪ/",
+    "forms": {
+      "verb": [
+        "modifies (第三人称单数)",
+        "modifying (现在分词)",
+        "modified (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to modify the design.",
+      "cn": "我们需要修改设计。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "model",
+    "chinese": "模型",
+    "phonetic": "/ˈmɒdl/",
+    "forms": {
+      "plural": "models (复数)"
+    },
+    "example": {
+      "en": "He created a 3D model of the building.",
+      "cn": "他创建了这座建筑的3D模型。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "implementation",
+    "chinese": "实施；执行",
+    "phonetic": "/ˌɪmplɪmenˈteɪʃn/",
+    "forms": {
+      "plural": "implementations (复数)"
+    },
+    "example": {
+      "en": "The implementation of the new system was successful.",
+      "cn": "新系统的实施是成功的。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "interference",
+    "chinese": "干涉；干扰",
+    "phonetic": "/ˌɪntəˈfɪərəns/",
+    "forms": {},
+    "example": {
+      "en": "There is too much interference on this radio channel.",
+      "cn": "这个无线电频道干扰太多。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "replace",
+    "chinese": "替换",
+    "phonetic": "/rɪˈpleɪs/",
+    "forms": {
+      "verb": [
+        "replaces (第三人称单数)",
+        "replacing (现在分词)",
+        "replaced (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "You should replace the old battery.",
+      "cn": "你应该更换旧电池。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "constraint",
+    "chinese": "约束；限制",
+    "phonetic": "/kənˈstreɪnt/",
+    "forms": {
+      "plural": "constraints (复数)"
+    },
+    "example": {
+      "en": "We have to work within the given constraints.",
+      "cn": "我们必须在给定的限制内工作。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "design",
+    "chinese": "设计",
+    "phonetic": "/dɪˈzaɪn/",
+    "forms": {
+      "plural": "designs (复数)",
+      "verb": [
+        "designs (第三人称单数)",
+        "designing (现在分词)",
+        "designed (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "She has a talent for fashion design.",
+      "cn": "她有服装设计的天赋。"
+    }
+  }
+]

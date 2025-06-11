@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "english": "challenging",
+    "chinese": "有挑战性的",
+    "phonetic": "/ˈtʃælɪndʒɪŋ/",
+    "forms": {},
+    "example": {
+      "en": "It is still challenging to detect the voids.",
+      "cn": "检测这些空洞仍然具有挑战性。"
+    }
+  },
+  {
+    "id": 2,
+    "english": "detect",
+    "chinese": "检测",
+    "phonetic": "/dɪˈtekt/",
+    "forms": {
+      "verb": [
+        "detects (第三人称单数)",
+        "detecting (现在分词)",
+        "detected (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The sensor can detect small changes in temperature.",
+      "cn": "传感器可以检测到微小的温度变化。"
+    }
+  },
+  {
+    "id": 3,
+    "english": "majority",
+    "chinese": "大多数",
+    "phonetic": "/məˈdʒɒrəti/",
+    "forms": {},
+    "example": {
+      "en": "The majority of the voids are small.",
+      "cn": "大多数空洞都很小。"
+    }
+  },
+  {
+    "id": 4,
+    "english": "voids",
+    "chinese": "空洞",
+    "phonetic": "/vɔɪdz/",
+    "forms": {
+      "singular": "void (单数)"
+    },
+    "example": {
+      "en": "The X-ray image shows several voids.",
+      "cn": "X射线图像显示了几个空洞。"
+    }
+  },
+  {
+    "id": 5,
+    "english": "offering",
+    "chinese": "提供",
+    "phonetic": "/ˈɒfərɪŋ/",
+    "forms": {
+      "verb": [
+        "offers (第三人称单数)",
+        "offering (现在分词)",
+        "offered (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Thank you for offering your help.",
+      "cn": "谢谢你提供帮助。"
+    }
+  },
+  {
+    "id": 6,
+    "english": "version",
+    "chinese": "版本",
+    "phonetic": "/ˈvɜːʃn/",
+    "forms": {
+      "plural": "versions (复数)"
+    },
+    "example": {
+      "en": "We need the latest version of the software.",
+      "cn": "我们需要最新版本的软件。"
+    }
+  },
+  {
+    "id": 7,
+    "english": "measure",
+    "chinese": "测量",
+    "phonetic": "/ˈmeʒə(r)/",
+    "forms": {
+      "verb": [
+        "measures (第三人称单数)",
+        "measuring (现在分词)",
+        "measured (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "The sensor can measure pressure.",
+      "cn": "传感器可以测量压力。"
+    }
+  },
+  {
+    "id": 8,
+    "english": "mount",
+    "chinese": "安装",
+    "phonetic": "/maʊnt/",
+    "forms": {
+      "verb": [
+        "mounts (第三人称单数)",
+        "mounting (现在分词)",
+        "mounted (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We need to mount the sensor on the chuck.",
+      "cn": "我们需要将传感器安装在卡盘上。"
+    }
+  },
+  {
+    "id": 9,
+    "english": "connect",
+    "chinese": "连接",
+    "phonetic": "/kəˈnekt/",
+    "forms": {
+      "verb": [
+        "connects (第三人称单数)",
+        "connecting (现在分词)",
+        "connected (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Connect the sensor to the board.",
+      "cn": "将传感器连接到电路板上。"
+    }
+  },
+  {
+    "id": 10,
+    "english": "assembled",
+    "chinese": "组装好的",
+    "phonetic": "/əˈsembld/",
+    "forms": {},
+    "example": {
+      "en": "The PCBA will be assembled today.",
+      "cn": "印刷电路板将于今天组装。"
+    }
+  },
+  {
+    "id": 11,
+    "english": "parameters",
+    "chinese": "参数",
+    "phonetic": "/pəˈræmɪtəz/",
+    "forms": {
+      "singular": "parameter (单数)"
+    },
+    "example": {
+      "en": "He had not used the same parameters.",
+      "cn": "他没有使用相同的参数。"
+    }
+  },
+  {
+    "id": 12,
+    "english": "achieve",
+    "chinese": "实现；达到",
+    "phonetic": "/əˈtʃiːv/",
+    "forms": {
+      "verb": [
+        "achieves (第三人称单数)",
+        "achieving (现在分词)",
+        "achieved (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "We used these settings to achieve good contrast.",
+      "cn": "我们使用这些设置来获得良好的对比度。"
+    }
+  },
+  {
+    "id": 13,
+    "english": "clarify",
+    "chinese": "澄清",
+    "phonetic": "/ˈklærəfaɪ/",
+    "forms": {
+      "verb": [
+        "clarifies (第三人称单数)",
+        "clarifying (现在分词)",
+        "clarified (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Please clarify the next steps.",
+      "cn": "请澄清接下来的步骤。"
+    }
+  },
+  {
+    "id": 14,
+    "english": "progress",
+    "chinese": "进展",
+    "phonetic": "/ˈprəʊɡres/",
+    "forms": {},
+    "example": {
+      "en": "Can we get an update on the progress?",
+      "cn": "我们能了解一下进展情况吗？"
+    }
+  },
+  {
+    "id": 15,
+    "english": "topics",
+    "chinese": "主题；议题",
+    "phonetic": "/ˈtɒpɪks/",
+    "forms": {
+      "singular": "topic (单数)"
+    },
+    "example": {
+      "en": "Please update on the lighting topics.",
+      "cn": "请更新有关照明议题的进展。"
+    }
+  },
+  {
+    "id": 16,
+    "english": "bracket",
+    "chinese": "支架",
+    "phonetic": "/ˈbrækɪt/",
+    "forms": {
+      "plural": "brackets (复数)"
+    },
+    "example": {
+      "en": "Has the hardware bracket been sent?",
+      "cn": "硬件支架寄出了吗？"
+    }
+  },
+  {
+    "id": 17,
+    "english": "exactly",
+    "chinese": "确切地；完全地",
+    "phonetic": "/ɪɡˈzæktli/",
+    "forms": {},
+    "example": {
+      "en": "Use exactly the same settings.",
+      "cn": "使用完全相同的设置。"
+    }
+  },
+  {
+    "id": 18,
+    "english": "update",
+    "chinese": "更新",
+    "phonetic": "/ʌpˈdeɪt/",
+    "forms": {
+      "verb": [
+        "updates (第三人称单数)",
+        "updating (现在分词)",
+        "updated (过去式/过去分词)"
+      ]
+    },
+    "example": {
+      "en": "Can you please provide an update?",
+      "cn": "你能提供一下最新情况吗？"
+    }
+  }
+]
