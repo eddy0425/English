@@ -296,70 +296,25 @@ markWordDifficulty = function(difficulty) {
     gamification.checkAchievements();
 };
 
-// 添加高级UI功能
+// 创建高级功能UI界面
 function createAdvancedUI() {
-    // 获取现有导航或创建新的
-    let nav = document.querySelector('.nav');
+    console.log('正在创建高级功能UI界面...');
     
-    if (!nav) {
-        nav = createNavigation();
-    } else {
-        // 如果导航已存在，确保卡片学习按钮有正确的事件绑定
-        const existingFlashcardBtn = nav.querySelector('button');
-        if (existingFlashcardBtn && existingFlashcardBtn.textContent.includes('卡片学习')) {
-            existingFlashcardBtn.onclick = showFlashcardMode;
-        }
-    }
+    // 不再需要创建导航按钮，因为已经在侧边栏中了
+    // 侧边栏菜单项会调用相应的函数
     
-    // 检查是否已添加了高级功能按钮，避免重复添加
-    if (!nav.querySelector('[data-feature="quiz"]')) {
-        // 测试模式按钮
-        const quizBtn = document.createElement('button');
-        quizBtn.className = 'nav-btn';
-        quizBtn.innerHTML = '🎯 智能测试';
-        quizBtn.onclick = showQuizMode;
-        quizBtn.setAttribute('data-feature', 'quiz');
-        nav.appendChild(quizBtn);
-        
-        // 统计按钮
-        const statsBtn = document.createElement('button');
-        statsBtn.className = 'nav-btn';
-        statsBtn.innerHTML = '📊 学习统计';
-        statsBtn.onclick = showStatsMode;
-        statsBtn.setAttribute('data-feature', 'stats');
-        nav.appendChild(statsBtn);
-        
-        // 成就按钮
-        const achievementsBtn = document.createElement('button');
-        achievementsBtn.className = 'nav-btn';
-        achievementsBtn.innerHTML = '🏆 成就系统';
-        achievementsBtn.onclick = showAchievements;
-        achievementsBtn.setAttribute('data-feature', 'achievements');
-        nav.appendChild(achievementsBtn);
-    }
-    
-    // 确保所有导航按钮都有正确的事件绑定
-    bindNavigationEvents();
+    console.log('高级功能UI界面创建完成');
 }
 
+// 创建导航栏（已不再需要，但保留函数以防其他地方调用）
 function createNavigation() {
-    const nav = document.createElement('nav');
-    nav.className = 'nav';
-    nav.style.cssText = `
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 16px;
-        margin-bottom: 24px;
-    `;
-    
-    const flashcardBtn = document.createElement('button');
-    flashcardBtn.className = 'nav-btn active';
-    flashcardBtn.innerHTML = '📚 卡片学习';
-    flashcardBtn.onclick = showFlashcardMode;
-    nav.appendChild(flashcardBtn);
-    
-    document.querySelector('.main-content').parentNode.insertBefore(nav, document.querySelector('.main-content'));
-    return nav;
+    console.log('导航栏已集成到侧边栏菜单中');
+    return document.querySelector('.nav');
+}
+
+// 绑定导航事件（已不再需要，但保留函数以防其他地方调用）
+function bindNavigationEvents() {
+    console.log('导航事件已绑定到侧边栏菜单');
 }
 
 function showFlashcardMode(event) {
@@ -385,13 +340,6 @@ function showFlashcardMode(event) {
         </div>
 
 
-
-        <!-- 使用说明切换按钮 -->
-        <div style="margin-top: 32px; text-align: center;">
-            <button class="btn btn-secondary" onclick="toggleInstructions()" id="instructionsToggle">
-                📖 显示使用说明
-            </button>
-        </div>
 
         <!-- 使用说明 -->
         <div id="instructionsPanel" style="margin-top: 16px; padding: 16px; background: var(--bg-color); border-radius: 12px; font-size: 14px; color: var(--text-secondary); display: none;">
@@ -826,23 +774,6 @@ function showRecommendations() {
             <div>${rec.message}</div>
         </div>
     `).join('');
-}
-
-// 确保所有导航按钮正确绑定事件
-function bindNavigationEvents() {
-    const navButtons = document.querySelectorAll('.nav-btn');
-    navButtons.forEach(btn => {
-        const text = btn.textContent || btn.innerHTML;
-        if (text.includes('卡片学习')) {
-            btn.onclick = showFlashcardMode;
-        } else if (text.includes('智能测试')) {
-            btn.onclick = showQuizMode;
-        } else if (text.includes('学习统计')) {
-            btn.onclick = showStatsMode;
-        } else if (text.includes('成就系统')) {
-            btn.onclick = showAchievements;
-        }
-    });
 }
 
 // 缺失的函数定义
